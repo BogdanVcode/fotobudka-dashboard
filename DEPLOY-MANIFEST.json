@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-15T13:48:00.241Z",
+  "revision": 6,
+  "entry": "index.html",
+  "source": "dashboard/",
+  "included": [
+    "dashboard runtime",
+    "assets/references",
+    "drawings/revision-06"
+  ],
+  "excluded": [
+    "Fusion 360 files",
+    "source scripts",
+    "graphify output",
+    "agent files"
+  ]
+}

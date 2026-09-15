@@ -1,0 +1,5268 @@
+{
+  "version": 6,
+  "date": "2026-09-15",
+  "units": "mm",
+  "size": [
+    1600,
+    1000,
+    2200
+  ],
+  "skin": 16,
+  "profile": [
+    20,
+    20,
+    2
+  ],
+  "lift": [
+    1000,
+    1500
+  ],
+  "floorDatum": 0,
+  "ceilingCavity": 100,
+  "bench": [
+    872,
+    386,
+    452
+  ],
+  "entry": 964,
+  "internalPassage": 530,
+  "parts": [
+    {
+      "id": "R6-001",
+      "name": "Регульована опора під нижнім каркасом: кандидат",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        31,
+        31,
+        15
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 22,
+      "length": 30,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-002",
+      "name": "Регульована опора під нижнім каркасом: кандидат",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        31,
+        500,
+        15
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 22,
+      "length": 30,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-003",
+      "name": "Регульована опора під нижнім каркасом: кандидат",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        31,
+        969,
+        15
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 22,
+      "length": 30,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-004",
+      "name": "Регульована опора під нижнім каркасом: кандидат",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1569,
+        31,
+        15
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 22,
+      "length": 30,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-005",
+      "name": "Регульована опора під нижнім каркасом: кандидат",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1569,
+        500,
+        15
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 22,
+      "length": 30,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-006",
+      "name": "Регульована опора під нижнім каркасом: кандидат",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1569,
+        969,
+        15
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 22,
+      "length": 30,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-007",
+      "name": "Ліва спільна стіна / білий фон",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        0,
+        0,
+        80
+      ],
+      "sizeMm": [
+        16,
+        984,
+        2104
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [],
+      "drillings": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки",
+      "mounting": "Приховані внутрішні Z-кліпси + стопор із сервісного боку; без наскрізних отворів на видимій поверхні"
+    },
+    {
+      "id": "R6-008",
+      "name": "Задня спільна стіна",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        0,
+        984,
+        80
+      ],
+      "sizeMm": [
+        1600,
+        16,
+        2104
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [],
+      "drillings": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки",
+      "mounting": "Приховані внутрішні Z-кліпси + стопор із сервісного боку; без наскрізних отворів на видимій поверхні"
+    },
+    {
+      "id": "R6-009",
+      "name": "Права спільна стіна / зад модуля: один сервісний виріз",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        1584,
+        0,
+        80
+      ],
+      "sizeMm": [
+        16,
+        984,
+        2104
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [
+        {
+          "u": 180,
+          "v": 20,
+          "w": 620,
+          "h": 1550,
+          "role": "service-access"
+        }
+      ],
+      "drillings": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки",
+      "mounting": "Приховані внутрішні Z-кліпси + стопор із сервісного боку; без наскрізних отворів на видимій поверхні"
+    },
+    {
+      "id": "R6-010",
+      "name": "Спільний фасад модуля за дзеркалом",
+      "group": "front",
+      "material": "white",
+      "positionMm": [
+        980,
+        0,
+        80
+      ],
+      "sizeMm": [
+        604,
+        16,
+        1940
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "id": "R6-011",
+      "name": "Вивіска над входом",
+      "group": "front",
+      "material": "white",
+      "positionMm": [
+        16,
+        0,
+        2020
+      ],
+      "sizeMm": [
+        1568,
+        16,
+        164
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "id": "R6-012",
+      "name": "Дах білий: звис по 20 мм",
+      "group": "roof",
+      "material": "white",
+      "positionMm": [
+        -20,
+        -20,
+        2184
+      ],
+      "sizeMm": [
+        1640,
+        1040,
+        16
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "id": "R6-013",
+      "name": "Дзеркало, механічна касета",
+      "group": "front",
+      "material": "mirror",
+      "positionMm": [
+        1024,
+        -7,
+        480
+      ],
+      "sizeMm": [
+        516,
+        6,
+        1400
+      ]
+    },
+    {
+      "id": "R6-014",
+      "name": "Бічне утримання дзеркала",
+      "group": "front",
+      "material": "edge",
+      "positionMm": [
+        1018,
+        -8,
+        474
+      ],
+      "sizeMm": [
+        6,
+        8,
+        1412
+      ]
+    },
+    {
+      "id": "R6-015",
+      "name": "Бічне утримання дзеркала",
+      "group": "front",
+      "material": "edge",
+      "positionMm": [
+        1540,
+        -8,
+        474
+      ],
+      "sizeMm": [
+        6,
+        8,
+        1412
+      ]
+    },
+    {
+      "id": "R6-016",
+      "name": "Утримання дзеркала",
+      "group": "front",
+      "material": "edge",
+      "positionMm": [
+        1018,
+        -8,
+        474
+      ],
+      "sizeMm": [
+        528,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "R6-017",
+      "name": "Утримання дзеркала",
+      "group": "front",
+      "material": "edge",
+      "positionMm": [
+        1018,
+        -8,
+        1880
+      ],
+      "sizeMm": [
+        528,
+        8,
+        6
+      ]
+    },
+    {
+      "id": "R6-018",
+      "name": "Кутова стійка, труба 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        21,
+        21,
+        30
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2154
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-019",
+      "name": "Кутова стійка, труба 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        21,
+        959,
+        30
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2154
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-020",
+      "name": "Кутова стійка, труба 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        21,
+        30
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2154
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R01",
+      "memberAxis": "Z",
+      "levelMm": 30
+    },
+    {
+      "id": "R6-021",
+      "name": "Кутова стійка, труба 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        959,
+        30
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2154
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R40",
+      "memberAxis": "Z",
+      "levelMm": 30
+    },
+    {
+      "id": "R6-022",
+      "name": "Поперечина зовнішньої рами",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        41,
+        21,
+        35
+      ],
+      "sizeMm": [
+        1518,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-023",
+      "name": "Поперечина зовнішньої рами",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        41,
+        959,
+        35
+      ],
+      "sizeMm": [
+        1518,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-024",
+      "name": "Балка вздовж глибини",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        21,
+        41,
+        35
+      ],
+      "sizeMm": [
+        20,
+        918,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-025",
+      "name": "Балка вздовж глибини",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        41,
+        35
+      ],
+      "sizeMm": [
+        20,
+        918,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R10",
+      "memberAxis": "Y",
+      "levelMm": 35
+    },
+    {
+      "id": "R6-026",
+      "name": "Поперечина зовнішньої рами",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        41,
+        21,
+        2159
+      ],
+      "sizeMm": [
+        1518,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-027",
+      "name": "Поперечина зовнішньої рами",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        41,
+        959,
+        2159
+      ],
+      "sizeMm": [
+        1518,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-028",
+      "name": "Балка вздовж глибини",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        21,
+        41,
+        2159
+      ],
+      "sizeMm": [
+        20,
+        918,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-029",
+      "name": "Балка вздовж глибини",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        41,
+        2159
+      ],
+      "sizeMm": [
+        20,
+        918,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R12",
+      "memberAxis": "Y",
+      "levelMm": 2159
+    },
+    {
+      "id": "R6-030",
+      "name": "Лага настилу",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        41,
+        305,
+        35
+      ],
+      "sizeMm": [
+        1518,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-031",
+      "name": "Лага настилу",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        41,
+        655,
+        35
+      ],
+      "sizeMm": [
+        1518,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-032",
+      "name": "Спільна стійка нижньої шафи",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1001,
+        21,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        385
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R02",
+      "memberAxis": "Z",
+      "levelMm": 75
+    },
+    {
+      "id": "R6-033",
+      "name": "Спільна стійка нижньої шафи",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1001,
+        959,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        385
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R41",
+      "memberAxis": "Z",
+      "levelMm": 75
+    },
+    {
+      "id": "R6-034",
+      "name": "Вертикальна обв’язка сервісного люка",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        155,
+        60
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2094
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R19",
+      "memberAxis": "Z",
+      "levelMm": 60
+    },
+    {
+      "id": "R6-035",
+      "name": "Вертикальна обв’язка сервісного люка",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        805,
+        60
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2094
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R31",
+      "memberAxis": "Z",
+      "levelMm": 60
+    },
+    {
+      "id": "R6-036",
+      "name": "Перемичка сервісного люка",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        175,
+        255
+      ],
+      "sizeMm": [
+        20,
+        630,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R22",
+      "memberAxis": "Y",
+      "levelMm": 255
+    },
+    {
+      "id": "R6-037",
+      "name": "Перемичка сервісного люка",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        175,
+        1655
+      ],
+      "sizeMm": [
+        20,
+        630,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R23",
+      "memberAxis": "Y",
+      "levelMm": 1655
+    },
+    {
+      "id": "R6-038",
+      "name": "Права опора полиць, до обв’язки люка",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        41,
+        265
+      ],
+      "sizeMm": [
+        20,
+        114,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R11",
+      "memberAxis": "Y",
+      "levelMm": 265
+    },
+    {
+      "id": "R6-039",
+      "name": "Права опора полиць, до обв’язки люка",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1559,
+        825,
+        265
+      ],
+      "sizeMm": [
+        20,
+        134,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R32",
+      "memberAxis": "Y",
+      "levelMm": 265
+    },
+    {
+      "id": "R6-040",
+      "name": "Ніжка вбудованої лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        75,
+        75,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        376
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-041",
+      "name": "Ніжка вбудованої лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        75,
+        490,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        376
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-042",
+      "name": "Ніжка вбудованої лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        75,
+        905,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        376
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-043",
+      "name": "Ніжка вбудованої лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        419,
+        75,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        376
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-044",
+      "name": "Ніжка вбудованої лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        419,
+        490,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        376
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-045",
+      "name": "Ніжка вбудованої лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        419,
+        905,
+        75
+      ],
+      "sizeMm": [
+        20,
+        20,
+        376
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-046",
+      "name": "Поздовжня опора лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        75,
+        65,
+        451
+      ],
+      "sizeMm": [
+        20,
+        870,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-047",
+      "name": "Поздовжня опора лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        419,
+        65,
+        451
+      ],
+      "sizeMm": [
+        20,
+        870,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-048",
+      "name": "Поперечна опора лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        95,
+        75,
+        451
+      ],
+      "sizeMm": [
+        324,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-049",
+      "name": "Поперечна опора лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        95,
+        490,
+        451
+      ],
+      "sizeMm": [
+        324,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-050",
+      "name": "Поперечна опора лавки",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        95,
+        905,
+        451
+      ],
+      "sizeMm": [
+        324,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20
+    },
+    {
+      "id": "R6-051",
+      "name": "Сидіння: основа 16 мм, прикручена знизу",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        64,
+        64,
+        476
+      ],
+      "sizeMm": [
+        386,
+        872,
+        16
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "id": "R6-052",
+      "name": "М’яке сидіння, мийна касета 40 мм",
+      "group": "bench",
+      "material": "cushion",
+      "positionMm": [
+        64,
+        64,
+        492
+      ],
+      "sizeMm": [
+        386,
+        872,
+        40
+      ],
+      "kind": "cushion"
+    },
+    {
+      "id": "R6-053",
+      "name": "Сухий знімний піддон речей",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        100,
+        110,
+        105
+      ],
+      "sizeMm": [
+        308,
+        760,
+        6
+      ]
+    },
+    {
+      "id": "R6-054",
+      "name": "Бортик сухого піддона",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        402,
+        110,
+        111
+      ],
+      "sizeMm": [
+        6,
+        760,
+        45
+      ]
+    },
+    {
+      "id": "R6-055",
+      "name": "Дитяче підвищення 350×300×120: лише резерв під готовий виріб",
+      "group": "bench",
+      "material": "cushion",
+      "positionMm": [
+        105,
+        140,
+        111
+      ],
+      "sizeMm": [
+        300,
+        350,
+        120
+      ],
+      "kind": "cushion",
+      "provisional": true
+    },
+    {
+      "id": "R6-056",
+      "name": "Опора сухого піддона на основу",
+      "group": "bench",
+      "material": "edge",
+      "positionMm": [
+        105,
+        120,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        25
+      ]
+    },
+    {
+      "id": "R6-057",
+      "name": "Опора сухого піддона на основу",
+      "group": "bench",
+      "material": "edge",
+      "positionMm": [
+        105,
+        840,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        25
+      ]
+    },
+    {
+      "id": "R6-058",
+      "name": "Опора сухого піддона на основу",
+      "group": "bench",
+      "material": "edge",
+      "positionMm": [
+        383,
+        120,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        25
+      ]
+    },
+    {
+      "id": "R6-059",
+      "name": "Опора сухого піддона на основу",
+      "group": "bench",
+      "material": "edge",
+      "positionMm": [
+        383,
+        840,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        25
+      ]
+    },
+    {
+      "id": "R6-060",
+      "name": "Суха основа під лавкою, вологостійка фанера",
+      "group": "floor",
+      "material": "edge",
+      "positionMm": [
+        16,
+        16,
+        60
+      ],
+      "sizeMm": [
+        444,
+        968,
+        20
+      ]
+    },
+    {
+      "id": "R6-061",
+      "name": "Суха основа технічної зони",
+      "group": "floor",
+      "material": "edge",
+      "positionMm": [
+        980,
+        16,
+        60
+      ],
+      "sizeMm": [
+        604,
+        968,
+        20
+      ]
+    },
+    {
+      "id": "R6-062",
+      "name": "Захист сухої зони лавки від бризок",
+      "group": "floor",
+      "material": "white",
+      "positionMm": [
+        454,
+        16,
+        80
+      ],
+      "sizeMm": [
+        6,
+        968,
+        45
+      ]
+    },
+    {
+      "id": "R6-063",
+      "name": "Вертикальна нижня панель сканування та кишень видачі",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        980,
+        16,
+        80
+      ],
+      "sizeMm": [
+        16,
+        968,
+        380
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [
+        {
+          "u": 50,
+          "v": 260,
+          "w": 220,
+          "h": 14,
+          "role": "scanner-feed"
+        },
+        {
+          "u": 50,
+          "v": 310,
+          "w": 220,
+          "h": 14,
+          "role": "scanner-return"
+        },
+        {
+          "u": 330,
+          "v": 100,
+          "w": 190,
+          "h": 150,
+          "role": "photo-output"
+        },
+        {
+          "u": 590,
+          "v": 100,
+          "w": 260,
+          "h": 150,
+          "role": "a4-output"
+        }
+      ],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "id": "R6-064",
+      "name": "Похила консоль: одна плоска деталь",
+      "group": "module",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          980,
+          460
+        ],
+        [
+          1320,
+          930
+        ]
+      ],
+      "y": 16,
+      "depth": 968,
+      "thickness": 16,
+      "holes": [
+        {
+          "u": 215,
+          "v": 216,
+          "w": 301,
+          "h": 535,
+          "role": "display"
+        }
+      ],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки",
+      "moduleMark": "P01"
+    },
+    {
+      "id": "R6-065",
+      "name": "Збільшений сенсорний екран, формат близько 24 дюймів",
+      "group": "module",
+      "material": "screen",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "display",
+      "ends": [
+        [
+          1107.1879936767327,
+          635.8186971413659
+        ],
+        [
+          1281.2655702757634,
+          876.4553471459083
+        ]
+      ],
+      "y": 218,
+      "depth": 531,
+      "thickness": 0,
+      "provisional": true,
+      "candidateSizeIn": 24
+    },
+    {
+      "id": "R6-066",
+      "name": "Матова панель зліва від оптичного вікна",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1320,
+        16,
+        950
+      ],
+      "sizeMm": [
+        3,
+        429,
+        800
+      ]
+    },
+    {
+      "id": "R6-067",
+      "name": "Матова панель справа від оптичного вікна",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1320,
+        555,
+        950
+      ],
+      "sizeMm": [
+        3,
+        429,
+        800
+      ]
+    },
+    {
+      "id": "R6-068",
+      "name": "Оптичне скло UltraVue: 110×610×2, механічна касета",
+      "group": "module",
+      "material": "glass",
+      "positionMm": [
+        1321,
+        445,
+        955
+      ],
+      "sizeMm": [
+        2,
+        110,
+        610
+      ],
+      "provisional": true
+    },
+    {
+      "id": "R6-069",
+      "name": "Верхня похила матова панель за фото 4",
+      "group": "module",
+      "material": "light",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1080,
+          2081
+        ],
+        [
+          1320,
+          1650
+        ]
+      ],
+      "y": 16,
+      "depth": 968,
+      "thickness": 3,
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки",
+      "moduleMark": "P02"
+    },
+    {
+      "id": "R6-070",
+      "name": "Стельовий матовий розсіювач: світлова порожнина 100 мм",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        16,
+        16,
+        2081
+      ],
+      "sizeMm": [
+        1084,
+        968,
+        3
+      ]
+    },
+    {
+      "id": "R6-071",
+      "name": "LED-стрічка 24 В під стельовим акрилом",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        50,
+        160,
+        2177
+      ],
+      "sizeMm": [
+        1000,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R6-072",
+      "name": "LED-стрічка 24 В під стельовим акрилом",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        50,
+        350,
+        2177
+      ],
+      "sizeMm": [
+        1000,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R6-073",
+      "name": "LED-стрічка 24 В під стельовим акрилом",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        50,
+        540,
+        2177
+      ],
+      "sizeMm": [
+        1000,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R6-074",
+      "name": "LED-стрічка 24 В під стельовим акрилом",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        50,
+        730,
+        2177
+      ],
+      "sizeMm": [
+        1000,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R6-075",
+      "name": "LED-стрічка 24 В під стельовим акрилом",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        50,
+        900,
+        2177
+      ],
+      "sizeMm": [
+        1000,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R6-076",
+      "name": "Подовжений сервісний люк для двох незалежних полиць",
+      "group": "doors",
+      "material": "white",
+      "positionMm": [
+        1584,
+        183,
+        103
+      ],
+      "sizeMm": [
+        16,
+        614,
+        1544
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "holes": [
+        {
+          "u": 350,
+          "v": 35,
+          "w": 150,
+          "h": 110
+        },
+        {
+          "u": 350,
+          "v": 1150,
+          "w": 150,
+          "h": 110
+        }
+      ],
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "id": "R6-077",
+      "name": "Петля люка: кріплення до обв’язки",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1580,
+        174,
+        340
+      ],
+      "sizeMm": [
+        24,
+        18,
+        55
+      ]
+    },
+    {
+      "id": "R6-078",
+      "name": "Петля люка: кріплення до обв’язки",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1580,
+        174,
+        950
+      ],
+      "sizeMm": [
+        24,
+        18,
+        55
+      ]
+    },
+    {
+      "id": "R6-079",
+      "name": "Петля люка: кріплення до обв’язки",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1580,
+        174,
+        1590
+      ],
+      "sizeMm": [
+        24,
+        18,
+        55
+      ]
+    },
+    {
+      "id": "R6-080",
+      "name": "Замок люка з ключем",
+      "group": "doors",
+      "material": "black",
+      "positionMm": [
+        1600,
+        756,
+        950
+      ],
+      "sizeMm": [
+        8,
+        20,
+        20
+      ]
+    },
+    {
+      "id": "R6-081",
+      "name": "DNP DS-RX1HS на окремій полиці: фото 10×15",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1200,
+        180,
+        430
+      ],
+      "sizeMm": [
+        351,
+        322,
+        281
+      ],
+      "provisional": true,
+      "model": "DS-RX1HS",
+      "sourceDimensions": "DNP manual: 322 W × 351 D × 281 H mm",
+      "weightKg": 13.8
+    },
+    {
+      "id": "R6-082",
+      "name": "Міні-ПК за лазером, доступ через люк",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1244,
+        560,
+        296
+      ],
+      "sizeMm": [
+        160,
+        80,
+        180
+      ],
+      "provisional": true
+    },
+    {
+      "id": "R6-083",
+      "name": "Фіксатор комп’ютера до полиці",
+      "group": "equipment",
+      "material": "edge",
+      "positionMm": [
+        1244,
+        640,
+        296
+      ],
+      "sizeMm": [
+        160,
+        4,
+        30
+      ]
+    },
+    {
+      "id": "R6-084",
+      "name": "Закритий нерухомий електровідсік",
+      "group": "equipment",
+      "material": "edge",
+      "positionMm": [
+        1280,
+        740,
+        500
+      ],
+      "sizeMm": [
+        250,
+        200,
+        120
+      ],
+      "provisional": true
+    },
+    {
+      "id": "R6-085",
+      "name": "Монтажна пластина ліфта",
+      "group": "equipment",
+      "material": "edge",
+      "positionMm": [
+        1548,
+        420,
+        910
+      ],
+      "sizeMm": [
+        6,
+        160,
+        740
+      ]
+    },
+    {
+      "id": "R6-086",
+      "name": "TBD45-500: профіль 45×45, довжина 620; вал 12 мм",
+      "group": "equipment",
+      "material": "edge",
+      "positionMm": [
+        1503,
+        477.5,
+        940
+      ],
+      "sizeMm": [
+        45,
+        45,
+        620
+      ],
+      "provisional": true
+    },
+    {
+      "id": "R6-087",
+      "name": "Напрямна руху 500 мм",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1495,
+        485,
+        1000
+      ],
+      "sizeMm": [
+        8,
+        30,
+        500
+      ]
+    },
+    {
+      "id": "R6-088",
+      "name": "Двигун NEMA23: резерв монтажу",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1491,
+        462,
+        850
+      ],
+      "sizeMm": [
+        57,
+        76,
+        57
+      ],
+      "provisional": true
+    },
+    {
+      "id": "R6-089",
+      "name": "Canon R50 вертикально: габарит 116,3×85,5×68,8",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1410,
+        457.25,
+        1201.85
+      ],
+      "sizeMm": [
+        68.8,
+        85.5,
+        116.3
+      ],
+      "moving": true,
+      "provisional": true
+    },
+    {
+      "id": "R6-090",
+      "name": "Об’єктив повністю за склом",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1380,
+        500,
+        1260
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 35,
+      "length": 60,
+      "axis": "x",
+      "moving": true
+    },
+    {
+      "id": "R6-091",
+      "name": "Передня лінза: 25 мм за внутрішньою поверхнею скла",
+      "group": "equipment",
+      "material": "screen",
+      "positionMm": [
+        1349,
+        500,
+        1260
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 28,
+      "length": 2,
+      "axis": "x",
+      "moving": true
+    },
+    {
+      "id": "R6-092",
+      "name": "Поворотний кронштейн: портретне встановлення камери",
+      "group": "equipment",
+      "material": "edge",
+      "positionMm": [
+        1400,
+        447,
+        1193.85
+      ],
+      "sizeMm": [
+        103,
+        106,
+        8
+      ],
+      "moving": true
+    },
+    {
+      "id": "R6-093",
+      "name": "Canon AD-E1 на башмаку R50",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1420,
+        528,
+        1316
+      ],
+      "sizeMm": [
+        40,
+        42,
+        22
+      ],
+      "moving": true,
+      "provisional": true
+    },
+    {
+      "id": "R6-094",
+      "name": "Godox MS200V: під камерою, вісь спалаху вгору",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1430,
+        750,
+        810
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 65,
+      "length": 220,
+      "axis": "z",
+      "provisional": true
+    },
+    {
+      "id": "R6-095",
+      "name": "Металева опора спалаху",
+      "group": "equipment",
+      "material": "edge",
+      "positionMm": [
+        1340,
+        675,
+        692
+      ],
+      "sizeMm": [
+        214,
+        150,
+        8
+      ]
+    },
+    {
+      "id": "R6-096",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        318
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-097",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        334
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-098",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        350
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-099",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        366
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-100",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        382
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-101",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        398
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-102",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        414
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-103",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1433
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-104",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1449
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-105",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1465
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-106",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1481
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-107",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1497
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-108",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1513
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "id": "R6-109",
+      "name": "Жалюзі вентиляції сервісного люка",
+      "group": "doors",
+      "material": "edge",
+      "positionMm": [
+        1584,
+        533,
+        1529
+      ],
+      "sizeMm": [
+        16,
+        150,
+        3
+      ]
+    },
+    {
+      "name": "Прокладка 5 мм між каркасом і спільною стіною",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        16,
+        21,
+        30
+      ],
+      "sizeMm": [
+        5,
+        20,
+        2154
+      ],
+      "id": "R6-110"
+    },
+    {
+      "name": "Прокладка 5 мм під передньою / задньою обшивкою",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        21,
+        16,
+        30
+      ],
+      "sizeMm": [
+        20,
+        5,
+        2154
+      ],
+      "id": "R6-111"
+    },
+    {
+      "name": "Прокладка 5 мм між каркасом і спільною стіною",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        16,
+        959,
+        30
+      ],
+      "sizeMm": [
+        5,
+        20,
+        2154
+      ],
+      "id": "R6-112"
+    },
+    {
+      "name": "Прокладка 5 мм під передньою / задньою обшивкою",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        21,
+        979,
+        30
+      ],
+      "sizeMm": [
+        20,
+        5,
+        2154
+      ],
+      "id": "R6-113"
+    },
+    {
+      "name": "Прокладка 5 мм між каркасом і спільною стіною",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        1579,
+        21,
+        30
+      ],
+      "sizeMm": [
+        5,
+        20,
+        2154
+      ],
+      "id": "R6-114"
+    },
+    {
+      "name": "Прокладка 5 мм під передньою / задньою обшивкою",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        1559,
+        16,
+        30
+      ],
+      "sizeMm": [
+        20,
+        5,
+        2154
+      ],
+      "id": "R6-115"
+    },
+    {
+      "name": "Прокладка 5 мм між каркасом і спільною стіною",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        1579,
+        959,
+        30
+      ],
+      "sizeMm": [
+        5,
+        20,
+        2154
+      ],
+      "id": "R6-116"
+    },
+    {
+      "name": "Прокладка 5 мм під передньою / задньою обшивкою",
+      "group": "frame",
+      "material": "white",
+      "positionMm": [
+        1559,
+        979,
+        30
+      ],
+      "sizeMm": [
+        20,
+        5,
+        2154
+      ],
+      "id": "R6-117"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        520,
+        31,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-118"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        520,
+        315,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-119"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        520,
+        665,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-120"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        520,
+        969,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-121"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1020,
+        31,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-122"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1020,
+        315,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-123"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1020,
+        665,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-124"
+    },
+    {
+      "name": "Проміжна регульована опора під балкою підлоги",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1020,
+        969,
+        17.5
+      ],
+      "sizeMm": null,
+      "kind": "cylinder",
+      "radius": 20,
+      "length": 35,
+      "axis": "z",
+      "provisional": true,
+      "id": "R6-125"
+    },
+    {
+      "name": "Суцільна основа проходу без решітки",
+      "group": "floor",
+      "material": "edge",
+      "positionMm": [
+        460,
+        16,
+        60
+      ],
+      "sizeMm": [
+        520,
+        968,
+        20
+      ],
+      "id": "R6-126"
+    },
+    {
+      "name": "Рифлений алюміній тільки у проході, без водозбірника",
+      "group": "floor",
+      "material": "floor",
+      "positionMm": [
+        460,
+        16,
+        80
+      ],
+      "sizeMm": [
+        520,
+        968,
+        2
+      ],
+      "id": "R6-127"
+    },
+    {
+      "name": "Похила опора консолі, алюмінієвий кутник",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1001,
+          452
+        ],
+        [
+          1341,
+          922
+        ]
+      ],
+      "y": 31,
+      "depth": 20,
+      "thickness": 3,
+      "id": "R6-128",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "Похила опора консолі, алюмінієвий кутник",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1001,
+          452
+        ],
+        [
+          1341,
+          922
+        ]
+      ],
+      "y": 949,
+      "depth": 20,
+      "thickness": 3,
+      "id": "R6-129",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "Біла вставка над вузьким вікном",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1320,
+        445,
+        1575
+      ],
+      "sizeMm": [
+        3,
+        110,
+        175
+      ],
+      "id": "R6-130"
+    },
+    {
+      "name": "PC-sync адаптер AliExpress на AD-E1 → кабель 3,5 мм → MS200V",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1422,
+        532,
+        1338
+      ],
+      "sizeMm": [
+        36,
+        34,
+        20
+      ],
+      "provisional": true,
+      "id": "R6-131"
+    },
+    {
+      "name": "Brother HL-L5210DN на окремій нижній полиці: документи A4",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1170,
+        410,
+        170
+      ],
+      "sizeMm": [
+        388,
+        373,
+        257
+      ],
+      "provisional": true,
+      "id": "R6-132",
+      "manufacturer": "Brother",
+      "model": "HL-L5210DN",
+      "sourceDimensions": "Brother datasheet: 373 W × 388 D × 257 H mm",
+      "weightKg": 11.2,
+      "connection": [
+        "Gigabit Ethernet",
+        "USB 2.0"
+      ]
+    },
+    {
+      "name": "Imou Cue 2: нагляд під вивіскою, 68×33×107",
+      "group": "equipment",
+      "material": "white",
+      "positionMm": [
+        732,
+        36,
+        2048
+      ],
+      "sizeMm": [
+        68,
+        33,
+        33
+      ],
+      "provisional": true,
+      "id": "R6-133"
+    },
+    {
+      "name": "Об’єктив камери спостереження в кабіну",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        754,
+        69,
+        2056
+      ],
+      "sizeMm": [
+        24,
+        12,
+        18
+      ],
+      "provisional": true,
+      "id": "R6-134"
+    },
+    {
+      "name": "Стійка внутрішнього каркаса модуля 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        31,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        1975
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-135",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R03",
+      "memberAxis": "Z",
+      "levelMm": 80
+    },
+    {
+      "name": "Стійка ліфта/сервісу 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1503,
+        31,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        1975
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-136",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R04",
+      "memberAxis": "Z",
+      "levelMm": 80
+    },
+    {
+      "name": "Стійка внутрішнього каркаса модуля 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        949,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        1975
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-137",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R33",
+      "memberAxis": "Z",
+      "levelMm": 80
+    },
+    {
+      "name": "Стійка ліфта/сервісу 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1503,
+        949,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        1975
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-138",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R34",
+      "memberAxis": "Z",
+      "levelMm": 80
+    },
+    {
+      "name": "Бічна балка внутрішнього каркаса модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        31,
+        920
+      ],
+      "sizeMm": [
+        197,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-139",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R05",
+      "memberAxis": "X",
+      "levelMm": 920
+    },
+    {
+      "name": "Бічна балка внутрішнього каркаса модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        949,
+        920
+      ],
+      "sizeMm": [
+        197,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-140",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R35",
+      "memberAxis": "X",
+      "levelMm": 920
+    },
+    {
+      "name": "Поперечка колонки камери",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        51,
+        920
+      ],
+      "sizeMm": [
+        20,
+        898,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-141",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R13",
+      "memberAxis": "Y",
+      "levelMm": 920
+    },
+    {
+      "name": "Поперечка ліфта всередині модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1503,
+        51,
+        920
+      ],
+      "sizeMm": [
+        20,
+        898,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-142",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R14",
+      "memberAxis": "Y",
+      "levelMm": 920
+    },
+    {
+      "name": "Бічна балка внутрішнього каркаса модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        31,
+        1500
+      ],
+      "sizeMm": [
+        197,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-143",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R07",
+      "memberAxis": "X",
+      "levelMm": 1500
+    },
+    {
+      "name": "Бічна балка внутрішнього каркаса модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        949,
+        1500
+      ],
+      "sizeMm": [
+        197,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-144",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R37",
+      "memberAxis": "X",
+      "levelMm": 1500
+    },
+    {
+      "name": "Поперечка колонки камери",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        51,
+        1500
+      ],
+      "sizeMm": [
+        20,
+        898,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-145",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R15",
+      "memberAxis": "Y",
+      "levelMm": 1500
+    },
+    {
+      "name": "Поперечка ліфта всередині модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1503,
+        51,
+        1500
+      ],
+      "sizeMm": [
+        20,
+        898,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-146",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R16",
+      "memberAxis": "Y",
+      "levelMm": 1500
+    },
+    {
+      "name": "Бічна балка внутрішнього каркаса модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        31,
+        2055
+      ],
+      "sizeMm": [
+        197,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-147",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R09",
+      "memberAxis": "X",
+      "levelMm": 2055
+    },
+    {
+      "name": "Бічна балка внутрішнього каркаса модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        949,
+        2055
+      ],
+      "sizeMm": [
+        197,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-148",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R39",
+      "memberAxis": "X",
+      "levelMm": 2055
+    },
+    {
+      "name": "Поперечка колонки камери",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        51,
+        2055
+      ],
+      "sizeMm": [
+        20,
+        898,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-149",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R17",
+      "memberAxis": "Y",
+      "levelMm": 2055
+    },
+    {
+      "name": "Поперечка ліфта всередині модуля",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1503,
+        51,
+        2055
+      ],
+      "sizeMm": [
+        20,
+        898,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-150",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R18",
+      "memberAxis": "Y",
+      "levelMm": 2055
+    },
+    {
+      "name": "ДСП 16 мм: щит кріплення ліфта/камери",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1468,
+        200,
+        910
+      ],
+      "sizeMm": [
+        16,
+        600,
+        740
+      ],
+      "id": "R6-151"
+    },
+    {
+      "name": "Спільна стійка касети, труба 20×20×2",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1326,
+        425,
+        940
+      ],
+      "sizeMm": [
+        20,
+        20,
+        810
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-152",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R25",
+      "memberAxis": "Z",
+      "levelMm": 940
+    },
+    {
+      "name": "Спільна стійка касети, труба 20×20×2",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1326,
+        555,
+        940
+      ],
+      "sizeMm": [
+        20,
+        20,
+        810
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-153",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R29",
+      "memberAxis": "Z",
+      "levelMm": 940
+    },
+    {
+      "name": "Зв’язок бічної стійки внутрішнього каркаса із задньою рамою",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1346,
+        31,
+        940
+      ],
+      "sizeMm": [
+        213,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-154",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R06",
+      "memberAxis": "X",
+      "levelMm": 940
+    },
+    {
+      "name": "Зв’язок бічної стійки внутрішнього каркаса із задньою рамою",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1346,
+        31,
+        1730
+      ],
+      "sizeMm": [
+        213,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-155",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R08",
+      "memberAxis": "X",
+      "levelMm": 1730
+    },
+    {
+      "name": "Зв’язок бічної стійки внутрішнього каркаса із задньою рамою",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1346,
+        949,
+        940
+      ],
+      "sizeMm": [
+        213,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-156",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R36",
+      "memberAxis": "X",
+      "levelMm": 940
+    },
+    {
+      "name": "Зв’язок бічної стійки внутрішнього каркаса із задньою рамою",
+      "group": "frame",
+      "material": "black",
+      "positionMm": [
+        1346,
+        949,
+        1730
+      ],
+      "sizeMm": [
+        213,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "id": "R6-157",
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R38",
+      "memberAxis": "X",
+      "levelMm": 1730
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        16,
+        950
+      ],
+      "sizeMm": [
+        2,
+        27,
+        800
+      ],
+      "host": "R6-066",
+      "support": "R5-328",
+      "id": "R6-158"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        16,
+        950
+      ],
+      "sizeMm": [
+        1,
+        27,
+        800
+      ],
+      "host": "R6-066",
+      "support": "R6-158",
+      "id": "R6-159"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        418,
+        950
+      ],
+      "sizeMm": [
+        2,
+        27,
+        800
+      ],
+      "host": "R6-066",
+      "support": "R6-152",
+      "id": "R6-160"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        418,
+        950
+      ],
+      "sizeMm": [
+        1,
+        27,
+        800
+      ],
+      "host": "R6-066",
+      "support": "R6-160",
+      "id": "R6-161"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        555,
+        950
+      ],
+      "sizeMm": [
+        2,
+        27,
+        800
+      ],
+      "host": "R6-067",
+      "support": "R6-153",
+      "id": "R6-162"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        555,
+        950
+      ],
+      "sizeMm": [
+        1,
+        27,
+        800
+      ],
+      "host": "R6-067",
+      "support": "R6-162",
+      "id": "R6-163"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        957,
+        950
+      ],
+      "sizeMm": [
+        2,
+        27,
+        800
+      ],
+      "host": "R6-067",
+      "support": "R5-331",
+      "id": "R6-164"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        957,
+        950
+      ],
+      "sizeMm": [
+        1,
+        27,
+        800
+      ],
+      "host": "R6-067",
+      "support": "R6-164",
+      "id": "R6-165"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        425,
+        955
+      ],
+      "sizeMm": [
+        2,
+        27,
+        610
+      ],
+      "host": "R6-068",
+      "support": "R6-152",
+      "id": "R6-166"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        425,
+        955
+      ],
+      "sizeMm": [
+        1,
+        27,
+        610
+      ],
+      "host": "R6-068",
+      "support": "R6-166",
+      "id": "R6-167"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        548,
+        955
+      ],
+      "sizeMm": [
+        2,
+        27,
+        610
+      ],
+      "host": "R6-068",
+      "support": "R6-153",
+      "id": "R6-168"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        548,
+        955
+      ],
+      "sizeMm": [
+        1,
+        27,
+        610
+      ],
+      "host": "R6-068",
+      "support": "R6-168",
+      "id": "R6-169"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        425,
+        1575
+      ],
+      "sizeMm": [
+        2,
+        27,
+        175
+      ],
+      "host": "R6-130",
+      "support": "R6-152",
+      "id": "R6-170"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        425,
+        1575
+      ],
+      "sizeMm": [
+        1,
+        27,
+        175
+      ],
+      "host": "R6-130",
+      "support": "R6-170",
+      "id": "R6-171"
+    },
+    {
+      "name": "Опорна планка касети, 2 мм",
+      "group": "fasteners",
+      "material": "black",
+      "positionMm": [
+        1324,
+        548,
+        1575
+      ],
+      "sizeMm": [
+        2,
+        27,
+        175
+      ],
+      "host": "R6-130",
+      "support": "R6-153",
+      "id": "R6-172"
+    },
+    {
+      "name": "EPDM прокладка; скло без свердління",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1323,
+        548,
+        1575
+      ],
+      "sizeMm": [
+        1,
+        27,
+        175
+      ],
+      "host": "R6-130",
+      "support": "R6-172",
+      "id": "R6-173"
+    },
+    {
+      "name": "Опорна полиця стельового акрилу",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        16,
+        16,
+        2078
+      ],
+      "sizeMm": [
+        1084,
+        20,
+        3
+      ],
+      "host": "R6-070",
+      "id": "R6-174"
+    },
+    {
+      "name": "Опорна полиця стельового акрилу",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        16,
+        964,
+        2078
+      ],
+      "sizeMm": [
+        1084,
+        20,
+        3
+      ],
+      "host": "R6-070",
+      "id": "R6-175"
+    },
+    {
+      "name": "Торцева опора стельового акрилу",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        16,
+        36,
+        2078
+      ],
+      "sizeMm": [
+        20,
+        928,
+        3
+      ],
+      "host": "R6-070",
+      "id": "R6-176"
+    },
+    {
+      "name": "Торцева опора стельового акрилу",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": [
+        1080,
+        36,
+        2078
+      ],
+      "sizeMm": [
+        20,
+        928,
+        3
+      ],
+      "host": "R6-070",
+      "id": "R6-177"
+    },
+    {
+      "name": "Притиск верхньої похилої панелі",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1083.4947150545718,
+          2082.9460130234274
+        ],
+        [
+          1323.4947150545718,
+          1651.9460130234274
+        ]
+      ],
+      "y": 16,
+      "depth": 20,
+      "thickness": 2,
+      "host": "R6-069",
+      "id": "R6-178",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "Притиск верхньої похилої панелі",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1083.4947150545718,
+          2082.9460130234274
+        ],
+        [
+          1323.4947150545718,
+          1651.9460130234274
+        ]
+      ],
+      "y": 964,
+      "depth": 20,
+      "thickness": 2,
+      "host": "R6-069",
+      "id": "R6-179",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "LED-стрічка під верхнім матовим акрилом",
+      "group": "module",
+      "material": "light",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1055.5369946179974,
+          2067.377908836008
+        ],
+        [
+          1295.5369946179974,
+          1636.377908836008
+        ]
+      ],
+      "y": 180,
+      "depth": 14,
+      "thickness": 4,
+      "id": "R6-180",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "LED-стрічка під верхнім матовим акрилом",
+      "group": "module",
+      "material": "light",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1055.5369946179974,
+          2067.377908836008
+        ],
+        [
+          1295.5369946179974,
+          1636.377908836008
+        ]
+      ],
+      "y": 500,
+      "depth": 14,
+      "thickness": 4,
+      "id": "R6-181",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "LED-стрічка під верхнім матовим акрилом",
+      "group": "module",
+      "material": "light",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1055.5369946179974,
+          2067.377908836008
+        ],
+        [
+          1295.5369946179974,
+          1636.377908836008
+        ]
+      ],
+      "y": 820,
+      "depth": 14,
+      "thickness": 4,
+      "id": "R6-182",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "Захисне скло сенсора 3 мм (касета/притиск)",
+      "group": "module",
+      "material": "glass",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1043.4905639348613,
+          559.7093189788862
+        ],
+        [
+          1181.8148335556398,
+          750.9222799252565
+        ]
+      ],
+      "y": 313,
+      "depth": 374,
+      "thickness": 3,
+      "provisional": true,
+      "host": "R6-065",
+      "id": "R6-183",
+      "fabricationStatus": "Номінальне компонування; присадка вибраної фурнітури потребує перевірки"
+    },
+    {
+      "name": "Короб кабелів техвідсіку: 230 В / 24 В",
+      "group": "cables",
+      "material": "edge",
+      "positionMm": [
+        1545,
+        470,
+        200
+      ],
+      "sizeMm": [
+        30,
+        60,
+        1600
+      ],
+      "provisional": true,
+      "id": "R6-184"
+    },
+    {
+      "name": "Гофра HDMI + USB екрана",
+      "group": "cables",
+      "material": "edge",
+      "positionMm": [
+        1180,
+        300,
+        480
+      ],
+      "sizeMm": [
+        25,
+        25,
+        120
+      ],
+      "provisional": true,
+      "id": "R6-185"
+    },
+    {
+      "name": "USB/Ethernet DS-RX1HS + HL-L5210DN + майбутнього duplex-сканера до ПК",
+      "group": "cables",
+      "material": "edge",
+      "positionMm": [
+        1180,
+        480,
+        310
+      ],
+      "sizeMm": [
+        200,
+        20,
+        20
+      ],
+      "provisional": true,
+      "id": "R6-186"
+    },
+    {
+      "name": "Живлення LED 24 В до стельової порожнини",
+      "group": "cables",
+      "material": "edge",
+      "positionMm": [
+        200,
+        480,
+        2050
+      ],
+      "sizeMm": [
+        900,
+        20,
+        15
+      ],
+      "provisional": true,
+      "id": "R6-187"
+    },
+    {
+      "name": "Кабель Imou Cue 2 під вивіскою",
+      "group": "cables",
+      "material": "edge",
+      "positionMm": [
+        780,
+        40,
+        2050
+      ],
+      "sizeMm": [
+        20,
+        20,
+        80
+      ],
+      "provisional": true,
+      "id": "R6-188"
+    },
+    {
+      "name": "Верхня перемичка пари рейок оптичної касети V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1326,
+        425,
+        1750
+      ],
+      "sizeMm": [
+        20,
+        150,
+        20
+      ],
+      "kind": "tube",
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "jointDetail": "Балка лежить над обома вертикальними рейками; торцеві M5",
+      "moduleMark": "R26",
+      "memberAxis": "Y",
+      "levelMm": 1750,
+      "id": "R6-189"
+    },
+    {
+      "name": "Окрема піднята висувна полиця фото DS-RX1HS",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1180,
+        165,
+        414
+      ],
+      "sizeMm": [
+        371,
+        352,
+        16
+      ],
+      "fabricationStatus": "Номінальне компонування; проходить через люк 614 мм окремо",
+      "moduleMark": "PL01",
+      "id": "R6-190"
+    },
+    {
+      "name": "Прихована напрямна полиці фото DS-RX1HS",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1180,
+        165,
+        400
+      ],
+      "sizeMm": [
+        371,
+        14,
+        35
+      ],
+      "provisional": true,
+      "id": "R6-191"
+    },
+    {
+      "name": "Несуча балка полиці фото DS-RX1HS V-Slot 40×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1160,
+        165,
+        360
+      ],
+      "sizeMm": [
+        391,
+        20,
+        40
+      ],
+      "kind": "tube",
+      "section": [
+        40,
+        20
+      ],
+      "profileSystem": "V-Slot 40×20 AD31 T5",
+      "moduleFrame": true,
+      "moduleMark": "R21",
+      "memberAxis": "X",
+      "levelMm": 360,
+      "id": "R6-192"
+    },
+    {
+      "name": "Стійка полиці фото DS-RX1HS 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1160,
+        165,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        280
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R20",
+      "memberAxis": "Z",
+      "levelMm": 80,
+      "id": "R6-193"
+    },
+    {
+      "name": "Прихована напрямна полиці фото DS-RX1HS",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1180,
+        503,
+        400
+      ],
+      "sizeMm": [
+        371,
+        14,
+        35
+      ],
+      "provisional": true,
+      "id": "R6-194"
+    },
+    {
+      "name": "Несуча балка полиці фото DS-RX1HS V-Slot 40×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1160,
+        503,
+        360
+      ],
+      "sizeMm": [
+        391,
+        20,
+        40
+      ],
+      "kind": "tube",
+      "section": [
+        40,
+        20
+      ],
+      "profileSystem": "V-Slot 40×20 AD31 T5",
+      "moduleFrame": true,
+      "moduleMark": "R28",
+      "memberAxis": "X",
+      "levelMm": 360,
+      "id": "R6-195"
+    },
+    {
+      "name": "Стійка полиці фото DS-RX1HS 20×20×2",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1160,
+        503,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        280
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "moduleFrame": true,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleMark": "R27",
+      "memberAxis": "Z",
+      "levelMm": 80,
+      "id": "R6-196"
+    },
+    {
+      "name": "Окрема піднята висувна полиця A4 HL-L5210DN",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1150,
+        395,
+        154
+      ],
+      "sizeMm": [
+        428,
+        403,
+        16
+      ],
+      "fabricationStatus": "Номінальне компонування; проходить через люк 614 мм окремо",
+      "moduleMark": "PL02",
+      "id": "R6-197"
+    },
+    {
+      "name": "Прихована напрямна полиці A4 HL-L5210DN",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1150,
+        395,
+        140
+      ],
+      "sizeMm": [
+        428,
+        14,
+        35
+      ],
+      "provisional": true,
+      "id": "R6-198"
+    },
+    {
+      "name": "Несуча балка полиці A4 HL-L5210DN V-Slot 40×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1130,
+        395,
+        100
+      ],
+      "sizeMm": [
+        448,
+        20,
+        40
+      ],
+      "kind": "tube",
+      "section": [
+        40,
+        20
+      ],
+      "profileSystem": "V-Slot 40×20 AD31 T5",
+      "moduleFrame": true,
+      "moduleMark": "R24",
+      "memberAxis": "X",
+      "levelMm": 100,
+      "id": "R6-199"
+    },
+    {
+      "name": "Опорна п’ята нижньої полиці A4 HL-L5210DN",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1130,
+        395,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        20
+      ],
+      "materialSpec": "суцільний алюмінієвий блок або сертифікована опора; не короткий відрізок V-Slot",
+      "moduleFrameFoot": true,
+      "id": "R6-200"
+    },
+    {
+      "name": "Прихована напрямна полиці A4 HL-L5210DN",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1150,
+        784,
+        140
+      ],
+      "sizeMm": [
+        428,
+        14,
+        35
+      ],
+      "provisional": true,
+      "id": "R6-201"
+    },
+    {
+      "name": "Несуча балка полиці A4 HL-L5210DN V-Slot 40×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1130,
+        784,
+        100
+      ],
+      "sizeMm": [
+        448,
+        20,
+        40
+      ],
+      "kind": "tube",
+      "section": [
+        40,
+        20
+      ],
+      "profileSystem": "V-Slot 40×20 AD31 T5",
+      "moduleFrame": true,
+      "moduleMark": "R30",
+      "memberAxis": "X",
+      "levelMm": 100,
+      "id": "R6-202"
+    },
+    {
+      "name": "Опорна п’ята нижньої полиці A4 HL-L5210DN",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1130,
+        784,
+        80
+      ],
+      "sizeMm": [
+        20,
+        20,
+        20
+      ],
+      "materialSpec": "суцільний алюмінієвий блок або сертифікована опора; не короткий відрізок V-Slot",
+      "moduleFrameFoot": true,
+      "id": "R6-203"
+    },
+    {
+      "name": "Фанерне ребро монтажної рамки дисплея",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1107.1879936767327,
+          635.8186971413659
+        ],
+        [
+          1281.2655702757634,
+          876.4553471459083
+        ]
+      ],
+      "y": 198,
+      "depth": 30,
+      "thickness": 18,
+      "materialSpec": "березова фанера 18 мм; приклеєна і прикручена з внутрішнього боку P01",
+      "screenMount": true,
+      "moduleMark": "F10",
+      "id": "R6-204"
+    },
+    {
+      "name": "Фанерне ребро монтажної рамки дисплея",
+      "group": "fasteners",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1107.1879936767327,
+          635.8186971413659
+        ],
+        [
+          1281.2655702757634,
+          876.4553471459083
+        ]
+      ],
+      "y": 749,
+      "depth": 30,
+      "thickness": 18,
+      "materialSpec": "березова фанера 18 мм; приклеєна і прикручена з внутрішнього боку P01",
+      "screenMount": true,
+      "moduleMark": "F11",
+      "id": "R6-205"
+    },
+    {
+      "name": "Регульована VESA-пластина 100/200 для дисплея",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1210,
+        360,
+        690
+      ],
+      "sizeMm": [
+        6,
+        240,
+        220
+      ],
+      "provisional": true,
+      "screenMount": true,
+      "mounting": "M6 у закладні гайки фанерної рамки; точні отвори після вибору дисплея",
+      "moduleMark": "F05",
+      "id": "R6-206"
+    },
+    {
+      "name": "Бічне фанерне ребро похилого акрилу",
+      "group": "module",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1080,
+          2081
+        ],
+        [
+          1320,
+          1650
+        ]
+      ],
+      "y": 16,
+      "depth": 20,
+      "thickness": 18,
+      "materialSpec": "березова фанера 18 мм",
+      "acrylicMount": true,
+      "moduleMark": "F01",
+      "id": "R6-207"
+    },
+    {
+      "name": "Бічне фанерне ребро похилого акрилу",
+      "group": "module",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1080,
+          2081
+        ],
+        [
+          1320,
+          1650
+        ]
+      ],
+      "y": 964,
+      "depth": 20,
+      "thickness": 18,
+      "materialSpec": "березова фанера 18 мм",
+      "acrylicMount": true,
+      "moduleMark": "F02",
+      "id": "R6-208"
+    },
+    {
+      "name": "Нижній U-профіль затиску матового акрилу",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1300,
+        36,
+        1630
+      ],
+      "sizeMm": [
+        20,
+        928,
+        20
+      ],
+      "acrylicMount": true,
+      "materialSpec": "алюмінієвий U-профіль + EPDM",
+      "moduleMark": "F04",
+      "id": "R6-209"
+    },
+    {
+      "name": "Верхній U-профіль затиску матового акрилу",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1080,
+        36,
+        2061
+      ],
+      "sizeMm": [
+        20,
+        928,
+        20
+      ],
+      "acrylicMount": true,
+      "materialSpec": "алюмінієвий U-профіль + EPDM; верхня планка знімна",
+      "moduleMark": "F03",
+      "id": "R6-210"
+    },
+    {
+      "name": "Фанерна вертикальна накладка обв’язки сервісного люка",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1566,
+        165,
+        100
+      ],
+      "sizeMm": [
+        18,
+        30,
+        1548
+      ],
+      "serviceHatchBacking": true,
+      "materialSpec": "березова фанера 18 мм",
+      "moduleMark": "F06",
+      "id": "R6-211"
+    },
+    {
+      "name": "Фанерна вертикальна накладка обв’язки сервісного люка",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1566,
+        775,
+        100
+      ],
+      "sizeMm": [
+        18,
+        30,
+        1548
+      ],
+      "serviceHatchBacking": true,
+      "materialSpec": "березова фанера 18 мм",
+      "moduleMark": "F07",
+      "id": "R6-212"
+    },
+    {
+      "name": "Фанерна горизонтальна накладка обв’язки сервісного люка",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1566,
+        195,
+        100
+      ],
+      "sizeMm": [
+        18,
+        580,
+        30
+      ],
+      "serviceHatchBacking": true,
+      "materialSpec": "березова фанера 18 мм",
+      "moduleMark": "F08",
+      "id": "R6-213"
+    },
+    {
+      "name": "Фанерна горизонтальна накладка обв’язки сервісного люка",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1566,
+        195,
+        1618
+      ],
+      "sizeMm": [
+        18,
+        580,
+        30
+      ],
+      "serviceHatchBacking": true,
+      "materialSpec": "березова фанера 18 мм",
+      "moduleMark": "F09",
+      "id": "R6-214"
+    },
+    {
+      "name": "Прихована полиця duplex-сканера за вертикальною панеллю",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        42,
+        318
+      ],
+      "sizeMm": [
+        124,
+        320,
+        12
+      ],
+      "id": "R6-215"
+    },
+    {
+      "name": "Габаритний резерв протяжного A4 duplex scanner TWAIN/WIA",
+      "group": "equipment",
+      "material": "black",
+      "positionMm": [
+        1005,
+        47,
+        330
+      ],
+      "sizeMm": [
+        110,
+        310,
+        90
+      ],
+      "provisional": true,
+      "model": "TBD",
+      "requirements": [
+        "A4 duplex",
+        "TWAIN",
+        "WIA",
+        "USB or Ethernet"
+      ],
+      "id": "R6-216"
+    },
+    {
+      "name": "Кожух сканера: канал подачі оригіналу",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        50,
+        335
+      ],
+      "sizeMm": [
+        82,
+        220,
+        4
+      ],
+      "id": "R6-217"
+    },
+    {
+      "name": "Кожух сканера: канал повернення оригіналу",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        50,
+        385
+      ],
+      "sizeMm": [
+        82,
+        220,
+        4
+      ],
+      "id": "R6-218"
+    },
+    {
+      "name": "Підлогова кишеня фото 10×15: темна горловина у вертикальній панелі",
+      "group": "module",
+      "material": "black",
+      "positionMm": [
+        994,
+        330,
+        180
+      ],
+      "sizeMm": [
+        4,
+        190,
+        150
+      ],
+      "id": "R6-219"
+    },
+    {
+      "name": "Підлогова кишеня фото 10×15: нижня опорна полиця",
+      "group": "module",
+      "material": "edge",
+      "positionMm": [
+        996,
+        330,
+        96
+      ],
+      "sizeMm": [
+        124,
+        190,
+        4
+      ],
+      "id": "R6-220"
+    },
+    {
+      "name": "Підлогова кишеня фото 10×15: темна задня стінка",
+      "group": "module",
+      "material": "black",
+      "positionMm": [
+        1116,
+        330,
+        100
+      ],
+      "sizeMm": [
+        4,
+        190,
+        270
+      ],
+      "id": "R6-221"
+    },
+    {
+      "name": "Підлогова кишеня фото 10×15: лівий борт",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        330,
+        100
+      ],
+      "sizeMm": [
+        124,
+        4,
+        270
+      ],
+      "id": "R6-222"
+    },
+    {
+      "name": "Підлогова кишеня фото 10×15: правий борт",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        516,
+        100
+      ],
+      "sizeMm": [
+        124,
+        4,
+        270
+      ],
+      "id": "R6-223"
+    },
+    {
+      "name": "Підлогова кишеня фото 10×15: верхній відбійник від доступу рукою",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        330,
+        365
+      ],
+      "sizeMm": [
+        124,
+        190,
+        4
+      ],
+      "id": "R6-224"
+    },
+    {
+      "name": "Підлогова кишеня A4: темна горловина у вертикальній панелі",
+      "group": "module",
+      "material": "black",
+      "positionMm": [
+        994,
+        590,
+        180
+      ],
+      "sizeMm": [
+        4,
+        260,
+        150
+      ],
+      "id": "R6-225"
+    },
+    {
+      "name": "Підлогова кишеня A4: нижня опорна полиця",
+      "group": "module",
+      "material": "edge",
+      "positionMm": [
+        996,
+        590,
+        96
+      ],
+      "sizeMm": [
+        124,
+        260,
+        4
+      ],
+      "id": "R6-226"
+    },
+    {
+      "name": "Підлогова кишеня A4: темна задня стінка",
+      "group": "module",
+      "material": "black",
+      "positionMm": [
+        1116,
+        590,
+        100
+      ],
+      "sizeMm": [
+        4,
+        260,
+        270
+      ],
+      "id": "R6-227"
+    },
+    {
+      "name": "Підлогова кишеня A4: лівий борт",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        590,
+        100
+      ],
+      "sizeMm": [
+        124,
+        4,
+        270
+      ],
+      "id": "R6-228"
+    },
+    {
+      "name": "Підлогова кишеня A4: правий борт",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        846,
+        100
+      ],
+      "sizeMm": [
+        124,
+        4,
+        270
+      ],
+      "id": "R6-229"
+    },
+    {
+      "name": "Підлогова кишеня A4: верхній відбійник від доступу рукою",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        996,
+        590,
+        365
+      ],
+      "sizeMm": [
+        124,
+        260,
+        4
+      ],
+      "id": "R6-230"
+    },
+    {
+      "name": "Спадний лоток фото: DS-RX1HS → шахта",
+      "group": "module",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1200,
+          620
+        ],
+        [
+          1110,
+          430
+        ]
+      ],
+      "y": 340,
+      "depth": 170,
+      "thickness": 3,
+      "paperPath": {
+        "fromZ": 620,
+        "toZ": 430,
+        "status": "descending"
+      },
+      "id": "R6-231"
+    },
+    {
+      "name": "Вертикальна шахта падіння фото 10×15",
+      "group": "module",
+      "material": "edge",
+      "positionMm": [
+        1090,
+        340,
+        365
+      ],
+      "sizeMm": [
+        20,
+        170,
+        65
+      ],
+      "paperPath": {
+        "fromZ": 430,
+        "toZ": 365,
+        "status": "descending"
+      },
+      "id": "R6-232"
+    },
+    {
+      "name": "Спадний лоток A4: HL-L5210DN → кишеня",
+      "group": "module",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1170,
+          384
+        ],
+        [
+          1110,
+          330
+        ]
+      ],
+      "y": 605,
+      "depth": 230,
+      "thickness": 3,
+      "paperPath": {
+        "fromZ": 384,
+        "toZ": 330,
+        "status": "descending; exact output height to verify"
+      },
+      "id": "R6-233"
+    },
+    {
+      "name": "Вертикальна шахта падіння A4",
+      "group": "module",
+      "material": "edge",
+      "positionMm": [
+        1090,
+        605,
+        330
+      ],
+      "sizeMm": [
+        20,
+        230,
+        35
+      ],
+      "paperPath": {
+        "fromZ": 330,
+        "toZ": 295,
+        "status": "descending"
+      },
+      "id": "R6-234"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        80,
+        260
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-235"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        80,
+        900
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-236"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        80,
+        1540
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-237"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        80,
+        2020
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-238"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        500,
+        260
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-239"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        500,
+        900
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-240"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        500,
+        1540
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-241"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        500,
+        2020
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-242"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        920,
+        260
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-243"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        920,
+        900
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-244"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        920,
+        1540
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-245"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        6,
+        920,
+        2020
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-246"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        80,
+        260
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-247"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        80,
+        900
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-248"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        80,
+        1540
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-249"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        80,
+        2020
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-250"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        500,
+        260
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-251"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        500,
+        900
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-252"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        500,
+        1540
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-253"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        500,
+        2020
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-254"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        920,
+        260
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-255"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        920,
+        900
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-256"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        920,
+        1540
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-257"
+    },
+    {
+      "name": "Внутрішня прихована Z-кліпса обшивки",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1576,
+        920,
+        2020
+      ],
+      "sizeMm": [
+        20,
+        28,
+        18
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "provisional": true,
+      "id": "R6-258"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        40,
+        1020
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-259"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        40,
+        1450
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-260"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        40,
+        1700
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-261"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        430,
+        1020
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-262"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        430,
+        1450
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-263"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        430,
+        1700
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-264"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        570,
+        1020
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-265"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        570,
+        1450
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-266"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        570,
+        1700
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-267"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        940,
+        1020
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-268"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        940,
+        1450
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-269"
+    },
+    {
+      "name": "Задній притиск касети без гвинта на фасаді",
+      "group": "fasteners",
+      "material": "edge",
+      "positionMm": [
+        1324,
+        940,
+        1700
+      ],
+      "sizeMm": [
+        4,
+        34,
+        80
+      ],
+      "hiddenMount": true,
+      "serviceVisibleOnly": true,
+      "id": "R6-270"
+    }
+  ],
+  "joints": [],
+  "productionReleased": false,
+  "roofSize": [
+    1640,
+    1040,
+    16
+  ],
+  "sensorPortrait": [
+    14.9,
+    22.3
+  ],
+  "notes": [
+    "Одна повна збірка для всіх ракурсів; кнопки перегляду не змінюють склад або видимість деталей.",
+    "DS-RX1HS і Brother HL-L5210DN рознесені по висоті на незалежних полицях. Механічного підйомника паперу немає.",
+    "Сканер, фото 10×15 і A4 розміщені в нижній вертикальній панелі на рівні ніг.",
+    "Документи падають окремими шахтами в підлогові кишені; точні вихідні висоти принтерів перевірити на стенді.",
+    "Повернуто старий просторовий каркас; оптимізація обмежена видаленням точних дублів і деталей без окремої несучої функції."
+  ],
+  "structureAdvice": {
+    "decision": "single_canonical_assembly_hidden_public_mounting",
+    "howHidden": "Повернуто стару просторову схему V-Slot: зовнішня рама, внутрішні підрамники, опори полиць, камери й ліфта. Вилучаються лише геометрично дубльовані або функціонально зайві елементи.",
+    "verify": "Випробувати каркас з обшивкою на перекіс, полиці подвійним навантаженням, VESA-кріплення екрана, затиск акрилу та кріплення ліфта."
+  },
+  "outputStation": {
+    "arrangement": "single-row",
+    "openingCentreBandMm": [
+      180,
+      420
+    ],
+    "scanner": "A4 duplex scanner with TWAIN/WIA; exact model TBD; separate feed and return slots",
+    "outputs": [
+      "10×15 recessed niche",
+      "A4 recessed niche"
+    ],
+    "printerShelfZMm": [
+      154,
+      414
+    ],
+    "rule": "No powered lift; print channels must be level or descending."
+  }
+}
