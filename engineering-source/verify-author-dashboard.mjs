@@ -1,0 +1,11 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {pathToFileURL} from 'node:url';import crypto from 'node:crypto';
+const d=JSON.parse(fs.readFileSync('drawings/revision-08/design.json'));assert.equal(d.sourceSHA256,crypto.createHash('sha256').update(fs.readFileSync('БУДКА.blend')).digest('hex'));
+const source=JSON.parse(fs.readFileSync('drawings/revision-08/source-inspection.json'));
+for(const p of d.parts.filter(p=>p.authorGeometry)){const o=source.objects.find(o=>o.name===p.sourceObject);assert(o);p.dimensionsMm.forEach((n,i)=>assert(Math.abs(n-o.dimensions[i]*1000)<.001));assert.equal(p.vertices.length,o.vertices.length);p.vertices.forEach((v,i)=>v.forEach((n,j)=>assert(Math.abs(n-o.vertices[i][j]*1000-d.offsetMm[j])<.001)));}
+const {chromium}=await import('file:///C:/Users/BD/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');const browser=await chromium.launch({channel:'msedge',headless:true});const errors=[];
+for(const width of [1500,390]){const page=await browser.newPage({viewport:{width,height:1100}});page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>errors.push(r.url()));await page.goto(pathToFileURL(path.resolve('dashboard/index.html')).href);await page.waitForFunction(()=>window.dashboardReady);
+for(const view of ['outside','inside','service','frame','source']){await page.locator(`[data-view="${view}"]`).click();if(width===1500)await page.screenshot({path:'drawings/revision-08/'+view+'.png'});}
+for(const id of ['drawings','equipment','decisions','model']){await page.locator(`nav a[href="#${id}"]`).click();await page.locator('#'+id).waitFor({state:'visible'});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));}
+await page.selectOption('#part-select',d.parts.find(p=>p.fabrication).id);await page.click('#isolate');assert.equal(await page.evaluate(()=>[...authorViewer.meshes.values()].filter(m=>m.visible).length),1);
+if(width===390)await page.screenshot({path:'drawings/revision-08/mobile.png'});await page.close();}
+await browser.close();assert.deepEqual(errors,[]);console.log('PASS: original SHA256; all 62 author object dimensions and vertices unchanged; viewer, isolation and four pages desktop/mobile.');

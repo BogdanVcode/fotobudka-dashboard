@@ -1,18 +1,12 @@
 {
-  "generatedAt": "2026-09-16T14:50:06.732Z",
-  "revision": 7,
+  "revision": 8,
+  "date": "2026-09-16",
+  "sourceSHA256": "b56092d7a35eb6bae77cd06e02008d7ef0b7d4ab9e979cc8d33a75e8ea83b8c3",
+  "authorObjects": 62,
+  "addedObjects": 51,
+  "productionReleased": false,
   "entry": "index.html",
-  "source": "dashboard/",
-  "included": [
-    "dashboard runtime",
-    "assets/references",
-    "drawings/revision-06",
-    "drawings/revision-07"
-  ],
-  "excluded": [
-    "Fusion 360 files",
-    "source scripts",
-    "graphify output",
-    "agent files"
-  ]
+  "geometry": "drawings/revision-08/design.json",
+  "drawings": "drawings/revision-08/index.html",
+  "pdf": "output/pdf/Фотобудка-08-креслення.pdf"
 }
