@@ -1,8 +1,8 @@
-/* Engineering layout revision 06. All coordinates in millimetres. */
+/* Engineering layout revision 07. All coordinates in millimetres. */
 window.createBoothViewer=function(host){
  const T=window.THREE;let renderer;try{renderer=new T.WebGLRenderer({antialias:true,alpha:false,preserveDrawingBuffer:true,logarithmicDepthBuffer:true});}catch(e){host.innerHTML='<p id="model-error">Не вдалося запустити 3D. Увімкніть апаратне прискорення браузера. <a href="revision-02.svg">Відкрити схему фасаду</a>.</p>';return null;}
  renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0xf0f1f3);renderer.shadowMap.enabled=false;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;host.prepend(renderer.domElement);
- const scene=new T.Scene(),booth=new T.Group();booth.name='Фотобудка — ревізія 06';booth.scale.z=-1;scene.add(booth);
+ const scene=new T.Scene(),booth=new T.Group();booth.name='Фотобудка — ревізія 07';booth.scale.z=-1;scene.add(booth);
  const camera=new T.PerspectiveCamera(36,1,50,12000);const ortho=new T.OrthographicCamera(-900,900,700,-700,10,20000);let target=new T.Vector3(800,1060,-470),az=-.55,el=.15,radius=3800,view='inside';
  const groups={};for(const name of ['walls','roof','front','bench','module','curtain','floor','frame','fasteners','equipment','cables','doors']){groups[name]=new T.Group();groups[name].name=name;booth.add(groups[name]);}
  const inventory=[];let serial=0;const mat={white:new T.MeshStandardMaterial({color:0xffffff,roughness:.55,polygonOffset:true,polygonOffsetFactor:1,polygonOffsetUnits:1}),edge:new T.MeshStandardMaterial({color:0xd5d9d2,metalness:.45,roughness:.45}),black:new T.MeshStandardMaterial({color:0x202a2c,roughness:.45}),cushion:new T.MeshStandardMaterial({color:0xfafafa,roughness:.95}),light:new T.MeshStandardMaterial({color:0xfffaf0,emissive:0xffe9a8,emissiveIntensity:.9,roughness:.4,polygonOffset:true,polygonOffsetFactor:1,polygonOffsetUnits:1}),floor:new T.MeshStandardMaterial({color:0xabb3b4,metalness:.55,roughness:.5}),mirror:new T.MeshStandardMaterial({color:0xa9c0bd,metalness:.6,roughness:.12}),screen:new T.MeshStandardMaterial({color:0xffffff,emissive:0xf2f4f6,emissiveIntensity:.08,roughness:.4,polygonOffset:true,polygonOffsetFactor:1,polygonOffsetUnits:1})};
@@ -16,8 +16,9 @@ window.createBoothViewer=function(host){
 
  mat.glass=new T.MeshPhysicalMaterial({color:0x344047,transparent:true,opacity:.58,roughness:.08,depthWrite:true,side:T.DoubleSide});
  for(const m of Object.values(mat))m.side=T.DoubleSide;
- const moving=new T.Group();groups.equipment.add(moving);const doorPivot=new T.Group();doorPivot.position.copy(loc(1592,180,0));groups.doors.add(doorPivot);
+ const moving=new T.Group();groups.equipment.add(moving);const doorPivot=new T.Group();groups.doors.add(doorPivot);
  const design=window.BOOTH_DESIGN;
+ if(design.serviceDoorPivotMm)doorPivot.position.copy(loc(design.serviceDoorPivotMm[0],design.serviceDoorPivotMm[1],0));
  function prism(p){
   const axes=p.kind==='tube'?[0,1,2].filter(i=>i!==p.sizeMm.indexOf(Math.max(...p.sizeMm))):[0,1,2].filter(i=>i!==p.sizeMm.indexOf(Math.min(...p.sizeMm)));
   const a=axes[0],b=axes[1],c=[0,1,2].find(i=>!axes.includes(i)),w=p.sizeMm[a],h=p.sizeMm[b],th=p.sizeMm[c];
@@ -49,7 +50,7 @@ window.createBoothViewer=function(host){
  function setDoors(open){doorPivot.rotation.y=open?Math.PI*.55:0;document.getElementById('open-doors').checked=open;}
  const wireM=[0x2f3438,0x2f3438,0x2f3438].map(color=>new T.MeshStandardMaterial({color,roughness:.8}));let dynamic=[];
  function wire(points,i,name){return add(new T.TubeGeometry(new T.CatmullRomCurve3(points.map(p=>loc(...p))),50,2.5,8,false),wireM[i],name,'cables');}
- function setLift(height){height=Math.max(1000,Math.min(1500,height));moving.position.y=height-1260;for(const m of dynamic){groups.cables.remove(m);m.geometry.dispose();}dynamic=[];
+ function setLift(height){const lo=(design.liftTravelMm?design.liftTravelMm[0]:1000)+60,hi=(design.liftTravelMm?design.liftTravelMm[1]:1500)-60,base=design.cameraNeutralZMm||1260;height=Math.max(lo,Math.min(hi,height));moving.position.y=height-base;for(const m of dynamic){groups.cables.remove(m);m.geometry.dispose();}dynamic=[];
   for(let i=0;i<3;i++){const x=1524+i*8;dynamic.push(wire([[x,600,980],[x,610,850],[x,690,850],[x,700,height+60],[1517,565,height+60]],i,['USB до камери','Контакт синхронізації камери','Низьковольтне живлення камери'][i]));}
   document.getElementById('lift-value').textContent=height+' мм';
  }
@@ -73,9 +74,7 @@ window.createBoothViewer=function(host){
  const sm=add(new T.PlaneGeometry(1500,140),new T.MeshBasicMaterial({map:st,side:T.DoubleSide}),'Напис ФОТОБУДКА на білій вивісці','front');sm.position.copy(loc(800,-1,2102));
  const roofEl=document.getElementById('roof');if(roofEl){roofEl.checked=true;roofEl.dispatchEvent(new Event('change'));} setLift(1260);
  // Pleated curtain is a real double-sided folded surface, not intersecting flat polygons.
- const curtainMat=new T.MeshStandardMaterial({color:0xf3f1e7,roughness:1,side:T.DoubleSide});
- function curtain(closed){groups.curtain.clear();const width=closed?960:90,x0=18,segments=closed?180:80;const geo=new T.BufferGeometry(),a=[];for(let i=0;i<segments;i++){const x=x0+width*i/segments,n=x0+width*(i+1)/segments,z=42+14*Math.sin(i*.8),nz=42+14*Math.sin((i+1)*.8);a.push(x,83,z,n,83,nz,n,2083,nz,x,83,z,n,2083,nz,x,2083,z);}geo.setAttribute('position',new T.Float32BufferAttribute(a,3));geo.computeVertexNormals();add(geo,curtainMat,'Біла штора на стельовій напрямній','curtain');}
- curtain(false);
+ groups.curtain.visible=false;
  const ambient=new T.HemisphereLight(0xffffff,0xbfc3ca,2.3);scene.add(ambient);const sun=new T.DirectionalLight(0xffffff,3.1);sun.position.set(-1300,3300,1700);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-2500,right:2500,top:2600,bottom:-2600,near:50,far:7000});sun.shadow.bias=-.0003;scene.add(sun);const fill=new T.DirectionalLight(0xe3f0ff,1.5);fill.position.set(2400,1800,-1800);scene.add(fill);
  const ground=new T.Mesh(new T.PlaneGeometry(15000,15000),new T.MeshStandardMaterial({color:0xe5e8de,roughness:1}));ground.rotation.x=-Math.PI/2;ground.position.y=0;ground.receiveShadow=true;scene.add(ground);
  function resize(){const w=host.clientWidth,h=host.clientHeight;if(w<1||h<1)return;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();render();}
@@ -91,9 +90,9 @@ window.createBoothViewer=function(host){
  function setView(v){
   view=v;
   const specs={
-   inside:{t:[650,1050,-500],az:-.15,el:.12,r:2200,cap:'Погляд через вхід у повну кабіну. Жодна деталь не прихована кнопкою ракурсу.'},
+   inside:{t:[650,1050,-536],az:-1.3,el:.12,r:2200,cap:'Погляд через вхід у повну кабіну. Жодна деталь не прихована кнопкою ракурсу.'},
    outside:{t:[800,1050,-180],az:-.28,el:.16,r:4500,cap:'Чистий зовнішній корпус. Каркас, кабелі й кріплення залишаються всередині оболонки.'},
-   module:{t:[1060,560,-480],az:-.72,el:.08,r:2350,cap:'Гостьовий фасад модуля: збільшений екран на похилій консолі, сканер і дві підлогові кишені — у нижній вертикальній панелі.'},
+   module:{t:[1155,725,-536],az:-1.35,el:.05,r:900,cap:'Гостьовий фасад консолі: екран на похилій панелі, слот сканера й кишеня видачі на рівні ніг.'},
    top:{t:[800,0,-500],az:0,el:1.56,r:2100,cap:'Повна збірка зверху. Для огляду внутрішніх деталей увімкніть «Прозора оболонка».'},
    service:{t:[1480,1080,-500],az:2.45,el:.16,r:3000,cap:'Ракурс сервісної сторони. Люк відкривається лише окремим перемикачем.'},
    frame:{t:[800,1100,-500],az:-.55,el:.28,r:4300,cap:'Технічний ракурс тієї самої збірки. Увімкніть прозору оболонку, щоб побачити каркас і кабелі.'}
@@ -118,13 +117,13 @@ window.createBoothViewer=function(host){
  }
  let drag=null,dist=0;renderer.domElement.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];dist=0;renderer.domElement.setPointerCapture(e.pointerId);});renderer.domElement.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag[0],dy=e.clientY-drag[1];dist+=Math.abs(dx)+Math.abs(dy);az-=dx*.007;el=Math.max(-.15,Math.min(1.53,el+dy*.005));drag=[e.clientX,e.clientY];render();});renderer.domElement.addEventListener('pointerup',e=>{drag=null;if(dist>5)return;const r=renderer.domElement.getBoundingClientRect(),pointer=new T.Vector2((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1),ray=new T.Raycaster();ray.setFromCamera(pointer,view==='top'?ortho:camera);const visible=[];booth.traverseVisible(o=>{if(o.isMesh)visible.push(o);});const hit=ray.intersectObjects(visible,false)[0];if(hit)document.getElementById('part-info').textContent=hit.object.userData.partId+' · '+hit.object.name+(hit.object.userData.sizeMm?' · '+hit.object.userData.sizeMm.map(n=>Math.round(n*10)/10).join(' × ')+' мм':'');});renderer.domElement.addEventListener('pointercancel',()=>drag=null);renderer.domElement.addEventListener('wheel',e=>{e.preventDefault();radius=Math.max(1200,Math.min(6500,radius*Math.exp(e.deltaY*.001)));render();},{passive:false});
  document.getElementById('transparent-shell').onchange=e=>setShellTransparent(e.target.checked);
- document.getElementById('curtain').onchange=e=>{curtain(e.target.checked);groups.curtain.visible=e.target.checked;render();};
+ document.getElementById('curtain').onchange=e=>{groups.curtain.visible=e.target.checked;render();};
  document.getElementById('reset-view').onclick=()=>setView(view);
  document.getElementById('open-doors').onchange=e=>{if(e.target.checked)groups.doors.visible=true;setDoors(e.target.checked);render();};
  document.getElementById('lift-height').oninput=e=>{setLift(+e.target.value);render();};
- function exportOBJ(){booth.updateMatrixWorld(true);let result='# Photobooth revision 06; millimetres; Y up. Layout model, not manufacturing drawing.\n',offset=1;booth.traverse(o=>{if(!o.isMesh)return;const g=o.geometry.index?o.geometry.toNonIndexed():o.geometry,p=g.getAttribute('position'),v=new T.Vector3();result+='o '+o.id+'\n';for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld);result+=`v ${v.x} ${v.y} ${v.z}\n`;}for(let i=0;i<p.count;i+=3)result+=`f ${offset+i} ${offset+i+2} ${offset+i+1}\n`;offset+=p.count;});return result;}
- document.getElementById('export-model').onclick=()=>{const url=URL.createObjectURL(new Blob([exportOBJ()],{type:'text/plain'})),a=document.createElement('a');a.href=url;a.download='photobooth-revision-05.obj';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);};
- new ResizeObserver(resize).observe(host);setView('inside');window.boothViewer={scene,booth,renderer,camera,groups,setView,render,exportOBJ,inventory,setDoors,setLift,version:6,inspectPart(id){
+ function exportOBJ(){booth.updateMatrixWorld(true);let result='# Photobooth revision 07; millimetres; Y up. Layout model, not manufacturing drawing.\n',offset=1;booth.traverse(o=>{if(!o.isMesh)return;const g=o.geometry.index?o.geometry.toNonIndexed():o.geometry,p=g.getAttribute('position'),v=new T.Vector3();result+='o '+o.id+'\n';for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld);result+=`v ${v.x} ${v.y} ${v.z}\n`;}for(let i=0;i<p.count;i+=3)result+=`f ${offset+i} ${offset+i+2} ${offset+i+1}\n`;offset+=p.count;});return result;}
+ document.getElementById('export-model').onclick=()=>{const url=URL.createObjectURL(new Blob([exportOBJ()],{type:'text/plain'})),a=document.createElement('a');a.href=url;a.download='photobooth-revision-07.obj';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);};
+ new ResizeObserver(resize).observe(host);setView('inside');window.boothViewer={scene,booth,renderer,camera,groups,setView,render,exportOBJ,inventory,setDoors,setLift,version:7,inspectPart(id){
   const p=design.parts.find(p=>p.id===id);if(!p)return;setView('outside');
   Object.values(groups).forEach(g=>g.visible=true);booth.traverse(o=>{if(o.isMesh)o.visible=o.userData.partId===id||o.userData.design?.host===id||o.userData.partId===p.support;});
   const selected=[];booth.traverse(o=>{if(o.userData.partId===id)selected.push(o);});booth.updateMatrixWorld(true);const b=new T.Box3();selected.forEach(o=>b.expandByObject(o));if(!b.isEmpty()){b.getCenter(target);radius=Math.max(600,b.getSize(new T.Vector3()).length()*1.8);az=-.8;el=.25;}render();

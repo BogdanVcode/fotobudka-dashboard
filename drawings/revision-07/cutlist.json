@@ -1,0 +1,1593 @@
+{
+  "cuts": [
+    {
+      "id": "R7-001",
+      "name": "Підлога, біла ДСП 16 мм",
+      "group": "floor",
+      "material": "white",
+      "positionMm": [
+        0,
+        0,
+        0
+      ],
+      "sizeMm": [
+        1672,
+        1072,
+        16
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "підлога"
+    },
+    {
+      "id": "R7-002",
+      "name": "Дах, біла ДСП 16 мм (звис за геометрією блендера)",
+      "group": "roof",
+      "material": "white",
+      "positionMm": [
+        -44,
+        -64,
+        2216
+      ],
+      "sizeMm": [
+        1800,
+        1200,
+        16
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "верх"
+    },
+    {
+      "id": "R7-003",
+      "name": "ЗАД: сервісна стіна, біла ДСП 16 мм",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        1656,
+        0,
+        16
+      ],
+      "sizeMm": [
+        16,
+        1072,
+        2200
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "ЗАД",
+      "holes": [
+        {
+          "u": 236,
+          "v": 114,
+          "w": 601,
+          "h": 1226,
+          "role": "service-door"
+        },
+        {
+          "u": 900,
+          "v": 1860,
+          "w": 220,
+          "h": 220,
+          "role": "vent-exhaust"
+        }
+      ]
+    },
+    {
+      "id": "R7-004",
+      "name": "ПЕРЕД: гостьова стіна входу, біла ДСП 16 мм",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        0,
+        0,
+        16
+      ],
+      "sizeMm": [
+        16,
+        1072,
+        2200
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "перед",
+      "holes": [
+        {
+          "u": 54,
+          "v": 0,
+          "w": 964,
+          "h": 2084,
+          "role": "entry"
+        }
+      ]
+    },
+    {
+      "id": "R7-005",
+      "name": "ДСП ПЕРЕД: стіна дзеркала й консолі, біла ДСП 16 мм",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        16,
+        0,
+        16
+      ],
+      "sizeMm": [
+        1640,
+        16,
+        2200
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "ДСП перед"
+    },
+    {
+      "id": "R7-006",
+      "name": "ЛІВО: бічна стіна, біла ДСП 16 мм",
+      "group": "walls",
+      "material": "white",
+      "positionMm": [
+        16,
+        1056,
+        16
+      ],
+      "sizeMm": [
+        1640,
+        16,
+        2200
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "ліво",
+      "holes": [
+        {
+          "u": 150,
+          "v": 90,
+          "w": 250,
+          "h": 160,
+          "role": "vent-intake"
+        }
+      ]
+    },
+    {
+      "id": "R7-007",
+      "name": "Сервісні дверцята кабінки: біла ДСП 16 мм на завісах, із замком",
+      "group": "doors",
+      "material": "white",
+      "positionMm": [
+        1656,
+        239,
+        133
+      ],
+      "sizeMm": [
+        16,
+        595,
+        1220
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "ЗАД.001",
+      "serviceDoor": true,
+      "clearOpeningMm": [
+        595,
+        1220
+      ],
+      "note": "Розмір узятий з готового виступаючого підпанелі ЗАД.001 у блендер-моделі користувача (594×1220 мм, доступ технологу до принтерів/EcoFlow/каси); не повнозростова, але значно більша за старий люк 614×1364 модуля."
+    },
+    {
+      "id": "R7-017",
+      "name": "Технічна перегородка (цоколь консолі), біла ДСП 16 мм",
+      "group": "module",
+      "material": "white",
+      "positionMm": [
+        1020,
+        16,
+        16
+      ],
+      "sizeMm": [
+        16,
+        1040,
+        500
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "дсп1"
+    },
+    {
+      "id": "R7-018",
+      "name": "Лавка: бічна стінка A, біла ДСП 16 мм",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        404,
+        35,
+        16
+      ],
+      "sizeMm": [
+        16,
+        1000,
+        400
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "дсп1.001"
+    },
+    {
+      "id": "R7-019",
+      "name": "Лавка: бічна стінка B, біла ДСП 16 мм",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        20,
+        35,
+        16
+      ],
+      "sizeMm": [
+        16,
+        1000,
+        400
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "дсп1.002"
+    },
+    {
+      "id": "R7-020",
+      "name": "Лавка: торцева стінка, біла ДСП 16 мм",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        20,
+        19,
+        16
+      ],
+      "sizeMm": [
+        400,
+        16,
+        400
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "дсп1.003"
+    },
+    {
+      "id": "R7-021",
+      "name": "Лавка: торцева стінка, біла ДСП 16 мм",
+      "group": "bench",
+      "material": "white",
+      "positionMm": [
+        20,
+        1035,
+        16
+      ],
+      "sizeMm": [
+        400,
+        16,
+        400
+      ],
+      "kind": "plate",
+      "thickness": 16,
+      "sourceObject": "дсп1.004"
+    },
+    {
+      "id": "R7-024",
+      "name": "Похила консоль з екраном і слотом сканера, біла ДСП 16 мм",
+      "group": "module",
+      "material": "white",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1026.5,
+          511.5
+        ],
+        [
+          1283,
+          938.5
+        ]
+      ],
+      "y": 16,
+      "depth": 1040,
+      "thickness": 16,
+      "sourceObject": "дсп2 для монітора",
+      "moduleMark": "P01",
+      "holes": [
+        {
+          "u": 100,
+          "v": 245,
+          "w": 300,
+          "h": 550,
+          "role": "display"
+        },
+        {
+          "u": 20,
+          "v": 420,
+          "w": 60,
+          "h": 220,
+          "role": "scanner-slot"
+        }
+      ]
+    },
+    {
+      "id": "R7-048",
+      "name": "Верхній розсіювач, опаловий полікарбонат 3 мм",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        16,
+        16,
+        1933
+      ],
+      "sizeMm": [
+        1020,
+        1040,
+        3
+      ],
+      "sourceObject": "верхній 3 мм, опал, полікарбонат монолітний"
+    },
+    {
+      "id": "R7-049",
+      "name": "Лівий розсіювач, опаловий полікарбонат 3 мм",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1273,
+        586,
+        936
+      ],
+      "sizeMm": [
+        3,
+        470,
+        580
+      ],
+      "sourceObject": "лівий 3 мм, опал, полікарбонат монолітний"
+    },
+    {
+      "id": "R7-050",
+      "name": "Лівий нижній розсіювач, опаловий полікарбонат 3 мм",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1273,
+        486,
+        936
+      ],
+      "sizeMm": [
+        3,
+        100,
+        580
+      ],
+      "sourceObject": "лівий 3 мм, опал, полікарбонат монолітний.001"
+    },
+    {
+      "id": "R7-051",
+      "name": "Правий розсіювач, опаловий полікарбонат 3 мм",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1273,
+        16,
+        936
+      ],
+      "sizeMm": [
+        3,
+        470,
+        580
+      ],
+      "sourceObject": "правий 3 мм, опал, полікарбонат монолітний"
+    },
+    {
+      "id": "R7-052",
+      "name": "Кутовий верхній розсіювач, опаловий полікарбонат 3 мм",
+      "group": "roof",
+      "material": "light",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1035,
+          1932.5
+        ],
+        [
+          1275,
+          1516.5
+        ]
+      ],
+      "y": 16,
+      "depth": 1040,
+      "thickness": 5,
+      "sourceObject": "кутовий верхній 3 мм, опал, полікарбонат монолітний"
+    },
+    {
+      "id": "R7-053",
+      "name": "LED-стрічка 24 В під стельовим розсіювачем",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        36,
+        216,
+        1927
+      ],
+      "sizeMm": [
+        980,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R7-054",
+      "name": "LED-стрічка 24 В під стельовим розсіювачем",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        36,
+        516,
+        1927
+      ],
+      "sizeMm": [
+        980,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R7-055",
+      "name": "LED-стрічка 24 В під стельовим розсіювачем",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        36,
+        816,
+        1927
+      ],
+      "sizeMm": [
+        980,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R7-056",
+      "name": "LED-стрічка 24 В під стельовим розсіювачем",
+      "group": "roof",
+      "material": "light",
+      "positionMm": [
+        36,
+        1116,
+        1927
+      ],
+      "sizeMm": [
+        980,
+        10,
+        3
+      ]
+    },
+    {
+      "id": "R7-057",
+      "name": "LED-стрічка над консоллю (підсвітка екрана)",
+      "group": "module",
+      "material": "light",
+      "positionMm": [
+        1267,
+        596,
+        936
+      ],
+      "sizeMm": [
+        3,
+        450,
+        10
+      ]
+    },
+    {
+      "id": "R7-097",
+      "name": "Похила опора консолі, V-Slot 20×20 (Y=16)",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1045,
+          510.5
+        ],
+        [
+          1285,
+          932
+        ]
+      ],
+      "y": 16,
+      "depth": 20,
+      "thickness": 20,
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "S",
+      "sourceObject": "Cube.003",
+      "roleInferred": true,
+      "moduleMark": "R015"
+    },
+    {
+      "id": "R7-098",
+      "name": "Похила опора консолі, V-Slot 20×20 (Y=1036)",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1045,
+          510.5
+        ],
+        [
+          1285,
+          932
+        ]
+      ],
+      "y": 1036,
+      "depth": 20,
+      "thickness": 20,
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "S",
+      "sourceObject": "Cube.004",
+      "roleInferred": true,
+      "moduleMark": "R014"
+    },
+    {
+      "id": "R7-099",
+      "name": "Похила опора верхнього розсіювача, V-Slot 20×20 (Y=16)",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1285,
+          1520
+        ],
+        [
+          1042.5,
+          1940
+        ]
+      ],
+      "y": 16,
+      "depth": 20,
+      "thickness": 20,
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "S",
+      "sourceObject": "Cube.029",
+      "roleInferred": true,
+      "moduleMark": "R028"
+    },
+    {
+      "id": "R7-100",
+      "name": "Похила опора верхнього розсіювача, V-Slot 20×20 (Y=1036)",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": null,
+      "sizeMm": null,
+      "kind": "slope",
+      "ends": [
+        [
+          1285,
+          1520
+        ],
+        [
+          1042.5,
+          1940
+        ]
+      ],
+      "y": 1036,
+      "depth": 20,
+      "thickness": 20,
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "S",
+      "sourceObject": "Cube.040",
+      "roleInferred": true,
+      "moduleMark": "R027"
+    }
+  ],
+  "rails": [
+    {
+      "id": "R7-059",
+      "name": "Поперечка каркаса вздовж ширини, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        36,
+        16
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.005",
+      "roleInferred": true,
+      "moduleMark": "R038",
+      "length": 1000
+    },
+    {
+      "id": "R7-060",
+      "name": "Поперечка каркаса вздовж ширини, рівень дах, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        36,
+        2196
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.006",
+      "roleInferred": true,
+      "moduleMark": "R037",
+      "length": 1000
+    },
+    {
+      "id": "R7-061",
+      "name": "Поперечка каркаса вздовж ширини, рівень дах, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        16,
+        36,
+        2196
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.007",
+      "roleInferred": true,
+      "moduleMark": "R003",
+      "length": 1000
+    },
+    {
+      "id": "R7-062",
+      "name": "Кутова/колонна стійка ЗАД, повна висота, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        16,
+        16
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2200
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.008",
+      "roleInferred": true,
+      "moduleMark": "R035",
+      "length": 2200
+    },
+    {
+      "id": "R7-063",
+      "name": "Кутова/колонна стійка ЗАД, повна висота, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        1036,
+        16
+      ],
+      "sizeMm": [
+        20,
+        20,
+        2200
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.009",
+      "roleInferred": true,
+      "moduleMark": "R036",
+      "length": 2200
+    },
+    {
+      "id": "R7-064",
+      "name": "Короткий вертикальний вузол ПЕРЕД (280 мм), рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        16,
+        16,
+        1936
+      ],
+      "sizeMm": [
+        20,
+        20,
+        280
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.011",
+      "roleInferred": true,
+      "moduleMark": "R001",
+      "length": 280
+    },
+    {
+      "id": "R7-065",
+      "name": "Короткий вертикальний вузол ПЕРЕД (280 мм), рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        16,
+        1036,
+        1936
+      ],
+      "sizeMm": [
+        20,
+        20,
+        280
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.012",
+      "roleInferred": true,
+      "moduleMark": "R002",
+      "length": 280
+    },
+    {
+      "id": "R7-066",
+      "name": "Поздовжня балка каркаса (по всій довжині), рівень дах, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        36,
+        1036,
+        2196
+      ],
+      "sizeMm": [
+        1600,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.013",
+      "roleInferred": true,
+      "moduleMark": "R005",
+      "length": 1600
+    },
+    {
+      "id": "R7-067",
+      "name": "Стійка під технічною перегородкою ЦОКОЛЬ КОНСОЛІ, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1036,
+        16,
+        16
+      ],
+      "sizeMm": [
+        20,
+        20,
+        500
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.021",
+      "roleInferred": true,
+      "moduleMark": "R012",
+      "length": 500
+    },
+    {
+      "id": "R7-068",
+      "name": "Поперечка каркаса вздовж ширини, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1036,
+        36,
+        16
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.023",
+      "roleInferred": true,
+      "moduleMark": "R009",
+      "length": 1000
+    },
+    {
+      "id": "R7-069",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1036,
+        36,
+        496
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.024",
+      "roleInferred": true,
+      "moduleMark": "R010",
+      "length": 1000
+    },
+    {
+      "id": "R7-070",
+      "name": "Поздовжня балка каркаса (по всій довжині), рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        36,
+        16,
+        1936
+      ],
+      "sizeMm": [
+        1600,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.025",
+      "roleInferred": true,
+      "moduleMark": "R007",
+      "length": 1600
+    },
+    {
+      "id": "R7-071",
+      "name": "Кутова/колонна стійка ЛІФТ/ФОТОЗОНА, повна висота, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        16,
+        36
+      ],
+      "sizeMm": [
+        20,
+        20,
+        1900
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.015",
+      "roleInferred": true,
+      "moduleMark": "R020",
+      "length": 1900
+    },
+    {
+      "id": "R7-072",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z2, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1296,
+        16,
+        923
+      ],
+      "sizeMm": [
+        340,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.018",
+      "roleInferred": true,
+      "moduleMark": "R031",
+      "length": 340
+    },
+    {
+      "id": "R7-073",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1056,
+        16,
+        496
+      ],
+      "sizeMm": [
+        221,
+        20,
+        21
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.022",
+      "roleInferred": true,
+      "moduleMark": "R018",
+      "length": 221
+    },
+    {
+      "id": "R7-074",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1296,
+        16,
+        496
+      ],
+      "sizeMm": [
+        340,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.026",
+      "roleInferred": true,
+      "moduleMark": "R029",
+      "length": 340
+    },
+    {
+      "id": "R7-075",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z3, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1296,
+        16,
+        1515
+      ],
+      "sizeMm": [
+        340,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.028",
+      "roleInferred": true,
+      "moduleMark": "R033",
+      "length": 340
+    },
+    {
+      "id": "R7-076",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z2, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        36,
+        923
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.030",
+      "roleInferred": true,
+      "moduleMark": "R023",
+      "length": 1000
+    },
+    {
+      "id": "R7-077",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z3, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        36,
+        1515
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.031",
+      "roleInferred": true,
+      "moduleMark": "R024",
+      "length": 1000
+    },
+    {
+      "id": "R7-078",
+      "name": "Коротка перемичка каркаса фотозони, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1056,
+        16,
+        16
+      ],
+      "sizeMm": [
+        580,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.020",
+      "roleInferred": true,
+      "moduleMark": "R016",
+      "length": 580
+    },
+    {
+      "id": "R7-079",
+      "name": "Поздовжня балка каркаса (по всій довжині), рівень дах, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        36,
+        16,
+        2196
+      ],
+      "sizeMm": [
+        1600,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.032",
+      "roleInferred": true,
+      "moduleMark": "R006",
+      "length": 1600
+    },
+    {
+      "id": "R7-080",
+      "name": "Стійка під технічною перегородкою ЦОКОЛЬ КОНСОЛІ, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1036,
+        1036,
+        16
+      ],
+      "sizeMm": [
+        20,
+        20,
+        500
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.034",
+      "roleInferred": true,
+      "moduleMark": "R013",
+      "length": 500
+    },
+    {
+      "id": "R7-081",
+      "name": "Кутова/колонна стійка ЛІФТ/ФОТОЗОНА, повна висота, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        1036,
+        36
+      ],
+      "sizeMm": [
+        20,
+        20,
+        1900
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.035",
+      "roleInferred": true,
+      "moduleMark": "R021",
+      "length": 1900
+    },
+    {
+      "id": "R7-082",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z2, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1296,
+        1036,
+        923
+      ],
+      "sizeMm": [
+        340,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.036",
+      "roleInferred": true,
+      "moduleMark": "R032",
+      "length": 340
+    },
+    {
+      "id": "R7-083",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1056,
+        1036,
+        496
+      ],
+      "sizeMm": [
+        221,
+        20,
+        21
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.037",
+      "roleInferred": true,
+      "moduleMark": "R019",
+      "length": 221
+    },
+    {
+      "id": "R7-084",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1296,
+        1036,
+        496
+      ],
+      "sizeMm": [
+        340,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.038",
+      "roleInferred": true,
+      "moduleMark": "R030",
+      "length": 340
+    },
+    {
+      "id": "R7-085",
+      "name": "Коротка перемичка каркаса фотозони, рівень Z3, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1296,
+        1036,
+        1515
+      ],
+      "sizeMm": [
+        340,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.039",
+      "roleInferred": true,
+      "moduleMark": "R034",
+      "length": 340
+    },
+    {
+      "id": "R7-086",
+      "name": "Коротка перемичка каркаса фотозони, рівень підлога, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1056,
+        1036,
+        16
+      ],
+      "sizeMm": [
+        580,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.041",
+      "roleInferred": true,
+      "moduleMark": "R017",
+      "length": 580
+    },
+    {
+      "id": "R7-087",
+      "name": "Поздовжня балка каркаса (по всій довжині), рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        36,
+        1036,
+        1936
+      ],
+      "sizeMm": [
+        1600,
+        20,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "X",
+      "sourceObject": "Cube.042",
+      "roleInferred": true,
+      "moduleMark": "R008",
+      "length": 1600
+    },
+    {
+      "id": "R7-088",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        16,
+        36,
+        1936
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.014",
+      "roleInferred": true,
+      "moduleMark": "R004",
+      "length": 1000
+    },
+    {
+      "id": "R7-089",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z2, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        36,
+        923
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.045",
+      "roleInferred": true,
+      "moduleMark": "R040",
+      "length": 1000
+    },
+    {
+      "id": "R7-090",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        36,
+        1936
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.046",
+      "roleInferred": true,
+      "moduleMark": "R042",
+      "length": 1000
+    },
+    {
+      "id": "R7-091",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        36,
+        496
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.001",
+      "roleInferred": true,
+      "moduleMark": "R022",
+      "length": 1000
+    },
+    {
+      "id": "R7-092",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z1, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        36,
+        496
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.002",
+      "roleInferred": true,
+      "moduleMark": "R039",
+      "length": 1000
+    },
+    {
+      "id": "R7-093",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z3, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1636,
+        36,
+        1515
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.016",
+      "roleInferred": true,
+      "moduleMark": "R041",
+      "length": 1000
+    },
+    {
+      "id": "R7-094",
+      "name": "Поперечка каркаса вздовж ширини, рівень Z4, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1036,
+        36,
+        1936
+      ],
+      "sizeMm": [
+        20,
+        1000,
+        20
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Y",
+      "sourceObject": "Cube.017",
+      "roleInferred": true,
+      "moduleMark": "R011",
+      "length": 1000
+    },
+    {
+      "id": "R7-095",
+      "name": "Стійка під технічною перегородкою ЛІФТ/ФОТОЗОНА, рівень Z2, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        466,
+        943
+      ],
+      "sizeMm": [
+        20,
+        20,
+        573
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.044",
+      "roleInferred": true,
+      "moduleMark": "R025",
+      "length": 573
+    },
+    {
+      "id": "R7-096",
+      "name": "Стійка під технічною перегородкою ЛІФТ/ФОТОЗОНА, рівень Z2, V-Slot 20×20",
+      "group": "frame",
+      "material": "edge",
+      "positionMm": [
+        1276,
+        586,
+        943
+      ],
+      "sizeMm": [
+        20,
+        20,
+        573
+      ],
+      "kind": "tube",
+      "wall": 2,
+      "section": 20,
+      "profileSystem": "V-Slot 20×20 AD31 T5",
+      "moduleFrame": true,
+      "memberAxis": "Z",
+      "sourceObject": "Cube.049",
+      "roleInferred": true,
+      "moduleMark": "R026",
+      "length": 573
+    }
+  ]
+}

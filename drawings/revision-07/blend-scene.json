@@ -1,0 +1,5451 @@
+{
+  "blender_version": "5.2.1",
+  "file": "C:\\Users\\BD\\Desktop\\фотобудка\\БУДКА.blend",
+  "scene_name": "Scene",
+  "objects": [
+    {
+      "name": "Area",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        -0.31926,
+        0.00656,
+        2.1522
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.8823,
+        0.8823,
+        0.8823
+      ],
+      "worldBoundsM": null,
+      "localBoundsM": null,
+      "matrixWorld": null,
+      "custom_properties": {}
+    },
+    {
+      "name": "Area.001",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        0.45377,
+        0.01535,
+        1.77128
+      ],
+      "rotationEulerRad": [
+        0.0,
+        1.0472,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        60.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.4466,
+        0.9298,
+        0.9298
+      ],
+      "worldBoundsM": null,
+      "localBoundsM": null,
+      "matrixWorld": null,
+      "custom_properties": {}
+    },
+    {
+      "name": "Area.002",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        0.56821,
+        -0.24789,
+        1.19801
+      ],
+      "rotationEulerRad": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.57712,
+        0.44182,
+        0.57712
+      ],
+      "worldBoundsM": null,
+      "localBoundsM": null,
+      "matrixWorld": null,
+      "custom_properties": {}
+    },
+    {
+      "name": "Area.003",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        0.56821,
+        0.27179,
+        1.19801
+      ],
+      "rotationEulerRad": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.57712,
+        0.44182,
+        0.57712
+      ],
+      "worldBoundsM": null,
+      "localBoundsM": null,
+      "matrixWorld": null,
+      "custom_properties": {}
+    },
+    {
+      "name": "Cube.001",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        0.0,
+        0.49753
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          -0.5,
+          0.48753
+        ],
+        "max": [
+          0.44042,
+          0.5,
+          0.50753
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.43042415,
+        0.5,
+        -0.0,
+        0.0,
+        1e-08,
+        0.0,
+        0.0,
+        0.01,
+        0.49753273,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.060",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        -0.0,
+        0.49753
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.5,
+          0.48753
+        ],
+        "max": [
+          0.8,
+          0.5,
+          0.50753
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.7899999,
+        0.5,
+        -0.0,
+        0.0,
+        -1.7e-07,
+        0.0,
+        0.0,
+        0.01,
+        0.49753273,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.061",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.003",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.2826,
+        -0.51,
+        0.66197
+      ],
+      "rotationEulerRad": [
+        -3.14159,
+        -2.08799,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        -180.0,
+        -119.633,
+        180.0
+      ],
+      "dimensions": [
+        0.48487,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.3,
+        0.01,
+        0.01006
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18042,
+          -0.52,
+          0.49752
+        ],
+        "max": [
+          0.43754,
+          -0.5,
+          0.92886
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.616226,
+          -1.0,
+          -0.755275
+        ],
+        "max": [
+          1.0,
+          1.000021,
+          1.232051
+        ]
+      },
+      "matrixWorld": [
+        0.14833309,
+        -0.0,
+        -0.00874753,
+        0.28260422,
+        3.3e-07,
+        0.01,
+        0.0,
+        -0.51000011,
+        0.26076287,
+        -1e-08,
+        0.00497597,
+        0.6619662,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.004",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.004",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.2826,
+        0.51,
+        0.66197
+      ],
+      "rotationEulerRad": [
+        -3.14159,
+        -2.08799,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        -180.0,
+        -119.633,
+        180.0
+      ],
+      "dimensions": [
+        0.48487,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.3,
+        0.01,
+        0.01006
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18042,
+          0.5,
+          0.49752
+        ],
+        "max": [
+          0.43754,
+          0.52,
+          0.92886
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.616226,
+          -1.0,
+          -0.755275
+        ],
+        "max": [
+          1.0,
+          1.000021,
+          1.232051
+        ]
+      },
+      "matrixWorld": [
+        0.14833309,
+        -0.0,
+        -0.00874753,
+        0.28260425,
+        3.3e-07,
+        0.01,
+        0.0,
+        0.50999987,
+        0.26076287,
+        -1e-08,
+        0.00497597,
+        0.66196626,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.010",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.005",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        -0.0,
+        0.018
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.5,
+          0.008
+        ],
+        "max": [
+          0.8,
+          0.5,
+          0.028
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.78999996,
+        0.5,
+        -0.0,
+        0.0,
+        -7e-08,
+        0.0,
+        0.0,
+        0.01,
+        0.01799989,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.005",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.006",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        -0.0,
+        2.198
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.5,
+          2.188
+        ],
+        "max": [
+          0.8,
+          0.5,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.78999996,
+        0.5,
+        -0.0,
+        0.0,
+        -1.6e-07,
+        0.0,
+        0.0,
+        0.01,
+        2.19800019,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.006",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.007",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.83,
+        -0.0,
+        2.198
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          -0.5,
+          2.188
+        ],
+        "max": [
+          -0.82,
+          0.5,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        -0.82999992,
+        0.5,
+        -0.0,
+        0.0,
+        -6.4e-07,
+        0.0,
+        0.0,
+        0.01,
+        2.19800019,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.007",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.008",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        -0.51,
+        1.108
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        2.2,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        1.1,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.52,
+          0.008
+        ],
+        "max": [
+          0.8,
+          -0.5,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        8e-08,
+        0.0,
+        0.01,
+        0.7899999,
+        0.0,
+        -0.01,
+        0.0,
+        -0.51000017,
+        1.10000002,
+        -0.0,
+        -0.0,
+        1.10800028,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.008",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.009",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        0.51,
+        1.108
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        2.2,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        1.1,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          0.5,
+          0.008
+        ],
+        "max": [
+          0.8,
+          0.52,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        8e-08,
+        0.0,
+        0.01,
+        0.78999984,
+        0.0,
+        -0.01,
+        0.0,
+        0.50999981,
+        1.10000002,
+        -0.0,
+        -0.0,
+        1.10800028,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.009",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.011",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.83,
+        -0.51,
+        1.108
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.28,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        1.1,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          -0.52,
+          1.928
+        ],
+        "max": [
+          -0.82,
+          -0.5,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          0.745455,
+          -1.0,
+          -1.000015
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        8e-08,
+        0.0,
+        0.01,
+        -0.82999998,
+        0.0,
+        -0.01,
+        0.0,
+        -0.51000071,
+        1.10000002,
+        -0.0,
+        -0.0,
+        1.10800028,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.011",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.012",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.83,
+        0.51,
+        1.108
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.28,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        1.1,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          0.5,
+          1.928
+        ],
+        "max": [
+          -0.82,
+          0.52,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          0.745455,
+          -1.0,
+          -1.000015
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        8e-08,
+        0.0,
+        0.01,
+        -0.83000004,
+        0.0,
+        -0.01,
+        0.0,
+        0.50999933,
+        1.10000002,
+        -0.0,
+        -0.0,
+        1.10800028,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.012",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.013",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.51,
+        2.198
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        1.6,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.82,
+          0.5,
+          2.188
+        ],
+        "max": [
+          0.78,
+          0.52,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.01999998,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        0.50999957,
+        0.0,
+        0.0,
+        0.01,
+        2.19800019,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.013",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.014",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.83,
+        -0.0,
+        1.938
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          -0.5,
+          1.928
+        ],
+        "max": [
+          -0.82,
+          0.5,
+          1.948
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        -0.82999992,
+        0.5,
+        -0.0,
+        0.0,
+        -6.4e-07,
+        0.0,
+        0.0,
+        0.01,
+        1.93800032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.051",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.015",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        -0.51,
+        -0.00294
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        1.9,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        2.49071,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          -0.52,
+          0.028
+        ],
+        "max": [
+          0.44042,
+          -0.5,
+          1.928
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          0.012421,
+          -1.0,
+          -1.000001
+        ],
+        "max": [
+          0.775257,
+          1.000006,
+          1.000002
+        ]
+      },
+      "matrixWorld": [
+        1.9e-07,
+        0.0,
+        0.01,
+        0.43042412,
+        0.0,
+        -0.01,
+        0.0,
+        -0.51000011,
+        2.49070525,
+        -0.0,
+        -0.0,
+        -0.00293631,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.026",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.016",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        0.0,
+        1.51691
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.5,
+          1.50691
+        ],
+        "max": [
+          0.8,
+          0.5,
+          1.52691
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.79000002,
+        0.5,
+        -0.0,
+        0.0,
+        1.1e-07,
+        0.0,
+        0.0,
+        0.01,
+        1.51691198,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.062",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.017",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.19,
+        0.0,
+        1.93798
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18,
+          -0.5,
+          1.92798
+        ],
+        "max": [
+          0.2,
+          0.5,
+          1.94798
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.18999988,
+        0.5,
+        -0.0,
+        0.0,
+        1.2e-07,
+        0.0,
+        0.0,
+        0.01,
+        1.93798006,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.064",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.018",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.51,
+        0.92465
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.33958,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.44042,
+          -0.52,
+          0.91465
+        ],
+        "max": [
+          0.78,
+          -0.5,
+          0.93465
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000027,
+          -1.0
+        ],
+        "max": [
+          -0.57553,
+          1.0,
+          1.000001
+        ]
+      },
+      "matrixWorld": [
+        -0.80000055,
+        0.0,
+        0.0,
+        -0.02000007,
+        -2.6e-07,
+        -0.01000001,
+        0.0,
+        -0.51000041,
+        0.0,
+        0.0,
+        0.01,
+        0.92465413,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.028",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.020",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.51,
+        0.018
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.58,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.2,
+          -0.52,
+          0.008
+        ],
+        "max": [
+          0.78,
+          -0.5,
+          0.028
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000035,
+          -1.0
+        ],
+        "max": [
+          -0.275,
+          1.0,
+          1.000008
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.02000007,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        -0.51000041,
+        0.0,
+        0.0,
+        0.01,
+        0.01800025,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.039",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.021",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.19,
+        -0.51,
+        0.50596
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.49743,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18,
+          -0.52,
+          0.008
+        ],
+        "max": [
+          0.2,
+          -0.5,
+          0.508
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.001067,
+          -1.0,
+          -1.000002
+        ],
+        "max": [
+          0.004106,
+          1.000018,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        4e-08,
+        0.0,
+        0.01,
+        0.18999991,
+        0.0,
+        -0.01,
+        0.0,
+        -0.51000017,
+        0.49742702,
+        -0.0,
+        -0.0,
+        0.50595784,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.021",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.022",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.28042,
+        -0.51,
+        0.49753
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.22042,
+        0.02,
+        0.02047
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.2,
+          -0.52,
+          0.48753
+        ],
+        "max": [
+          0.42042,
+          -0.5,
+          0.508
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.876061,
+          -1.000027,
+          -1.000001
+        ],
+        "max": [
+          -0.60053,
+          0.999991,
+          1.046758
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.28042433,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        -0.51000059,
+        0.0,
+        0.0,
+        0.01,
+        0.4975327,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.029",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.023",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.19,
+        -0.0,
+        0.018
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18,
+          -0.5,
+          0.008
+        ],
+        "max": [
+          0.2,
+          0.5,
+          0.028
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.18999985,
+        0.5,
+        -0.0,
+        0.0,
+        -1.7e-07,
+        0.0,
+        0.0,
+        0.01,
+        0.01800027,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.023",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.024",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.19,
+        -0.0,
+        0.498
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18,
+          -0.5,
+          0.488
+        ],
+        "max": [
+          0.2,
+          0.5,
+          0.508
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.18999986,
+        0.5,
+        -0.0,
+        0.0,
+        -3.5e-07,
+        0.0,
+        0.0,
+        0.01,
+        0.49800032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.024",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.025",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.51,
+        1.938
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        1.6,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.82,
+          -0.52,
+          1.928
+        ],
+        "max": [
+          0.78,
+          -0.5,
+          1.948
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000068,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.000007
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.0200001,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        -0.51000041,
+        0.0,
+        0.0,
+        0.01,
+        1.93800032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.025",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.026",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.51,
+        0.49753
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.33958,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.44042,
+          -0.52,
+          0.48753
+        ],
+        "max": [
+          0.78,
+          -0.5,
+          0.50753
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000027,
+          -1.0
+        ],
+        "max": [
+          -0.57553,
+          1.0,
+          1.000001
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.02000007,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        -0.51000041,
+        0.0,
+        0.0,
+        0.01,
+        0.49753267,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.030",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.028",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.51,
+        1.51691
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.33958,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.44042,
+          -0.52,
+          1.50691
+        ],
+        "max": [
+          0.78,
+          -0.5,
+          1.52691
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000027,
+          -1.0
+        ],
+        "max": [
+          -0.57553,
+          1.0,
+          1.000001
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.01999997,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        -0.51000011,
+        0.0,
+        0.0,
+        0.01,
+        1.51691186,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.032",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.029",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.33866,
+        -0.51,
+        1.67317
+      ],
+      "rotationEulerRad": [
+        -3.14159,
+        -1.0472,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        -180.0,
+        -60.0,
+        180.0
+      ],
+      "dimensions": [
+        0.48487,
+        0.02,
+        0.01987
+      ],
+      "scale": [
+        0.3,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.17799,
+          -0.52,
+          1.50691
+        ],
+        "max": [
+          0.43763,
+          -0.5,
+          1.93676
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.616226,
+          -1.0,
+          -0.755275
+        ],
+        "max": [
+          1.0,
+          1.000021,
+          1.232051
+        ]
+      },
+      "matrixWorld": [
+        -0.14999998,
+        0.0,
+        -0.00866025,
+        0.33866012,
+        2.4e-07,
+        0.01,
+        0.0,
+        -0.51000011,
+        0.25980762,
+        -1e-08,
+        -0.005,
+        1.67317247,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.033",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.030",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        0.0,
+        0.92465
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          -0.5,
+          0.91465
+        ],
+        "max": [
+          0.44042,
+          0.5,
+          0.93465
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.43042415,
+        0.5,
+        -0.0,
+        0.0,
+        1e-08,
+        0.0,
+        0.0,
+        0.01,
+        0.92465413,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.034",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.031",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        0.0,
+        1.51691
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          -0.5,
+          1.50691
+        ],
+        "max": [
+          0.44042,
+          0.5,
+          1.52691
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.43042424,
+        0.5,
+        -0.0,
+        0.0,
+        3.1e-07,
+        0.0,
+        0.0,
+        0.01,
+        1.51691186,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.035",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.032",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.51,
+        2.198
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        1.6,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.82,
+          -0.52,
+          2.188
+        ],
+        "max": [
+          0.78,
+          -0.5,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000068,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.000007
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.01999998,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        -0.51000041,
+        0.0,
+        0.0,
+        0.01,
+        2.19799995,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.040",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.034",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.19,
+        0.51,
+        0.50596
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.49743,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.18,
+          0.5,
+          0.008
+        ],
+        "max": [
+          0.2,
+          0.52,
+          0.508
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.001067,
+          -1.0,
+          -1.000002
+        ],
+        "max": [
+          0.004106,
+          1.000018,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        4e-08,
+        0.0,
+        0.01,
+        0.18999988,
+        0.0,
+        -0.01,
+        0.0,
+        0.50999981,
+        0.49742702,
+        -0.0,
+        -0.0,
+        0.5059579,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.042",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.035",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        0.51,
+        -0.00294
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        1.9,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        2.49071,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          0.5,
+          0.028
+        ],
+        "max": [
+          0.44042,
+          0.52,
+          1.928
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          0.012421,
+          -1.0,
+          -1.000001
+        ],
+        "max": [
+          0.775257,
+          1.000006,
+          1.000002
+        ]
+      },
+      "matrixWorld": [
+        1.9e-07,
+        0.0,
+        0.01,
+        0.43042409,
+        0.0,
+        -0.01,
+        0.0,
+        0.50999987,
+        2.49070525,
+        -0.0,
+        -0.0,
+        -0.00293626,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.043",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.036",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.51,
+        0.92465
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.33958,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.44042,
+          0.5,
+          0.91465
+        ],
+        "max": [
+          0.78,
+          0.52,
+          0.93465
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000027,
+          -1.0
+        ],
+        "max": [
+          -0.57553,
+          1.0,
+          1.000001
+        ]
+      },
+      "matrixWorld": [
+        -0.80000055,
+        0.0,
+        0.0,
+        -0.0200001,
+        -2.6e-07,
+        -0.01000001,
+        0.0,
+        0.50999957,
+        0.0,
+        0.0,
+        0.01,
+        0.92465419,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.044",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.037",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.28042,
+        0.51,
+        0.49753
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.22042,
+        0.02,
+        0.02047
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.2,
+          0.5,
+          0.48753
+        ],
+        "max": [
+          0.42042,
+          0.52,
+          0.508
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.876061,
+          -1.000027,
+          -1.000001
+        ],
+        "max": [
+          -0.60053,
+          0.999991,
+          1.046758
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.28042436,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        0.50999939,
+        0.0,
+        0.0,
+        0.01,
+        0.49753276,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.045",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.038",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.51,
+        0.49753
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.33958,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.44042,
+          0.5,
+          0.48753
+        ],
+        "max": [
+          0.78,
+          0.52,
+          0.50753
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000027,
+          -1.0
+        ],
+        "max": [
+          -0.57553,
+          1.0,
+          1.000001
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.0200001,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        0.50999957,
+        0.0,
+        0.0,
+        0.01,
+        0.49753273,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.046",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.039",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.51,
+        1.51691
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.33958,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.44042,
+          0.5,
+          1.50691
+        ],
+        "max": [
+          0.78,
+          0.52,
+          1.52691
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000027,
+          -1.0
+        ],
+        "max": [
+          -0.57553,
+          1.0,
+          1.000001
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.02,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        0.50999987,
+        0.0,
+        0.0,
+        0.01,
+        1.51691198,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.047",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.040",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.33866,
+        0.51,
+        1.67317
+      ],
+      "rotationEulerRad": [
+        -3.14159,
+        -1.0472,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        -180.0,
+        -60.0,
+        180.0
+      ],
+      "dimensions": [
+        0.48487,
+        0.02,
+        0.01987
+      ],
+      "scale": [
+        0.3,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.17799,
+          0.5,
+          1.50691
+        ],
+        "max": [
+          0.43763,
+          0.52,
+          1.93676
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.616226,
+          -1.0,
+          -0.755275
+        ],
+        "max": [
+          1.0,
+          1.000021,
+          1.232051
+        ]
+      },
+      "matrixWorld": [
+        -0.14999998,
+        0.0,
+        -0.00866025,
+        0.33866009,
+        2.4e-07,
+        0.01,
+        0.0,
+        0.50999987,
+        0.25980762,
+        -1e-08,
+        -0.005,
+        1.67317247,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.048",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.041",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.51,
+        0.018
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        0.58,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.2,
+          0.5,
+          0.008
+        ],
+        "max": [
+          0.78,
+          0.52,
+          0.028
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000035,
+          -1.0
+        ],
+        "max": [
+          -0.275,
+          1.0,
+          1.000008
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.0200001,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        0.50999957,
+        0.0,
+        0.0,
+        0.01,
+        0.0180003,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.049",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.042",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.51,
+        1.938
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        180.0
+      ],
+      "dimensions": [
+        1.6,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.8,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.82,
+          0.5,
+          1.928
+        ],
+        "max": [
+          0.78,
+          0.52,
+          1.948
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.000068,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.000007
+        ]
+      },
+      "matrixWorld": [
+        -0.79999995,
+        0.0,
+        0.0,
+        -0.0200001,
+        -2.6e-07,
+        -0.01,
+        0.0,
+        0.5099991,
+        0.0,
+        0.0,
+        0.01,
+        1.93800032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.050",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.044",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        -0.06,
+        1.5322
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.57226,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.59691,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          -0.07,
+          0.93465
+        ],
+        "max": [
+          0.44042,
+          -0.05,
+          1.50691
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.001067,
+          -1.0,
+          -1.000002
+        ],
+        "max": [
+          -0.04237,
+          1.000018,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        5e-08,
+        0.0,
+        0.01,
+        0.43042424,
+        0.0,
+        -0.01,
+        0.0,
+        -0.05999984,
+        0.59691238,
+        -0.0,
+        -0.0,
+        1.5322032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.068",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.045",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        0.0,
+        0.92465
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.5,
+          0.91465
+        ],
+        "max": [
+          0.8,
+          0.5,
+          0.93465
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.7900005,
+        0.5,
+        -0.0,
+        0.0,
+        1e-08,
+        0.0,
+        0.0,
+        0.01,
+        0.92465413,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.054",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.046",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.79,
+        -0.0,
+        1.938
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.5,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.78,
+          -0.5,
+          1.928
+        ],
+        "max": [
+          0.8,
+          0.5,
+          1.948
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        -0.01,
+        0.0,
+        0.7899999,
+        0.5,
+        -0.0,
+        0.0,
+        -6.5e-07,
+        0.0,
+        0.0,
+        0.01,
+        1.93800032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.055",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Cube.049",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.43042,
+        0.06,
+        1.5322
+      ],
+      "rotationEulerRad": [
+        3.14159,
+        -1.5708,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        180.0,
+        -90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.57226,
+        0.02,
+        0.02
+      ],
+      "scale": [
+        0.59691,
+        0.01,
+        0.01
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.42042,
+          0.05,
+          0.93465
+        ],
+        "max": [
+          0.44042,
+          0.07,
+          1.50691
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.001067,
+          -1.0,
+          -1.000002
+        ],
+        "max": [
+          -0.04237,
+          1.000018,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        5e-08,
+        0.0,
+        0.01,
+        0.43042424,
+        0.0,
+        -0.01,
+        0.0,
+        0.06000003,
+        0.59691256,
+        -0.0,
+        -0.0,
+        1.5322032,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.069",
+      "vertex_count": 8,
+      "materials": [
+        "Material.005"
+      ]
+    },
+    {
+      "name": "Point",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        0.652,
+        0.03921,
+        2.11203
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "worldBoundsM": null,
+      "localBoundsM": null,
+      "matrixWorld": null,
+      "custom_properties": {}
+    },
+    {
+      "name": "Інтерактивна дошка Elo Dotykowy 2470L.001",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.32433,
+        -0.00047,
+        0.69114
+      ],
+      "rotationEulerRad": [
+        0.0,
+        -1.02314,
+        -0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -58.622,
+        -0.0
+      ],
+      "dimensions": [
+        0.3293,
+        0.5502,
+        0.0418
+      ],
+      "scale": [
+        0.16465,
+        0.2751,
+        0.0209
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.22076,
+          -0.27557,
+          0.53968
+        ],
+        "max": [
+          0.42791,
+          0.27463,
+          0.84259
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.08573146,
+        3e-08,
+        -0.0178433,
+        0.32433203,
+        -2e-08,
+        0.27509999,
+        0.0,
+        -0.00047308,
+        0.14056933,
+        2e-08,
+        0.0108824,
+        0.69113517,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.080",
+      "vertex_count": 8,
+      "materials": [
+        "Material.004"
+      ]
+    },
+    {
+      "name": "ДСП перед",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.528,
+        1.108
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.64,
+        2.2,
+        0.016
+      ],
+      "scale": [
+        0.82,
+        1.1,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          -0.536,
+          0.008
+        ],
+        "max": [
+          0.8,
+          -0.52,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.000015
+        ]
+      },
+      "matrixWorld": [
+        0.81999999,
+        0.0,
+        0.0,
+        -0.02,
+        0.0,
+        -5e-08,
+        -0.008,
+        -0.52800012,
+        0.0,
+        1.10000002,
+        -0.0,
+        1.10800028,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.003",
+      "vertex_count": 24,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "ЗАД",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.808,
+        -0.0,
+        1.108
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.072,
+        2.2,
+        0.016
+      ],
+      "scale": [
+        0.536,
+        1.1,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.8,
+          -0.536,
+          0.008
+        ],
+        "max": [
+          0.816,
+          0.536,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        5e-08,
+        0.008,
+        0.80799997,
+        0.53600001,
+        0.0,
+        0.0,
+        -1.8e-07,
+        0.0,
+        1.10000002,
+        -0.0,
+        1.10800004,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.016",
+      "vertex_count": 16,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "ЗАД.001",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.808,
+        -0.0,
+        1.108
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        0.59401,
+        1.21906,
+        0.00887
+      ],
+      "scale": [
+        0.536,
+        1.1,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.80357,
+          -0.29701,
+          0.1251
+        ],
+        "max": [
+          0.81243,
+          0.29701,
+          1.34416
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.554117,
+          -0.893546,
+          -0.554118
+        ],
+        "max": [
+          0.554117,
+          0.214687,
+          0.554116
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        5e-08,
+        0.008,
+        0.80799997,
+        0.53600001,
+        0.0,
+        0.0,
+        -1.8e-07,
+        0.0,
+        1.10000002,
+        -0.0,
+        1.10800004,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.076",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "верх",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        2.216
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.8,
+        1.2,
+        0.016
+      ],
+      "scale": [
+        0.9,
+        0.6,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.9,
+          -0.6,
+          2.208
+        ],
+        "max": [
+          0.9,
+          0.6,
+          2.224
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.89999998,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.59999996,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.008,
+        2.21599984,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.001",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "верхній 3 мм, опал, полікарбонат монолітний",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.33,
+        -0.0,
+        1.9265
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.02,
+        1.04,
+        0.003
+      ],
+      "scale": [
+        0.51,
+        0.52,
+        0.0015
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          -0.52,
+          1.925
+        ],
+        "max": [
+          0.18,
+          0.52,
+          1.928
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.50999999,
+        0.0,
+        0.0,
+        -0.33000007,
+        0.0,
+        0.51999998,
+        0.0,
+        -7e-07,
+        0.0,
+        0.0,
+        0.0015,
+        1.92650044,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.065",
+      "vertex_count": 8,
+      "materials": [
+        "Material.001"
+      ]
+    },
+    {
+      "name": "дзеркало",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.49149,
+        -0.53608,
+        1.17437
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.5,
+        0.005,
+        1.5
+      ],
+      "scale": [
+        0.25,
+        0.0025,
+        0.75
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.24149,
+          -0.53858,
+          0.42437
+        ],
+        "max": [
+          0.74149,
+          -0.53358,
+          1.92437
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.25,
+        0.0,
+        0.0,
+        0.49148667,
+        0.0,
+        0.0025,
+        0.0,
+        -0.53607845,
+        0.0,
+        0.0,
+        0.75,
+        1.1743685,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.075",
+      "vertex_count": 8,
+      "materials": [
+        "Material.004"
+      ]
+    },
+    {
+      "name": "дсп1",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.172,
+        -0.016,
+        1.11056
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.04,
+        0.5,
+        0.016
+      ],
+      "scale": [
+        0.536,
+        1.10256,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.164,
+          -0.52,
+          0.008
+        ],
+        "max": [
+          0.18,
+          0.52,
+          0.508
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.940299,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          -0.546509,
+          1.000009
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        5e-08,
+        0.008,
+        0.17199983,
+        0.53599989,
+        0.0,
+        0.0,
+        -0.01600015,
+        0.0,
+        1.10255802,
+        -0.0,
+        1.11055827,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.058",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "дсп1.001",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.444,
+        -0.016,
+        0.89005
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.4,
+        0.016
+      ],
+      "scale": [
+        0.51538,
+        0.88205,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.452,
+          -0.50062,
+          0.008
+        ],
+        "max": [
+          -0.436,
+          0.49938,
+          0.408
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.940299,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          -0.546509,
+          1.000009
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        4e-08,
+        0.008,
+        -0.44400001,
+        0.51538455,
+        0.0,
+        0.0,
+        -0.0160009,
+        0.0,
+        0.8820464,
+        -0.0,
+        0.8900466,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.071",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "дсп1.002",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.828,
+        -0.016,
+        0.89005
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.0,
+        0.4,
+        0.016
+      ],
+      "scale": [
+        0.51538,
+        0.88205,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.836,
+          -0.50062,
+          0.008
+        ],
+        "max": [
+          -0.82,
+          0.49938,
+          0.408
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.940299,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          -0.546509,
+          1.000009
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        4e-08,
+        0.008,
+        -0.82800007,
+        0.51538455,
+        0.0,
+        0.0,
+        -0.01600072,
+        0.0,
+        0.8820464,
+        -0.0,
+        0.8900466,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.072",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "дсп1.003",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.36933,
+        -0.50862,
+        0.22352
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.016
+      ],
+      "scale": [
+        0.4963,
+        0.88205,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.836,
+          -0.51662,
+          0.008
+        ],
+        "max": [
+          -0.436,
+          -0.50062,
+          0.408
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.940299,
+          -0.244344,
+          -1.000003
+        ],
+        "max": [
+          -0.134328,
+          0.209147,
+          1.000028
+        ]
+      },
+      "matrixWorld": [
+        0.49629614,
+        0.0,
+        0.0,
+        -0.3693333,
+        0.0,
+        -4e-08,
+        -0.008,
+        -0.50861621,
+        0.0,
+        0.8820464,
+        -0.0,
+        0.22352293,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.073",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "дсп1.004",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.36933,
+        0.50738,
+        0.22352
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.016
+      ],
+      "scale": [
+        0.4963,
+        0.88205,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.836,
+          0.49938,
+          0.008
+        ],
+        "max": [
+          -0.436,
+          0.51538,
+          0.408
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.940299,
+          -0.244344,
+          -1.000003
+        ],
+        "max": [
+          -0.134328,
+          0.209147,
+          1.000028
+        ]
+      },
+      "matrixWorld": [
+        0.49629614,
+        0.0,
+        0.0,
+        -0.36933339,
+        0.0,
+        -4e-08,
+        -0.008,
+        0.50738406,
+        0.0,
+        0.8820464,
+        -0.0,
+        0.22352293,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.074",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "дсп2 для монітора",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.32056,
+        -0.016,
+        0.75279
+      ],
+      "rotationEulerRad": [
+        2.11186,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        121.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.04,
+        0.49821,
+        0.01586
+      ],
+      "scale": [
+        0.536,
+        1.10256,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.1639,
+          -0.52,
+          0.49944
+        ],
+        "max": [
+          0.43409,
+          0.52,
+          0.93465
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -0.940299,
+          -0.263793,
+          -1.000004
+        ],
+        "max": [
+          1.0,
+          0.18807,
+          0.982603
+        ]
+      },
+      "matrixWorld": [
+        -9e-08,
+        0.56786633,
+        0.00685731,
+        0.32055542,
+        0.53599989,
+        7e-08,
+        0.0,
+        -0.01600014,
+        2e-08,
+        0.94507247,
+        -0.00412036,
+        0.75279421,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.059",
+      "vertex_count": 16,
+      "materials": [
+        "Material",
+        "Material.004"
+      ]
+    },
+    {
+      "name": "кутовий верхній 3 мм, опал, полікарбонат монолітний",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.29798,
+        -0.0,
+        1.71575
+      ],
+      "rotationEulerRad": [
+        0.0,
+        1.0472,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        60.0,
+        0.0
+      ],
+      "dimensions": [
+        0.48004,
+        1.04,
+        0.00533
+      ],
+      "scale": [
+        0.24,
+        0.52,
+        0.0015
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.17666,
+          -0.52,
+          1.50716
+        ],
+        "max": [
+          0.4213,
+          0.52,
+          1.92555
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.000163,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          2.552586
+        ]
+      },
+      "matrixWorld": [
+        0.11999999,
+        -6e-08,
+        0.00129904,
+        0.29798126,
+        3e-08,
+        0.51999998,
+        0.0,
+        -6.8e-07,
+        -0.20784611,
+        4e-08,
+        0.00075,
+        1.71575272,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.066",
+      "vertex_count": 8,
+      "materials": [
+        "Material.002"
+      ]
+    },
+    {
+      "name": "людина",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.4017,
+        0.05196,
+        0.908
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.18,
+        0.6,
+        1.8
+      ],
+      "scale": [
+        0.09,
+        0.3,
+        0.9
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.4917,
+          -0.24804,
+          0.008
+        ],
+        "max": [
+          -0.3117,
+          0.35196,
+          1.808
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.09,
+        0.0,
+        0.0,
+        -0.40170014,
+        0.0,
+        0.29999998,
+        0.0,
+        0.05196455,
+        0.0,
+        0.0,
+        0.89999998,
+        0.90800017,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.053",
+      "vertex_count": 8
+    },
+    {
+      "name": "лівий 3 мм, опал, полікарбонат монолітний",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.41863,
+        0.285,
+        1.21804
+      ],
+      "rotationEulerRad": [
+        1e-05,
+        1.5708,
+        1e-05
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.58,
+        0.47,
+        0.003
+      ],
+      "scale": [
+        0.29,
+        0.235,
+        0.0015
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.41713,
+          0.05,
+          0.92804
+        ],
+        "max": [
+          0.42013,
+          0.52,
+          1.50804
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -1e-08,
+        -3e-08,
+        0.0015,
+        0.41862732,
+        -0.0,
+        0.235,
+        0.0,
+        0.28499994,
+        -0.28999999,
+        -0.0,
+        -0.0,
+        1.21804154,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.070",
+      "vertex_count": 8,
+      "materials": [
+        "Material.001"
+      ]
+    },
+    {
+      "name": "лівий 3 мм, опал, полікарбонат монолітний.001",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.41863,
+        -0.0,
+        1.21804
+      ],
+      "rotationEulerRad": [
+        1e-05,
+        1.5708,
+        1e-05
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.58,
+        0.1,
+        0.003
+      ],
+      "scale": [
+        0.29,
+        0.05,
+        0.0015
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.41713,
+          -0.05,
+          0.92804
+        ],
+        "max": [
+          0.42013,
+          0.05,
+          1.50804
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -1e-08,
+        -1e-08,
+        0.0015,
+        0.41862729,
+        -0.0,
+        0.05,
+        0.0,
+        -6.6e-07,
+        -0.28999999,
+        -0.0,
+        -0.0,
+        1.21804154,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.078",
+      "vertex_count": 8,
+      "materials": [
+        "Material.003"
+      ]
+    },
+    {
+      "name": "ліво",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        0.528,
+        1.108
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.64,
+        2.2,
+        0.016
+      ],
+      "scale": [
+        0.82,
+        1.1,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.84,
+          0.52,
+          0.008
+        ],
+        "max": [
+          0.8,
+          0.536,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.81999999,
+        0.0,
+        0.0,
+        -0.02000009,
+        0.0,
+        -5e-08,
+        -0.008,
+        0.52799976,
+        0.0,
+        1.10000002,
+        -0.0,
+        1.10800004,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.002",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "перед",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.848,
+        -0.0,
+        1.108
+      ],
+      "rotationEulerRad": [
+        1.5708,
+        -0.0,
+        1.5708
+      ],
+      "rotationEulerDeg": [
+        90.0,
+        -0.0,
+        90.0
+      ],
+      "dimensions": [
+        1.072,
+        2.2,
+        0.016
+      ],
+      "scale": [
+        0.536,
+        1.1,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.856,
+          -0.536,
+          0.008
+        ],
+        "max": [
+          -0.84,
+          0.536,
+          2.208
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -2e-08,
+        5e-08,
+        0.008,
+        -0.84800011,
+        0.53600001,
+        0.0,
+        0.0,
+        -3e-07,
+        0.0,
+        1.10000002,
+        -0.0,
+        1.10800004,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.017",
+      "vertex_count": 8,
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "правий 3 мм, опал, полікарбонат монолітний",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.41863,
+        -0.285,
+        1.21804
+      ],
+      "rotationEulerRad": [
+        1e-05,
+        1.5708,
+        1e-05
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "dimensions": [
+        0.58,
+        0.47,
+        0.003
+      ],
+      "scale": [
+        0.29,
+        0.235,
+        0.0015
+      ],
+      "worldBoundsM": {
+        "min": [
+          0.41713,
+          -0.52,
+          0.92804
+        ],
+        "max": [
+          0.42013,
+          -0.05,
+          1.50804
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        -1e-08,
+        -3e-08,
+        0.0015,
+        0.41862732,
+        -0.0,
+        0.235,
+        0.0,
+        -0.28500065,
+        -0.28999999,
+        -0.0,
+        -0.0,
+        1.21804154,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube.067",
+      "vertex_count": 8,
+      "materials": [
+        "Material.002"
+      ]
+    },
+    {
+      "name": "підлога",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -0.02,
+        -0.0,
+        0.0
+      ],
+      "rotationEulerRad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        1.672,
+        1.072,
+        0.016
+      ],
+      "scale": [
+        0.836,
+        0.536,
+        0.008
+      ],
+      "worldBoundsM": {
+        "min": [
+          -0.856,
+          -0.536,
+          -0.008
+        ],
+        "max": [
+          0.816,
+          0.536,
+          0.008
+        ]
+      },
+      "localBoundsM": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "matrixWorld": [
+        0.83599997,
+        0.0,
+        0.0,
+        -0.02000004,
+        0.0,
+        0.53600001,
+        0.0,
+        -1.8e-07,
+        0.0,
+        0.0,
+        0.008,
+        2e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "custom_properties": {},
+      "mesh": "Cube",
+      "vertex_count": 24,
+      "materials": [
+        "Material"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "ДСП внутріннє",
+      "objects": [
+        "дсп1",
+        "дсп1.001",
+        "дсп1.002",
+        "дсп1.003",
+        "дсп1.004",
+        "дсп2 для монітора"
+      ]
+    },
+    {
+      "name": "ДСП зовнішнє",
+      "objects": [
+        "ЗАД",
+        "верх",
+        "перед",
+        "ліво",
+        "підлога",
+        "ЗАД.001",
+        "ДСП перед"
+      ]
+    },
+    {
+      "name": "Каркас",
+      "objects": [
+        "Cube.005",
+        "Cube.006",
+        "Cube.007",
+        "Cube.008",
+        "Cube.009",
+        "Cube.011",
+        "Cube.012",
+        "Cube.013",
+        "Cube.021",
+        "Cube.023",
+        "Cube.024",
+        "Cube.025",
+        "Cube.015",
+        "Cube.018",
+        "Cube.022",
+        "Cube.026",
+        "Cube.028",
+        "Cube.029",
+        "Cube.030",
+        "Cube.031",
+        "Cube.020",
+        "Cube.032",
+        "Cube.034",
+        "Cube.035",
+        "Cube.036",
+        "Cube.037",
+        "Cube.038",
+        "Cube.039",
+        "Cube.040",
+        "Cube.041",
+        "Cube.042",
+        "Cube.014",
+        "Cube.045",
+        "Cube.046",
+        "Cube.001",
+        "Cube.002",
+        "Cube.016",
+        "Cube.017",
+        "Cube.044",
+        "Cube.049",
+        "Cube.003",
+        "Cube.004"
+      ]
+    },
+    {
+      "name": "світло",
+      "objects": [
+        "верхній 3 мм, опал, полікарбонат монолітний",
+        "кутовий верхній 3 мм, опал, полікарбонат монолітний",
+        "правий 3 мм, опал, полікарбонат монолітний",
+        "Point",
+        "Area",
+        "Area.001",
+        "Area.002",
+        "Area.003",
+        "лівий 3 мм, опал, полікарбонат монолітний",
+        "дзеркало",
+        "лівий 3 мм, опал, полікарбонат монолітний.001"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material"
+    },
+    {
+      "name": "Material.001"
+    },
+    {
+      "name": "Material.002"
+    },
+    {
+      "name": "Material.003"
+    },
+    {
+      "name": "Material.004"
+    },
+    {
+      "name": "Material.005"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube",
+      "vertices": 24
+    },
+    {
+      "name": "Cube.001",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.002",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.003",
+      "vertices": 24
+    },
+    {
+      "name": "Cube.004",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.005",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.006",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.007",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.008",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.009",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.010",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.011",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.012",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.013",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.016",
+      "vertices": 16
+    },
+    {
+      "name": "Cube.017",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.021",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.023",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.024",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.025",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.026",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.028",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.029",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.030",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.032",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.033",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.034",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.035",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.039",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.040",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.042",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.043",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.044",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.045",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.046",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.047",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.048",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.049",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.050",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.051",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.053",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.054",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.055",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.058",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.059",
+      "vertices": 16
+    },
+    {
+      "name": "Cube.060",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.061",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.062",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.064",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.065",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.066",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.067",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.068",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.069",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.070",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.071",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.072",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.073",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.074",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.075",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.076",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.078",
+      "vertices": 8
+    },
+    {
+      "name": "Cube.080",
+      "vertices": 8
+    }
+  ]
+}

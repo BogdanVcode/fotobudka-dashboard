@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-09-15T13:48:00.241Z",
-  "revision": 6,
+  "generatedAt": "2026-09-16T12:32:14.605Z",
+  "revision": 7,
   "entry": "index.html",
   "source": "dashboard/",
   "included": [
     "dashboard runtime",
     "assets/references",
-    "drawings/revision-06"
+    "drawings/revision-06",
+    "drawings/revision-07"
   ],
   "excluded": [
     "Fusion 360 files",
