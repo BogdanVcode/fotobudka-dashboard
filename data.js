@@ -3319,6 +3319,30 @@ window.PROJECT_DATA = {
         "sourceDocument": "docs/design/REVISION-08.md",
         "confidence": "C",
         "evidence": "Файл користувача БУДКА.blend, незмінні вершини та Dimensions."
+      },
+      {
+        "source": "DESIGN-08",
+        "target": "PRI-002",
+        "relation": "показує монтажний габарит; сумісність не підтверджує",
+        "sourceDocument": "docs/design/REVISION-08.md",
+        "confidence": "C",
+        "evidence": "Принтер A4 і сканер з реєстру включено до компонування 08."
+      },
+      {
+        "source": "DESIGN-08",
+        "target": "PRI-003",
+        "relation": "показує монтажний габарит; сумісність не підтверджує",
+        "sourceDocument": "docs/design/REVISION-08.md",
+        "confidence": "C",
+        "evidence": "Принтер A4 і сканер з реєстру включено до компонування 08."
+      },
+      {
+        "source": "PRI-002",
+        "target": "PRI-002-TONER",
+        "relation": "має запис кандидата витратного матеріалу в реєстрі",
+        "sourceDocument": "docs/MASTER-SPEC.md",
+        "confidence": "C",
+        "evidence": "Зв’язок записів PRI-002 і PRI-002-TONER; не є незалежною перевіркою сумісності."
       }
     ]
   },

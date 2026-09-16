@@ -20,4 +20,8 @@ if ($LASTEXITCODE -ne 0) { throw 'Dashboard documents generation failed' }
 if ($LASTEXITCODE -ne 0) { throw 'Graphify HTML export failed' }
 node scripts/verify-author-dashboard.mjs
 if ($LASTEXITCODE -ne 0) { throw 'Author dashboard verification failed' }
+node tests/knowledge.mjs
+if ($LASTEXITCODE -ne 0) { throw 'Knowledge validation failed' }
+node tests/validate.mjs
+if ($LASTEXITCODE -ne 0) { throw 'Registry validation failed' }
 Write-Host 'Revision 08 updated; author dimensions and geometry verified.'
