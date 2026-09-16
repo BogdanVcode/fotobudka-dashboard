@@ -133,16 +133,7 @@
       ],
       "kind": "plate",
       "thickness": 16,
-      "sourceObject": "перед",
-      "holes": [
-        {
-          "u": 86,
-          "v": 0,
-          "w": 900,
-          "h": 2000,
-          "role": "entry"
-        }
-      ]
+      "sourceObject": "перед"
     },
     {
       "id": "R7-005",
@@ -161,7 +152,16 @@
       ],
       "kind": "plate",
       "thickness": 16,
-      "sourceObject": "ДСП перед"
+      "sourceObject": "ДСП перед",
+      "holes": [
+        {
+          "u": 40,
+          "v": 0,
+          "w": 900,
+          "h": 2000,
+          "role": "entry"
+        }
+      ]
     },
     {
       "id": "R7-006",
@@ -347,15 +347,15 @@
       "group": "curtain",
       "material": "edge",
       "positionMm": [
+        506,
         -6,
-        536,
         2056
       ],
       "sizeMm": null,
       "kind": "cylinder",
       "radius": 10,
       "length": 900,
-      "axis": "y"
+      "axis": "x"
     },
     {
       "id": "R7-016",
@@ -363,13 +363,13 @@
       "group": "curtain",
       "material": "black",
       "positionMm": [
+        56,
         -10,
-        86,
         16
       ],
       "sizeMm": [
-        6,
         900,
+        6,
         2000
       ],
       "note": "Готова кімнатна штора-блекаут, підрізана під висоту отвору; люверси на карниз."
@@ -1043,7 +1043,7 @@
       "group": "equipment",
       "material": "black",
       "positionMm": [
-        250,
+        990,
         16,
         1300
       ],

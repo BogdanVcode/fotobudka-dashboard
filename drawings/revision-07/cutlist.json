@@ -90,16 +90,7 @@
       ],
       "kind": "plate",
       "thickness": 16,
-      "sourceObject": "перед",
-      "holes": [
-        {
-          "u": 86,
-          "v": 0,
-          "w": 900,
-          "h": 2000,
-          "role": "entry"
-        }
-      ]
+      "sourceObject": "перед"
     },
     {
       "id": "R7-005",
@@ -118,7 +109,16 @@
       ],
       "kind": "plate",
       "thickness": 16,
-      "sourceObject": "ДСП перед"
+      "sourceObject": "ДСП перед",
+      "holes": [
+        {
+          "u": 40,
+          "v": 0,
+          "w": 900,
+          "h": 2000,
+          "role": "entry"
+        }
+      ]
     },
     {
       "id": "R7-006",
