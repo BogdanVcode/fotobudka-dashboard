@@ -1,12 +1,8 @@
 {
-  "revision": 8,
-  "date": "2026-09-16",
-  "sourceSHA256": "b56092d7a35eb6bae77cd06e02008d7ef0b7d4ab9e979cc8d33a75e8ea83b8c3",
-  "authorObjects": 62,
-  "addedObjects": 51,
-  "productionReleased": false,
-  "entry": "index.html",
-  "geometry": "drawings/revision-08/design.json",
-  "drawings": "drawings/revision-08/index.html",
-  "pdf": "output/pdf/Фотобудка-08-креслення.pdf"
+  "revision": 9,
+  "date": "2026-09-17",
+  "sourceSHA256": "0249eedc2371e3cce77360bfcb7d1ca6562cd31d631f91864dc9ffc260f47062",
+  "authorObjects": 72,
+  "addedObjects": 29,
+  "productionReleased": false
 }
