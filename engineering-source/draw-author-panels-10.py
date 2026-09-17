@@ -63,7 +63,7 @@ def panel(p,x,y,cw,ch,details=True):
     else:
      for a,b in zip(u,u[1:]):
       if b-a>5:dim(ox+w*sc+20,oy+(h-b)*sc,ox+w*sc+20,oy+(h-a)*sc,fmt(b-a),True,size=9)
- text(x+10,y+ch-10,'Вузол з кишенями; '+fmt(thin)+' мм — глибина.' if p.get('assembly') else 'Товщина / габарит торця: '+fmt(thin)+' мм',10)
+ if details:text(x+10,y+ch-10,'Вузол з кишенями; '+fmt(thin)+' мм — глибина.' if p.get('assembly') else 'Товщина / габарит торця: '+fmt(thin)+' мм',10)
  return {'id':p['id'],'name':p['name'],'dimensionsMm':p['dimensionsMm'],'axes':axes,'edges':edges}
 panels=[p for p in parts if p.get('fabrication')];rows=[]
 page('01 · Усі деталі ДСП на одному аркуші','Суцільні контури актуальних деталей. Показані габарити, товщина та основні розміри вирізів; сітка меша прихована.')
@@ -92,7 +92,7 @@ special=[p for p in parts if p['authorGeometry'] and ('віконцями' in p[
 page('04 · Вирізи, кишеньки й сервісний люк','Збільшені головні види. Передній вузол має кишені; їхня глибина не є товщиною ДСП. Вентиляційні прорізи збережені з моделі.')
 cutouts=[]
 for i,p in enumerate(special):
- x=45+i*770;panel(p,x,130,760,1000)
+ x=45+i*770;panel(p,x,130,600,1000,details=False)
  axes,edges=outline(p);vs=p['localVertices'];adj={}
  for a,b in edges:adj.setdefault(a,set()).add(b);adj.setdefault(b,set()).add(a)
  seen=set();loops=[]
@@ -105,12 +105,28 @@ for i,p in enumerate(special):
    seen.add(b);group.append(b);todo.extend(adj[b]-seen)
   us=[vs[k][axes[0]] for k in group];vv=[vs[k][axes[1]] for k in group];loops.append((min(us),min(vv),max(us)-min(us),max(vv)-min(vv)))
  loops.sort(key=lambda z:z[2]*z[3],reverse=True)
- text(x+15,1180,'ВИРІЗИ: X / Y від нижнього лівого кута; ширина × висота',13,True)
+ text(x+15,1300,'ВИРІЗИ: X / Y від нижнього лівого кута; ширина × висота',13,True)
  for j,(u,v,w,h) in enumerate(sorted(loops[1:],key=lambda r:(-r[1],r[0]))):
   tag=p['id']+'-'+str(j+1);pw,ph=[p['dimensionsMm'][a] for a in axes]
-  sc=min((760-120)/pw,(1000-150)/ph)
+  sc=min((600-120)/pw,(1000-150)/ph)
   text(x+60+(u+w/2)*sc,191+(ph-v-h/2)*sc,str(j+1),12,True,color='#b33b21')
-  text(x+15,1210+j*36,f'{j+1}. Ліворуч {fmt(u)}; знизу {fmt(v)}; виріз {fmt(w)} × {fmt(h)} мм',12)
+  ox=x+60;by=191+ph*sc;hx=ox+u*sc;hy=by-(v+h)*sc;cy=hy+h*sc/2;rx=hx+w*sc
+  # Dimensions lie on this part view: width/height and left/bottom datum offsets.
+  dim(hx,hy-9,rx,hy-9,fmt(w),size=10)
+  dim(rx+13,hy,rx+13,hy+h*sc,fmt(h),True,size=9)
+  xl=by+48+j*22
+  line(ox,by,ox,xl,color='#94a3af',width=.4);line(hx,hy+h*sc,hx,xl,color='#94a3af',width=.4)
+  dim(ox,xl,hx,xl,str(j+1)+': X '+fmt(u),size=10)
+  lane=ox+pw*sc+50+j*22
+  line(rx,hy+h*sc,lane,hy+h*sc,color='#94a3af',width=.4)
+  line(ox+pw*sc,by,lane,by,color='#94a3af',width=.4)
+  line(lane,hy+h*sc,lane,by,color='#94a3af',width=.5)
+  line(lane-4,hy+h*sc,lane+4,hy+h*sc);line(lane-4,by,lane+4,by)
+  label=str(j+1)+': Y '+fmt(v);tx=lane-3;ty=(by+hy+h*sc)/2
+  pdf.saveState();pdf.translate(tx,H-ty);pdf.rotate(90);pdf.setFont('UA',9);pdf.drawString(0,0,label);pdf.restoreState()
+  svg.append(f'<text x="{tx}" y="{ty}" transform="rotate(-90 {tx} {ty})" font-family="Arial" font-size="9">{label}</text>')
+
+  text(x+15,1330+j*30,f'{j+1}. Ліворуч {fmt(u)}; знизу {fmt(v)}; виріз {fmt(w)} × {fmt(h)} мм',12)
   cutouts.append(dict(tag=tag,name=p['name'],left=u,bottom=v,width=w,height=h,right=pw-u-w,top=ph-v-h))
 save('04-openings.svg')
 lights=[p for p in parts if p['authorGeometry'] and p['group']=='light']
@@ -121,22 +137,7 @@ page('06 · Завдання майстру: складання та прихо�
 steps=[('1. Перевірка заготовок','Звірити відомості ДСП і профілю з Blender. Передню деталь з кишенями деталізувати як збірний вузол.'),('2. Каркас 20×20','Виставити основу, стійки та перемички. Перевірити діагоналі й жорсткість. З’єднання розміщувати зсередини.'),('3. Пуфік і полиці','Закріпити пуфік у каркасі, опору сидіння й авторську полицю принтерів; перевірити навантаження.'),('4. Обшивка ДСП','З’єднати стінки прихованими стяжками та закріпити до каркаса внутрішніми кронштейнами. Погодити крайку й зазори.'),('5. Екран, сканер і опалові панелі','Виконати вирізи, знімні кріплення екрана, панелей та сканера. Усередині модуля допустимі технологічні вирізи.'),('6. Сервіс і кишеньки','Забезпечити доступ до принтерів, ПК і EcoFlow. Узгодити відкривання люка й вихід паперу в обидві кишені.'),('7. Кабелі й приймання','Передбачити муфти та місця для фіксації кабелів. Перевірити гострі краї, міцність і можливість обслуговування.'),('Відповідальність автора','Богдан окремо закуповує обладнання, виконує електроніку та програмне забезпечення. Потрібна допомога зі складанням корпусу.')]
 for i,(a,b) in enumerate(steps):text(80,170+i*165,a,23,True);text(100,210+i*165,b,17)
 save('06-assembly.svg')
-page('07 · Прив’язки кожного вирізу до країв деталі','Усі розміри в мм. Вид і нумерація як на аркуші 04. Схеми прив’язки не в масштабі; нуль — нижній лівий кут деталі.')
-for i,c in enumerate(cutouts):
- x=35+(i%4)*585;y=115+(i//4)*470
- rect(x,y,570,450);text(x+15,y+25,c['tag']+' · '+c['name'][:43],12,True)
- # Datum corner, cutout and four independent dimensions; schematic spacing avoids overlapping dimension lines.
- ox=x+90;by=y+325;hx=x+245;hy=y+110;hw=170;hh=100
- line(ox,y+70,ox,by);line(ox,by,x+460,by);text(ox-25,by+18,'0',12,True)
- rect(hx,hy,hw,hh);text(hx+45,hy+55,'ВИРІЗ '+c['tag'].split('-')[-1],13,True)
- for a,b,X,Y in [(ox,by,ox,by+32),(hx,hy+hh,hx,by+32),(hx,hy,hx,hy-25),(hx+hw,hy,hx+hw,hy-25),(hx,hy+hh,x+150,hy+hh),(ox,by,x+150,by),(hx+hw,hy,hx+hw+38,hy),(hx+hw,hy+hh,hx+hw+38,hy+hh)]:line(a,b,X,Y,color='#94a3af',width=.5)
- dim(ox,by+30,hx,by+30,fmt(c['left']),size=13)
- dim(x+150,hy+hh,x+150,by,fmt(c['bottom']),True,size=13)
- dim(hx,hy-23,hx+hw,hy-23,fmt(c['width']),size=13)
- dim(hx+hw+36,hy,hx+hw+36,hy+hh,fmt(c['height']),True,size=13)
- text(x+15,y+400,'До правого краю: '+fmt(c['right'])+'; до верхнього: '+fmt(c['top'])+' мм',12)
- text(x+15,y+425,'Ліворуч / знизу — від зовнішніх країв цієї деталі.',11)
-save('07-cutout-dimensions.svg');pdf.save()
+pdf.save()
 (out/'cutout-dimensions.json').write_text(json.dumps(cutouts,ensure_ascii=False,indent=2),encoding='utf8')
 (out/'index.html').write_text('<!doctype html><html lang="uk"><meta charset="utf-8"><title>Зведені креслення 10</title><style>body{font:18px Arial;background:#eef1f5;padding:25px}img{width:100%;background:white;margin:20px 0}a{color:#235474}@media print{img{break-after:page}header{display:none}}</style><header><h1>Зведені креслення · 10</h1><p>Усі ДСП — аркуш 01. Увесь каркас — аркуш 02. Далі компонування, вирізи, світлові панелі й монтаж.</p><a href="../../output/pdf/Фотобудка-10-креслення.pdf">Завантажити PDF А1</a></header>'+''.join(f'<a href="{s}"><img src="{s}" alt="{s}"></a>' for s in sheets),encoding='utf8')
 print('DRAWINGS10:',len(panels),'DSP objects;',len(frames),'frame parts;',len(sheets),'A1 sheets;',total,'m profile')

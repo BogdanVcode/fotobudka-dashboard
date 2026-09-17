@@ -8,6 +8,8 @@ $pythonExe = 'C:\Users\BD\.cache\codex-runtimes\codex-primary-runtime\dependenci
 if ($LASTEXITCODE -ne 0) { throw 'Source audit failed' }
 & $blenderExe -b 'БУДКА.blend' --python scripts/blender/build-author-model-10.py
 if ($LASTEXITCODE -ne 0) { throw 'Author geometry build failed' }
+& $blenderExe -b 'drawings/revision-10/БУДКА-доповнена-10.blend' --python scripts/blender/add-curtain-10.py
+if ($LASTEXITCODE -ne 0) { throw 'Curtain generation failed' }
 node C:/Users/BD/.codex/plugins/cache/openai-primary-runtime/pdf/26.904.11930/skills/pdf/container_tools/mark_artifact_operation_started.mjs --operation-kind edit --expected-output-count 1 --output-format pdf
 if ($LASTEXITCODE -ne 0) { throw 'PDF marker failed' }
 & $pythonExe scripts/draw-author-panels-10.py
