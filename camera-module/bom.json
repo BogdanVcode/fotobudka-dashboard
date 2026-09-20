@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-20",
+  "currency": "UAH",
+  "rows": [
+    {
+      "name": "TBD45-700, хід 700 мм",
+      "qty": 1,
+      "price": 4939,
+      "status": "Ціна магазину; готовий до відправки",
+      "url": "https://cncprom.ua/ua/p1089226920-linejnyj-modul-tbd45.html",
+      "kind": "verified"
+    },
+    {
+      "name": "57BYG250C-8, 3 А",
+      "qty": 1,
+      "price": 943,
+      "status": "Ціна магазину; готовий до відправки",
+      "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html",
+      "kind": "verified"
+    },
+    {
+      "name": "LJZ8-DS45-57",
+      "qty": 1,
+      "price": 314,
+      "status": "Ціна магазину; посадку муфти уточнити",
+      "url": "https://cncprom.ua/ua/p1470346846-kronshtejn-shagovogo-dvigatelya.html",
+      "kind": "verified"
+    },
+    {
+      "name": "Муфта 8×12, D25 L30",
+      "qty": 1,
+      "price": 382,
+      "status": "Ціна магазину; готова до відправки",
+      "url": "https://cncprom.ua/ua/p914622727-gibkaya-silfonnaya-mufta.html",
+      "kind": "verified"
+    },
+    {
+      "name": "S-250-36, 36 В / 250 Вт",
+      "qty": 1,
+      "price": 1347,
+      "status": "Ціна каталогу; готовий до відправки",
+      "url": "https://cncprom.ua/ua/g117125721-impulsnye-bloki-pitaniya",
+      "kind": "verified"
+    },
+    {
+      "name": "DM542E V3 або узгоджений аналог",
+      "qty": 1,
+      "price": 2300,
+      "status": "Плановий резерв, не пропозиція продавця; DM542 за 1796 грн відсутній",
+      "url": "https://cncprom.ua/ua/p1398812654-drajver-leadshine-dm542.html",
+      "kind": "estimate"
+    },
+    {
+      "name": "HOME TL-Q5MC1-Z",
+      "qty": 1,
+      "price": 439,
+      "status": "Ціна з ТЗ, актуальність не підтверджена",
+      "url": "https://www.ia.omron.com/products/family/462/",
+      "kind": "brief"
+    },
+    {
+      "name": "Raspberry Pi Pico / RP2040",
+      "qty": 1,
+      "price": 350,
+      "status": "Плановий резерв, артикул не обраний",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "DC/DC 36→12 В, вхід до 60 В",
+      "qty": 1,
+      "price": 400,
+      "status": "Плановий резерв",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "Буфери STEP/DIR, опторозв’язка HOME, плата",
+      "qty": 1,
+      "price": 350,
+      "status": "Плановий резерв на комплект",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "Кабелеукладач 20×30, R≥60, 1 м з кінцями",
+      "qty": 1,
+      "price": 800,
+      "status": "Плановий резерв; точний артикул не обраний",
+      "url": "https://cncprom.ua/ua/g1372753-gibkij-kabel-kanal",
+      "kind": "estimate"
+    },
+    {
+      "name": "L-кронштейн, перехідна пластина, затискачі Canon",
+      "qty": 1,
+      "price": 1000,
+      "status": "Плановий резерв на виготовлення",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "Опорні профілі, поперечини, кріплення",
+      "qty": 1,
+      "price": 1500,
+      "status": "Плановий резерв; остаточний розкрій не затверджений",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "Динамічні кабелі USB та живлення Canon",
+      "qty": 1,
+      "price": 1000,
+      "status": "Плановий резерв, довжини після компонування",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "Дроти, клеми, запобіжники, корпус електроніки",
+      "qty": 1,
+      "price": 1500,
+      "status": "Плановий резерв",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "E-STOP, кінцевий захист, апаратний watchdog",
+      "qty": 1,
+      "price": 1500,
+      "status": "Плановий резерв; схема залежить від утримання",
+      "url": "",
+      "kind": "estimate"
+    },
+    {
+      "name": "Механічне утримання / страхування каретки",
+      "qty": 1,
+      "price": 6000,
+      "status": "Умовний резерв, рішення та комерційна ціна невідомі",
+      "url": "",
+      "kind": "estimate"
+    }
+  ]
+}

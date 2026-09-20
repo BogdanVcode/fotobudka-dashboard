@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 export function refineDashboard(){
 let h=fs.readFileSync('dashboard/index.html','utf8');
+if(!h.includes('href="camera-module/index.html"'))h=h.replace('</nav>','<a href="camera-module/index.html">Модуль камери</a></nav>');
 const presentation=h.match(/<section id="presentation">([\s\S]*?)<\/section>/)?.[1];
 if(presentation){
  const details=presentation.slice(presentation.indexOf('<div class="cards">')).replace(/<p><a class="button"[\s\S]*?<\/p>$/,'<p><a class="button" href="#drawings">Переглянути креслення</a></p>');

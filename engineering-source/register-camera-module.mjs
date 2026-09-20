@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+let text=fs.readFileSync('docs/MASTER-SPEC.md','utf8');
+const re=/(<!-- REGISTRY:START -->\s*```json\s*)([\s\S]*?)(```\s*<!-- REGISTRY:END -->)/;
+const d=JSON.parse(text.match(re)[2]);
+const c=d.components.find(c=>c.id==='MOT-001');
+Object.assign(c,{model:'TBD45-700',status:'SELECTED',confidence:'B',priceUah:4939,url:'https://cncprom.ua/ua/p1089226920-linejnyj-modul-tbd45.html',store:'CNCPROM',verifiedAt:'2026-09-20',specifications:'Хід 700 мм, напрямна 45×45×820 мм; каретка 104×90×26 мм; 72 мм/оберт; вал Ø12; ремінь HTD3M 15 мм. Дані сторінки продавця; вертикальні умови навантаження потребують підтвердження.',compatibility:'Інженерний огляд: docs/camera-module/README.md. Перевірити отвори, LJZ8, муфту 8×12 D25L30, криву моменту та захист від падіння. Не випробувано.',reason:'Нове пряме ТЗ користувача від 20.09.2026: хід 700 мм. Старий 500 мм залишається в історичній геометрії кабінки до узгодження нового вирізу.',verify:'Заводські креслення, вертикальне навантаження, робочий момент при 36 В, незалежне утримання каретки, E-STOP, інтеграція з кабінкою; фізичних випробувань немає.'});
+const node=d.knowledgeGraph.nodes.find(n=>n.id==='MOT-001');node.title='TBD45-700';node.description='Новий модуль 700 мм за ТЗ 20.09.2026';node.file='docs/obsidian/04_CAMERA_LIFT/TBD45-700.md';
+d.cameraModuleReview={date:'2026-09-20',status:'prototype-review',document:'docs/camera-module/README.md',visualization:'dashboard/camera-module/index.html',hardwareTested:false,integratedIntoCabin:false};
+text=text.replace(re,(_,a,b,z)=>a+JSON.stringify(d,null,2)+'\n'+z);
+if(!text.includes('<!-- CAMERA-MODULE-700 -->'))text='<!-- CAMERA-MODULE-700 -->\n## Нове ТЗ модуля камери · 20.09.2026\n\n[Інженерний огляд і 3D](camera-module/README.md): TBD45-700 замість попереднього 500 мм для нового вузла. Окреме компонування, не виробничий випуск. Авторську геометрію кабінки не змінено; інтеграція 700 мм і механічне утримання ще не погоджені.\n\n'+text;
+fs.writeFileSync('docs/MASTER-SPEC.md',text);
+let h=fs.readFileSync('dashboard/index.html','utf8');if(!h.includes('href="camera-module/index.html"'))h=h.replace('</nav>','<a href="camera-module/index.html">Модуль камери</a></nav>');fs.writeFileSync('dashboard/index.html',h);
+let log=fs.readFileSync('docs/CHANGELOG.md','utf8');if(!log.includes('700 мм · 20.09.2026'))log='# Модуль камери 700 мм · 20.09.2026\n\nДодано окрему інтерактивну 3D-модель, симулятор HOME/руху/зупинок, інженерний огляд, схему інтерфейсів, розрахунки та кошик із розмежуванням перевірених цін і резервів. Стару модель кабінки не перебудовано. Апаратні випробування та виробничі отвори не підтверджені.\n\n'+log;fs.writeFileSync('docs/CHANGELOG.md',log);
