@@ -6,3 +6,21 @@
 .profit-actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.profit-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.input-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;padding:18px 0}.input-grid label{display:flex;flex-direction:column;gap:8px}#profit input{min-width:0;width:100%;box-sizing:border-box;padding:10px;border:1px solid #bfcad1;border-radius:6px;font:inherit}#profit table input{width:90px}#profit select{display:block;max-width:100%;margin:12px 0;padding:12px}.table-scroll,#profit-scenarios{overflow-x:auto}.profit-inputs{padding:16px 0;border-bottom:1px solid #ccd5db}.profit-warning{background:#fff1c8;padding:18px}.budget-row{border-top:1px solid #d7dfe5;padding:14px 0}.budget-row p{margin:8px 0}.budget-row a{overflow-wrap:anywhere}
 /* layout2 */
 .project-brief{margin-top:32px}.project-brief li{margin:12px 0;line-height:1.6}.budget-group{background:white;border:1px solid #d5dfe6;border-radius:12px;margin:12px 0}.budget-group summary{cursor:pointer;padding:20px;display:list-item;list-style-position:inside;font-size:18px}.budget-group summary strong{margin-left:18px;white-space:nowrap}.budget-group summary small{display:block;margin:8px 0 0 20px;color:#667784}.budget-group-content{padding:0 22px 18px}.budget-group[open] summary{border-bottom:1px solid #d5dfe6}.drawing-album figure{margin:24px 0;background:white;border:1px solid #d5dfe6;border-radius:10px;overflow:hidden}.drawing-album figcaption{padding:16px;font-weight:700}.drawing-album img{display:block;width:100%;height:auto}.panel-schedule summary{padding:20px;cursor:pointer}.panel-schedule{overflow:auto}@media(max-width:600px){.budget-group summary strong{display:block;margin:10px 0 0 20px}.intro h1{font-size:29px}}@media print{section#model.active{display:block!important}section#drawings.active{display:block!important}.drawing-album figure{break-after:page}#model .toolbar,#model aside{display:none!important}}
+/* Purchase status and two-column budget cards */
+.budget-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:12px 0 20px}
+.budget-kpi{padding:24px;border:1px solid;border-left-width:5px;border-radius:12px;min-width:0}
+.budget-kpi h2{font-size:32px;margin:18px 0 12px;font-variant-numeric:tabular-nums}
+.budget-bought{background:#edf8f1;border-color:#9ccdae;color:#174b30}
+.budget-planned{background:#fff7e7;border-color:#e7c17b;color:#654712}
+.budget-unpriced{background:#f2f4f7;border-color:#bac5d0;color:#3d5063}
+.budget-status{display:inline-block;padding:5px 10px;border-radius:6px;font-size:13px;font-weight:700;background:#ffffffb8;color:inherit}
+.budget-group-content{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:20px}
+.budget-row{border:1px solid;border-left-width:4px;border-radius:10px;padding:20px;min-width:0;margin:0;overflow-wrap:anywhere}
+.budget-row h4{font-size:18px;margin:14px 0 10px;line-height:1.4}
+.budget-row .budget-price{font-size:23px;font-weight:750;font-variant-numeric:tabular-nums}
+.budget-row .budget-meta{font-size:13px;opacity:.85}
+.budget-row a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.budget-total{color:#526579}.receipt-note{padding:0 20px 16px;font-size:13px;color:#526579}
+@media(max-width:700px){.budget-kpis,.budget-group-content{grid-template-columns:1fr}.budget-kpi h2{font-size:28px}.budget-group-content{padding:12px;gap:12px}.budget-row{padding:16px}.budget-kpi{padding:20px}}
+
+.budget-required{background:#edf4ff;border-color:#88aee0;color:#163d6d;margin-bottom:20px}.budget-required h3{margin:0}.budget-owned{background:#edf4ff;border-color:#88aee0;color:#163d6d}.budget-deferred{background:#f5f5f5;border-color:#c9cdd2;color:#555f6c}.budget-priority{display:flex;align-items:center;gap:10px;padding:12px 0;font-weight:700;cursor:pointer}.budget-priority input{width:22px;height:22px;accent-color:#235995;flex-shrink:0}

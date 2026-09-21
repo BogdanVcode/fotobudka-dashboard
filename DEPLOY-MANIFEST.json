@@ -4,5 +4,10 @@
   "sourceSHA256": "2b8f48152970a00ad30e395a091eca47b85e14f904886c514a4f78d67ea8b577",
   "authorObjects": 73,
   "addedObjects": 50,
-  "productionReleased": false
+  "productionReleased": false,
+  "publishedContentAt": "2026-09-21T12:17:45.348Z",
+  "update": "Local dashboard, budget, camera P2 wiring, assembly shopping choices",
+  "privateExclusions": [
+    "receipts-local"
+  ]
 }

@@ -1,0 +1,173 @@
+{
+  "checkedAt": "2026-09-21",
+  "status": "proposal-not-ordered",
+  "scope": "Електроніка керування ліфтом і дроти; механіка крім кріплення датчиків та куплене фотообладнання не включені",
+  "items": [
+    {
+      "shop": "CNCPROM",
+      "name": "DM556",
+      "qty": 1,
+      "unitPrice": 675,
+      "url": "https://cncprom.ua/ua/p865450706-drajver-dm556-vdc.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "S-250-36, 36 В / 250 Вт",
+      "qty": 1,
+      "unitPrice": 1347,
+      "url": "https://cncprom.ua/ua/p556579870-impulsnyj-blok-pitaniya.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "57BYG250C-8",
+      "qty": 1,
+      "unitPrice": 945,
+      "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "HURON LJ12A3-4-Z/BX NPN NO",
+      "qty": 2,
+      "unitPrice": 99,
+      "url": "https://cncprom.ua/ua/p6349268-induktivnyj-datchik-huron.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "Кутове кріплення M12",
+      "qty": 2,
+      "unitPrice": 25,
+      "url": "https://cncprom.ua/ua/p950274952-kronshtejn-dlya-krepleniya.html"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Nano V3 ATmega328P з припаяними роз’ємами",
+      "qty": 1,
+      "unitPrice": 179,
+      "url": "https://arduino.ua/prod166-arduino-nano-v3-0-avr-atmega328p-z-rozpayanimi-konektorami"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "USB-A → Mini-USB 0,8 м",
+      "qty": 1,
+      "unitPrice": 55,
+      "url": "https://arduino.ua/prod892-usb-2-0-kabel-am-miniusb-0-8m-atcom-s-ferritom"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Плата ULN2003",
+      "qty": 1,
+      "unitPrice": 34,
+      "url": "https://arduino.ua/prod280-draiver-shagovogo-dvigatelya-uln2003"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Кабель 16AWG в силіконовій ізоляції 50см (червоний)",
+      "qty": 2,
+      "unitPrice": 28,
+      "url": "https://arduino.ua/prod3617-kabel-16awg-v-silikonovoi-izolyacii-50sm-krasnii"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Сервокабель Dinogy 22 AWG зкручений (Futaba) 1м",
+      "qty": 4,
+      "unitPrice": 55,
+      "url": "https://arduino.ua/prod2651-kabel-trehjilnii-dlya-servoprivodov-1m"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Монтажна клема PCT-415 на 5 провідників аналог WAGO 221 (0.25-4мм2)",
+      "qty": 6,
+      "unitPrice": 14,
+      "url": "https://arduino.ua/prod7576-montajna-klema-pct-415-na-5-providnikiv-z-vajelyami-tipy-wago-221-0-25-4mm2"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Багаторазова клема PCT-412 на 2 провідники аналог WAGO 221 (0.25-4мм2)",
+      "qty": 10,
+      "unitPrice": 9,
+      "url": "https://arduino.ua/prod7577-bagatorazova-klema-pct-412-na-2-providniki-z-vajelyami-tipy-wago-221-0-25-4mm2"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Набір перемичок (мама-мама) 200мм 40 шт.",
+      "qty": 1,
+      "unitPrice": 43,
+      "url": "https://arduino.ua/prod220-nabor-peremichek-mama-mama-200mm-40-sht"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Роз&#039;єм XH 2.54 5Y з конекторами",
+      "qty": 2,
+      "unitPrice": 5,
+      "url": "https://arduino.ua/prod1319-razem-xh-2-54-5y"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Кабель 16AWG в силіконовій ізоляції 50см (синій)",
+      "qty": 2,
+      "unitPrice": 28,
+      "url": "https://arduino.ua/prod7489-kabel-16awg-v-silikonovii-izolyacii-50sm-sinii"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Набір наконечників на дріт E1512 50шт",
+      "qty": 1,
+      "unitPrice": 34,
+      "url": "https://arduino.ua/prod8448-nabir-nakonechnikiv-na-drit-e1512-50sht"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Набір наконечників на дріт E7510 50шт",
+      "qty": 1,
+      "unitPrice": 25,
+      "url": "https://arduino.ua/prod8450-nabir-nakonechnikiv-na-drit-e7510-50sht"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Набір термоусадок (Ø1-14мм) 164 шт",
+      "qty": 1,
+      "unitPrice": 87,
+      "url": "https://arduino.ua/prod3980-nabor-termoysadok-1-14mm-164-sht"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "КАБЕЛЬ AM USB 2.0 / TYPE-C 1.8М., GOLD PLATED",
+      "qty": 1,
+      "unitPrice": 121,
+      "url": "https://arduino.ua/prod5575-kabel-am-usb-2-0--type-c-1-8m-gold-plated"
+    },
+    {
+      "shop": "Arduino.ua",
+      "name": "Кабель 18AWG в силіконовій ізоляції 50см (чорний)",
+      "qty": 8,
+      "unitPrice": 18,
+      "url": "https://arduino.ua/prod925-kabel-18awg-v-silikonovoi-izolyacii-50sm-chernii"
+    },
+    {
+      "shop": "Radio Construct",
+      "name": "XL7015 5–80 В → 5–20 В (виставити 12 В)",
+      "qty": 1,
+      "unitPrice": 72,
+      "url": "https://rozetka.com.ua/ua/459336324/p459336324/"
+    },
+    {
+      "shop": "Radio Construct",
+      "name": "Опторозв’язка PC817/EL817, вхід 12 В — кандидат, підтвердити вихідну схему",
+      "qty": 2,
+      "unitPrice": 72,
+      "url": "https://rozetka.com.ua/ua/mini-kompyuteri-bez-brenda-152518050/p551339865/"
+    }
+  ],
+  "excludedUnpriced": [
+    "Мережева підготовка S-250-36: мідний шнур з PE, фіксація, закриті клеми, захист",
+    "F1/F2 з тримачами під 36 В DC: підтверджений DC-рейтинг і номінал не підібрано",
+    "Корпус та остаточне кріплення плат після компонування"
+  ],
+  "checks": [
+    "PC817 вихід VCC/OUT/GND і відсутність зв’язку землі входу/виходу підтвердити перед оплатою",
+    "XH 5Y і розводку X2 ULN2003 звірити з фактичною платою",
+    "Кабель USB 1.8 м для стенда; ресурс роботи в ланцюгу не заявлений",
+    "Наконечники підбирати під фактичний провід і клему; E1512 для 16AWG — кандидат після перевірки обтиску",
+    "Сигнальні жили Dupont не затискати в клеми PCT з мінімумом 0.25 мм²; переходи на 22AWG виконати пайкою з ізоляцією"
+  ]
+}

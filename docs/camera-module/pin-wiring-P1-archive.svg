@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1380" viewBox="0 0 1600 1380" role="img" aria-labelledby="title desc">
+<title id="title">Вертикальний модуль Canon R50 — схема підключення пінами P1</title><desc id="desc">Nano D2 і D3 через ULN2003 керують PUL та DIR DM556. D4 читає NC кінцевик. 36 вольт подаються тільки на DM556. Камера має окремі USB, DC і sync.</desc>
+<defs><style>text{font-family:Segoe UI,Arial,sans-serif;fill:#152940;font-size:19px}.title{font-size:34px;font-weight:700}.sub{font-size:20px;fill:#4b647b}.h{font-size:24px;font-weight:700}.small{font-size:17px}.pin{font-family:Consolas,monospace;font-size:22px;font-weight:bold}.box{fill:white;stroke:#bdcbd8;stroke-width:2}.wire{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#2474cb}.red{stroke:#d44a39}.black{stroke:#46576a}.green{stroke:#00876b}.orange{stroke:#d28713}.muted{fill:#526b80}</style></defs>
+<rect width="1600" height="1380" fill="#edf3f7"/>
+<text x="48" y="57" class="title">Вертикальний модуль камери · підключення пінами</text>
+<text x="48" y="93" class="sub">P1 / 20.09.2026 · Nano ATmega328P → ULN2003 → DM556 → 57BYG250C-8 → TBD45-700</text>
+<rect x="48" y="110" width="1504" height="38" rx="9" fill="#ffebc8"/><text x="65" y="136" class="small">CANDIDATE · Функціональна схема, не фізичний порядок ніжок. X2 прозвонити перед обтиском. Апаратних випробувань немає.</text>
+
+<rect x="48" y="175" width="330" height="420" rx="16" class="box"/>
+<text x="72" y="214" class="h">Arduino Nano</text><text x="72" y="243" class="small">X1: Mini-USB ← ПК, живлення 5 В</text>
+<text x="72" y="286" class="pin">D2 · STEP</text><text x="72" y="336" class="pin">D3 · DIR</text>
+<text x="72" y="386" class="pin">5V</text><text x="72" y="436" class="pin">GND</text>
+<text x="72" y="506" class="pin">D4 · HOME</text><text x="72" y="556" class="pin">GND (другий)</text>
+
+<rect x="580" y="175" width="340" height="420" rx="16" class="box"/>
+<text x="605" y="214" class="h">ULN2003 · буфер</text><text x="605" y="243" class="small">Готова плата ARC109, 5 В</text>
+<text x="600" y="286" class="pin">IN1</text><text x="600" y="336" class="pin">IN2</text>
+<text x="600" y="386" class="pin">+</text><text x="600" y="436" class="pin">− / GND</text>
+<text x="765" y="286" class="pin">V+</text><text x="758" y="506" class="pin">OUT1</text><text x="758" y="556" class="pin">OUT2</text>
+<text x="700" y="326" class="small">X2 · штекер 5P</text><text x="700" y="354" class="small">V+ = +5 В через</text><text x="700" y="378" class="small">штатний jumper</text>
+<text x="700" y="419" class="small">OUT3 / OUT4:</text><text x="700" y="443" class="small">без дротів</text>
+
+<rect x="1135" y="175" width="417" height="420" rx="16" class="box"/>
+<text x="1160" y="214" class="h">DM556 · сигнали P1</text><text x="1160" y="243" class="small">Спільний плюс / відкритий колектор</text>
+<text x="1160" y="286" class="pin">PUL+</text><text x="1160" y="336" class="pin">DIR+</text>
+<text x="1160" y="386" class="small">ENA+ і ENA−: не підключати</text><text x="1160" y="421" class="small">STOP = припинити STEP</text>
+<text x="1160" y="506" class="pin">PUL−</text><text x="1160" y="556" class="pin">DIR−</text>
+
+<path d="M378 280H580" class="wire blue"/><text x="394" y="268" class="small">W02 · F–F</text>
+<path d="M378 330H580" class="wire blue"/><text x="394" y="318" class="small">W03 · F–F</text>
+<path d="M378 380H580" class="wire red"/><text x="394" y="368" class="small">W04 · +5 В</text>
+<path d="M378 430H580" class="wire black"/><text x="394" y="418" class="small">W05 · GND</text>
+<path d="M920 280H1135 M1040 280V330H1135" class="wire red"/><circle cx="1040" cy="280" r="6" fill="#d44a39"/><text x="940" y="268" class="small">W08 · Y-джгут</text>
+<path d="M920 500H1135" class="wire blue"/><text x="948" y="485" class="small">W06 · STEP</text>
+<path d="M920 550H1135" class="wire blue"/><text x="948" y="535" class="small">W07 · DIR</text>
+
+<rect x="48" y="660" width="440" height="225" rx="16" class="box"/><text x="72" y="745" class="h">X3 · механічний HOME</text>
+<text x="110" y="698" text-anchor="middle" class="pin">NC</text><text x="267" y="698" text-anchor="middle" class="pin">COM</text><text x="390" y="698" text-anchor="middle" class="pin">NO</text>
+<text x="72" y="790">D4 ↔ NC · GND ↔ COM</text><text x="72" y="823" class="small">LOW = відпущений; HIGH = натиснутий/обрив</text><text x="72" y="853" class="small">INPUT_PULLUP · NO лишається вільним</text>
+<path d="M378 500H425V627H110V670" class="wire green"/>
+<path d="M378 550H458V643H267V670" class="wire black"/>
+<text x="68" y="617" class="small">W09 / W10 · вита пара 2×0,22 мм²</text>
+
+<rect x="580" y="660" width="340" height="225" rx="16" class="box"/><text x="604" y="705" class="h">S-250-36</text>
+<text x="604" y="737" class="small">230 В → L / N / PE</text><text x="604" y="763" class="small">Підготовка БЖ — CNCPROM</text>
+<text x="808" y="805" class="pin">V+</text><text x="808" y="855" class="pin">V−</text>
+<rect x="1135" y="660" width="417" height="225" rx="16" class="box"/><text x="1160" y="705" class="h">Той самий DM556 · P2</text>
+<text x="1160" y="739" class="small">Штатні силові клеми, обтиск</text><text x="1160" y="805" class="pin">+VDC · 36 В</text><text x="1160" y="855" class="pin">GND · силовий</text>
+<path d="M920 800H967 M1039 800H1135" class="wire red"/><rect x="967" y="785" width="72" height="30" rx="4" fill="white" stroke="#d44a39" stroke-width="3"/><text x="984" y="807" class="small">F1*</text>
+<text x="941" y="770" class="small">W11 · 1 мм²</text><path d="M920 850H1135" class="wire black"/><text x="941" y="877" class="small">W12 · 1 мм²</text>
+<path d="M1335 595V657" stroke="#90a3b6" stroke-width="2" stroke-dasharray="5 5"/><text x="1350" y="631" class="small">один пристрій</text>
+
+<rect x="1135" y="960" width="417" height="210" rx="16" class="box"/><text x="1160" y="1040" class="h">57BYG250C-8 · 4 дроти</text>
+<text x="1180" y="993" text-anchor="middle" class="pin">A1</text><text x="1270" y="993" text-anchor="middle" class="pin">A2</text><text x="1370" y="993" text-anchor="middle" class="pin">B1</text><text x="1460" y="993" text-anchor="middle" class="pin">B2</text><text x="1160" y="1082">Пари обмоток знайти омметром</text><text x="1160" y="1115" class="small">Кольори не припускаємо · двигун нерухомий</text><text x="1160" y="1147" class="small">Через муфту → TBD45-700 → каретка</text>
+<path d="M1180 885V960 M1270 885V960" class="wire orange"/><path d="M1370 885V960 M1460 885V960" class="wire green"/>
+<rect x="1148" y="904" width="388" height="30" rx="6" fill="#edf3f7"/><text x="1180" y="926" text-anchor="middle" class="small">A+</text><text x="1270" y="926" text-anchor="middle" class="small">A−</text><text x="1370" y="926" text-anchor="middle" class="small">B+</text><text x="1460" y="926" text-anchor="middle" class="small">B−</text>
+
+<rect x="48" y="960" width="960" height="210" rx="16" class="box"/><text x="72" y="1002" class="h">Canon R50 · три штатні кабелі в рухомому ланцюзі</text>
+<text x="72" y="1044">X6 · ПК USB → кабель даних → USB-C R50</text>
+<text x="72" y="1085">X7 · окремий адаптер → сумісний DC-coupler R50 · модель ще не обрана</text>
+<text x="72" y="1126">X8 · R50 → AD-E1 → контактний адаптер* → sync → Godox MS200V</text>
+<text x="72" y="1154" class="small">* Sync-адаптер і розпайка комплекту не підтверджені. 230 В у кабелеукладач не заводимо.</text>
+
+<rect x="48" y="1200" width="1504" height="140" rx="12" fill="#dae7ef"/>
+<text x="70" y="1231">Паяння: 0 точок із готовими платами та обтиснутими джгутами. Кольори — наші позначення, не гарантія кольорів товару.</text>
+<text x="70" y="1261">X2: OUT1 прозвонити до U1.16, OUT2 до U1.15. V+ до входу «+» через jumper. Див. таблицю контактів у PIN-WIRING.md.</text>
+<text x="70" y="1291">F1*: кандидат 5 А, ≥60 В DC; артикул і номінал уточнити. Nano GND не з’єднувати окремим дротом із силовим GND DM556.</text>
+<text x="70" y="1321">Dupont — лише сигнали. Утримання каретки без струму, HOME, завадостійкість і поведінку reset ще потрібно випробувати.</text>
+<text x="48" y="1367" class="small muted">Джерела: Arduino Nano pinout · TI ULN2003A · схема ARC109 Arduino.ua · інструкція DM556 CNCPROM. Проєктування: ревізія P1.</text>
+</svg>

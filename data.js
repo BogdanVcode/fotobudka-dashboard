@@ -1,6 +1,6 @@
 // Generated from MASTER-SPEC.md and CHANGELOG.md. Do not edit.
 window.PROJECT_DATA = {
-  "date": "2026-09-12",
+  "date": "2026-09-20",
   "subsystems": [
     {
       "id": "01",
@@ -147,22 +147,25 @@ window.PROJECT_DATA = {
     {
       "id": "CAM-001",
       "subsystem": "02",
-      "name": "Основна камера",
+      "name": "Canon EOS R50 Kit 18–45mm Black",
       "manufacturer": "Canon",
-      "model": "EOS R50",
-      "status": "SELECTED",
-      "confidence": "D",
+      "model": "EOS R50 Kit 18–45mm Black",
+      "status": "PURCHASED",
+      "confidence": "B",
       "priceUah": 31360,
-      "budgetUah": null,
+      "budgetUah": [
+        31360,
+        31360
+      ],
       "quantity": 1,
-      "url": "https://fotomost.com.ua/ua/canon-eos-r50-kit-18-45mm/",
-      "store": "Фотоміст",
-      "verifiedAt": "2026-09-13",
-      "specifications": "[A] APS-C 22,3×14,9 мм. Решта параметрів і інтеграція — див. окремі claims; сумісність усього вузла не підтверджена.",
-      "compatibility": "[A] Canon вимагає AD-E1 для аксесуарів не під Multi-function shoe. [D] EDSDK, безперервне живлення, кінцевий sync-ланцюг потребують перевірки.",
+      "url": null,
+      "store": "Fotomost",
+      "verifiedAt": "2026-09-20",
+      "specifications": "Об’єктив 18–45 мм включено в ціну комплекту. RF-S 14–30 PZ залишається окремою запланованою покупкою.",
+      "compatibility": "Покупку підтверджено власником; стендова перевірка не виконана.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Прямий вибір користувача. Ціна за KIT із OPT-001, не за body; не замінювати.",
-      "verify": "EDSDK: підтримка конкретної моделі, версії Windows/SDK, live view, спуск, передача файлів, відновлення USB; безперервне живлення та тепловий режим; синхронізація спалаху.",
+      "verify": "Об’єктив 18–45 мм включено в ціну комплекту. RF-S 14–30 PZ залишається окремою запланованою покупкою.",
       "claims": [
         {
           "confidence": "B",
@@ -180,27 +183,32 @@ window.PROJECT_DATA = {
       "priceIncludes": [
         "CAM-001",
         "OPT-001"
-      ]
+      ],
+      "purchaseEvidence": "docs/purchases/2026-09-20.json"
     },
     {
       "id": "CAM-002",
       "subsystem": "02",
-      "name": "Безперервне живлення Canon",
-      "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
-      "budgetUah": null,
-      "quantity": null,
+      "name": "Tectra LP-E17 + ACK-E18, мережевий комплект EU",
+      "manufacturer": "Tectra",
+      "model": "LP-E17 + ACK-E18 EU",
+      "status": "PURCHASED",
+      "confidence": "B",
+      "priceUah": 592.92,
+      "budgetUah": [
+        592.92,
+        592.92
+      ],
+      "quantity": 1,
       "url": null,
-      "store": "TODO: VERIFY",
-      "verifiedAt": null,
-      "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "store": "AliExpress · Tectra Official Store",
+      "verifiedAt": "2026-09-20",
+      "specifications": "Купівля підтверджена власником; сумісність і стабільність живлення R50 ще не перевірені на стенді.",
+      "compatibility": "Покупку підтверджено власником; стендова перевірка не виконана.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "verify": "Купівля підтверджена власником; сумісність і стабільність живлення R50 ще не перевірені на стенді.",
+      "purchaseEvidence": "docs/purchases/2026-09-20.json"
     },
     {
       "id": "OPT-001",
@@ -208,20 +216,24 @@ window.PROJECT_DATA = {
       "name": "Об’єктив",
       "manufacturer": "Canon",
       "model": "RF-S18–45mm F4.5–6.3 IS STM",
-      "status": "CANDIDATE",
-      "confidence": "D",
-      "priceUah": null,
-      "budgetUah": null,
+      "status": "PURCHASED",
+      "confidence": "B",
+      "priceUah": 0,
+      "budgetUah": [
+        0,
+        0
+      ],
       "quantity": 1,
       "url": null,
-      "store": "TODO: VERIFY",
+      "store": "Fotomost",
       "verifiedAt": null,
       "specifications": "[A] Зум ручний; мотор STM для фокусування. [C] Кнопки ближче/далі можуть керувати цифровим кропом, не моторизованим оптичним зумом.",
       "compatibility": "TODO: VERIFY",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Комплектний об’єктив. Пропозиція: фіксувати 18 мм і кадрувати під послугу; перевірити якість документних фото. Ціна включена в комплект камери.",
+      "reason": "Входить у куплений комплект CAM-001. Ціну 31 360 грн враховано лише в камері.",
       "verify": "Деталізація після кропу, distortion, робоча довжина висунутого об’єктива, команди AF через SDK, захист кільця від зсуву.",
-      "priceIncludedIn": "CAM-001"
+      "priceIncludedIn": "CAM-001",
+      "purchaseEvidence": "docs/purchases/2026-09-20.json"
     },
     {
       "id": "LGT-001",
@@ -302,49 +314,57 @@ window.PROJECT_DATA = {
       "subsystem": "04",
       "name": "Кабельний запуск спалаху",
       "manufacturer": "Ще не визначено",
-      "model": "Контактний адаптер → PC-sync / 3,5 мм → MS200V",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
-      "budgetUah": null,
-      "quantity": null,
+      "model": "Pixel TF-325 + PC → 3,5 мм",
+      "status": "PURCHASED",
+      "confidence": "B",
+      "priceUah": 822.22,
+      "budgetUah": [
+        822.22,
+        822.22
+      ],
+      "quantity": 1,
       "url": null,
-      "store": "TODO: VERIFY",
-      "verifiedAt": null,
-      "specifications": "[C] Кандидат R50 → AD-E1 → Pixel TF-321 або JJC JSC-2 → кабель. PC-sync означає тип контакту, а не персональний комп’ютер. Попередній резерв кабелю 3 м; рухома ділянка в кабелеукладачі.",
-      "compatibility": "TODO: VERIFY",
+      "store": "AliExpress · YeeDe Picture Store + MTCU Audio Camera Store",
+      "verifiedAt": "2026-09-20",
+      "specifications": "Дві покупки: TF-325 — 549,17 грн; кабель — 273,05 грн. Куплено за підтвердженням власника; на скріншотах перевірка платежу.",
+      "compatibility": "НЕ ПІДТВЕРДЖЕНА: точна модель TF-325. Не вважати сумісною з R50 / AD-E1 без окремої перевірки.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Користувач обрав кабельний напрям без щоденного заряджання передавача.",
-      "verify": "Адаптери в українських магазинах не підтверджені як доступний повний комплект. Виміряти напругу, полярність, протестувати синхронізацію та рух. Звичайний фотокабель не має доведеної стійкості до багаторазового згинання."
+      "verify": "Перевірити тип башмака TF-325, полярність і синхронізацію. Довжина та ресурс кабелю в ліфті не підтверджені.",
+      "purchaseEvidence": "docs/purchases/2026-09-20.json"
     },
     {
       "id": "LGT-005",
       "subsystem": "04",
-      "name": "Адаптер башмака за необхідності",
+      "name": "Canon AD-E1 Shoe Adapter",
       "manufacturer": "Canon",
       "model": "AD-E1",
-      "status": "CANDIDATE",
-      "confidence": "D",
-      "priceUah": null,
-      "budgetUah": null,
-      "quantity": null,
+      "status": "PURCHASED",
+      "confidence": "B",
+      "priceUah": 2912,
+      "budgetUah": [
+        2912,
+        2912
+      ],
+      "quantity": 1,
       "url": null,
-      "store": "TODO: VERIFY",
-      "verifiedAt": null,
-      "specifications": "TODO: VERIFY",
-      "compatibility": "[A] Canon R50: лише 21-pin Multi-function shoe, без X-контакту і без PC. AD-E1 обов’язковий, щоб поставити звичайний PC-sync адаптер (AliExpress 1005005876468662) і кабель 3,5 мм на MS200V. Адаптер з AliExpress не замінює AD-E1.",
+      "store": "Fotomost",
+      "verifiedAt": "2026-09-20",
+      "specifications": "Купівля адаптера за замовленням Fotomost №49173.",
+      "compatibility": "Покупку підтверджено власником; стендова перевірка не виконана.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Потрібність і сумісність для обраного тригера: TODO: VERIFY. Не вважати обов’язковим або достатнім без документації."
+      "verify": "Купівля адаптера за замовленням Fotomost №49173.",
+      "purchaseEvidence": "docs/purchases/2026-09-20.json"
     },
     {
       "id": "MOT-001",
       "subsystem": "05",
       "name": "Ремінний лінійний модуль",
       "manufacturer": "Times Brilliant",
-      "model": "TBD45-700",
+      "model": "TBD45-700, хід 700 мм",
       "status": "SELECTED",
-      "confidence": "B",
+      "confidence": "C",
       "priceUah": 4939,
       "budgetUah": null,
       "quantity": 1,
@@ -352,133 +372,130 @@ window.PROJECT_DATA = {
       "store": "CNCPROM",
       "verifiedAt": "2026-09-20",
       "specifications": "Хід 700 мм, напрямна 45×45×820 мм; каретка 104×90×26 мм; 72 мм/оберт; вал Ø12; ремінь HTD3M 15 мм. Дані сторінки продавця; вертикальні умови навантаження потребують підтвердження.",
-      "compatibility": "Інженерний огляд: docs/camera-module/README.md. Перевірити отвори, LJZ8, муфту 8×12 D25L30, криву моменту та захист від падіння. Не випробувано.",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Нове пряме ТЗ користувача від 20.09.2026: хід 700 мм. Старий 500 мм залишається в історичній геометрії кабінки до узгодження нового вирізу.",
-      "verify": "Заводські креслення, вертикальне навантаження, робочий момент при 36 В, незалежне утримання каретки, E-STOP, інтеграція з кабінкою; фізичних випробувань немає."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-002",
       "subsystem": "05",
       "name": "Звичайний кроковий двигун NEMA23",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
-      "budgetUah": [
-        1000,
-        1500
-      ],
+      "model": "57BYG250C-8",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 943,
+      "budgetUah": null,
       "quantity": 1,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html",
+      "store": "CNCPROM",
       "verifiedAt": null,
       "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач обрав звичайний NEMA23 як клас; точна модель не обрана. Дорогий closed-loop не обґрунтований.",
-      "verify": "Момент і крива момент/RPM, струм фази, опір/індуктивність, напруга обмотки та живлення драйвера окремо, вал (діаметр/довжина), корпус, кронштейн, муфта, нагрів, вертикальна вісь без живлення."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-003",
       "subsystem": "05",
       "name": "Кронштейн двигуна серії 57 / NEMA23",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
+      "model": "LJZ8-DS45-57",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 314,
       "budgetUah": null,
-      "quantity": null,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "quantity": 1,
+      "url": "https://cncprom.ua/ua/p1470346846-kronshtejn-shagovogo-dvigatelya.html",
+      "store": "CNCPROM",
       "verifiedAt": null,
       "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Артикул у каталозі продавця, креслення, отвори, центрування, сумісність з модулем і корпусом конкретного двигуна."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-004",
       "subsystem": "05",
       "name": "Муфта",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
+      "model": "Сильфонна муфта 8×12 мм, D25 L30",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 382,
       "budgetUah": null,
-      "quantity": null,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "quantity": 1,
+      "url": "https://cncprom.ua/ua/p914622727-gibkaya-silfonnaya-mufta.html",
+      "store": "CNCPROM",
       "verifiedAt": null,
       "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-005",
       "subsystem": "05",
       "name": "Драйвер крокового двигуна",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
+      "model": "DM556",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 674,
       "budgetUah": null,
-      "quantity": null,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "quantity": 1,
+      "url": "https://cncprom.ua/ua/p865450706-drajver-dm556-vdc.html",
+      "store": "CNCPROM",
       "verifiedAt": null,
       "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-006",
       "subsystem": "05",
       "name": "Блок живлення осі",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
+      "model": "S-250-36, 36 В, 250 Вт",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 1347,
       "budgetUah": null,
-      "quantity": null,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "quantity": 1,
+      "url": "https://cncprom.ua/ua/p556579870-impulsnyj-blok-pitaniya.html",
+      "store": "CNCPROM",
       "verifiedAt": null,
       "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-007",
       "subsystem": "05",
-      "name": "Кінцевики",
+      "name": "Механічний кінцевик HOME",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
+      "model": "Один механічний кінцевик HOME, контакти COM/NC",
+      "status": "SELECTED",
+      "confidence": "C",
       "priceUah": null,
       "budgetUah": null,
-      "quantity": null,
+      "quantity": 1,
       "url": null,
-      "store": "TODO: VERIFY",
+      "store": "CNCPROM",
       "verifiedAt": null,
-      "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "specifications": "1 шт., сухий контакт COM/NC; GPIO Arduino з підтягуванням до 5 В та GND. Без окремого живлення. Налаштування й кріплення після вибору моделі.",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-008",
@@ -486,7 +503,7 @@ window.PROJECT_DATA = {
       "name": "Аварійна зупинка та апаратний ланцюг безпеки",
       "manufacturer": "TODO: VERIFY",
       "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
+      "status": "REJECTED",
       "confidence": "D",
       "priceUah": null,
       "budgetUah": null,
@@ -497,7 +514,7 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "TODO: VERIFY",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
+      "reason": "Виключено з поточного замовлення за рішенням користувача; це не підтвердження безпеки осі.",
       "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
     },
     {
@@ -514,31 +531,31 @@ window.PROJECT_DATA = {
       "url": null,
       "store": "TODO: VERIFY",
       "verifiedAt": null,
-      "specifications": "TODO: VERIFY",
+      "specifications": "Три рухомі кабелі: USB камери, низьковольтний DC камери, sync 3,5 мм. Мережевий блок камери нерухомий.",
       "compatibility": "TODO: VERIFY",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "verify": "Зовнішні діаметри, допустимі радіуси, довжини й ресурс кабелів у ланцюзі."
     },
     {
       "id": "MOT-010",
       "subsystem": "05",
       "name": "Кабелеукладач",
       "manufacturer": "TODO: VERIFY",
-      "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
-      "confidence": "D",
-      "priceUah": null,
+      "model": "Кабелеукладач 25×38 мм, 1 м, обидва кінцеві кріплення",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 584,
       "budgetUah": null,
-      "quantity": null,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "quantity": 1,
+      "url": "https://cncprom.ua/ua/p1671300145-gibkij-kabel-kanal.html",
+      "store": "CNCPROM",
       "verifiedAt": null,
       "specifications": "TODO: VERIFY",
-      "compatibility": "TODO: VERIFY",
+      "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
+      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
+      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
     },
     {
       "id": "MOT-011",
@@ -566,7 +583,7 @@ window.PROJECT_DATA = {
       "name": "Незалежний механічний захист від падіння",
       "manufacturer": "TODO: VERIFY",
       "model": "TODO: VERIFY",
-      "status": "NEEDS VERIFICATION",
+      "status": "REJECTED",
       "confidence": "D",
       "priceUah": null,
       "budgetUah": null,
@@ -577,7 +594,7 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "TODO: VERIFY",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
+      "reason": "Не входить у поточне замовлення за рішенням користувача. Відповідь про опускання каретки без живлення очікується.",
       "verify": "Точна модель, технічна документація, інтерфейси, електричні параметри, кількість, ціна та сумісність: TODO: VERIFY."
     },
     {
@@ -614,11 +631,11 @@ window.PROJECT_DATA = {
       "url": null,
       "store": "TODO: VERIFY",
       "verifiedAt": null,
-      "specifications": "Вимога користувача: Windows 11 Pro (попередньо), RAM ≥16 GB, SSD, Ethernet, Wi-Fi, достатньо USB. Фактичні характеристики не перевірені.",
+      "specifications": "Без ОС: Windows встановлює Богдан. Кандидат CPU Core i5-12450H або Ryzen 5 5600H/5625U; RAM від 16 ГБ із можливістю розширення; SSD бажано 1 ТБ. Виявлення обличчя/очей у live view та керування висотою через Arduino; не ідентифікація особи. Ціль 10–15 аналізів/с потребує тестування. Зберігання результатів сеансів за місяць, ручний бекап на диск власника.",
       "compatibility": "TODO: VERIFY",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна модель, USB topology, енергоспоживання, відновлення AC, SDK і підтримувана kiosk-конфігурація."
+      "verify": "Тест затримки live view та AI під час друку; автозапуск після повернення живлення; охолодження; USB; фактичний обсяг даних за сеанс. 100 сеансів/день × 30 × 100 МБ = 300 ГБ/місяць, без постійного відео. Не видаляти дані до перевірки резервної копії."
     },
     {
       "id": "DSP-001",
@@ -644,25 +661,39 @@ window.PROJECT_DATA = {
     {
       "id": "PRI-001",
       "subsystem": "08",
-      "name": "Фотопринтер DNP DS-RX1HS",
-      "manufacturer": "DNP",
-      "model": "DS-RX1HS",
-      "status": "SELECTED",
-      "confidence": "A",
-      "priceUah": null,
+      "name": "Citizen Photo Printer CY-02",
+      "manufacturer": "Citizen",
+      "model": "CY-02",
+      "status": "PURCHASED",
+      "confidence": "B",
+      "priceUah": 55775,
       "budgetUah": [
-        50000,
-        50000
+        55775,
+        55775
       ],
       "quantity": 1,
-      "url": "https://new.dnpphoto.com/en-us/Products/Printers/DS-RX1HS",
-      "store": "Авторизований продавець ще не обраний",
-      "verifiedAt": "2026-09-15",
-      "specifications": "322×351×281 мм, приблизно 13,8 кг; 10×15 за 12,4 с; до 700 відбитків 10×15 з RX1HS4x6.",
-      "compatibility": "USB до внутрішнього ПК; точний драйвер, статуси помилок, вентиляцію і тракт видачі перевірити на першому модулі.",
+      "url": null,
+      "store": "33/2 — магазин сучасної техніки",
+      "verifiedAt": "2026-09-20",
+      "specifications": "Замінює DNP DS-RX1HS у кошторисі. Посадку в 3D-моделі, вентиляцію та видачу паперу потрібно звірити з Citizen.",
+      "compatibility": "Покупку підтверджено власником; стендова перевірка не виконана.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
       "reason": "Модель прямо зафіксована користувачем у конфігурації ревізії 06.",
-      "verify": "Windows-драйвер, статус і помилки, носії, вентиляція, вихід паперу, пікове споживання та ціна."
+      "verify": "Замінює DNP DS-RX1HS у кошторисі. Посадку в 3D-моделі, вентиляцію та видачу паперу потрібно звірити з Citizen.",
+      "purchaseEvidence": "docs/purchases/2026-09-20.json",
+      "consumables": {
+        "model": "Citizen CY-MS46-PC (JR-MS46-PC-WH)",
+        "quantity": 1,
+        "unit": "коробка",
+        "priceUah": 9200,
+        "prints": 1400,
+        "status": "SELECTED",
+        "store": "Chako",
+        "stock": 0,
+        "verifiedAt": "2026-09-20",
+        "url": "https://chako.ua/catalog/fotobumaga/fotobumaga-citizen-cy-ms46-pc-10x15cm-4x6-dlya-cy-02-jr-ms46-pc-wh-2-media-sets/",
+        "note": "2 рулони паперу + 2 стрічки, 700×2 фото. Не куплено; строк поставки уточнюється. Враховано в кошторисі рядком 48."
+      }
     },
     {
       "id": "PRI-002",
@@ -757,12 +788,14 @@ window.PROJECT_DATA = {
       "quantity": 1,
       "url": "https://sanlarix.com.ua/product/zaryadna-stancziya-ecoflow-delta-2-1024-vt-god/",
       "store": "Sanlarix / bolt-on.com.ua",
-      "verifiedAt": "2026-09-16",
+      "verifiedAt": "2026-09-20",
       "specifications": "1024 Вт·год, LiFePO4, 1800 Вт (пік 2700 Вт), ДБЖ-перемикання <30 мс, розмір 400×211×281 мм, вага 12 кг.",
       "compatibility": "Розміщується у службовій ніші кабінки ревізії 07 поруч із принтерами й mini-PC.",
       "alternatives": "EcoFlow DELTA 3 EU розглядався раніше; користувач прямо підтвердив DELTA 2 для ревізії 07.",
-      "reason": "Користувач прямо підтвердив EcoFlow DELTA 2 для ревізії 07 (БУДКА.blend).",
-      "verify": "NEEDS CALCULATION: пусковий струм DNP DS-RX1HS + Brother HL-L5210DN + mini-PC одночасно, реальний час автономної роботи, місце в службовій ніші за геометрією blend."
+      "reason": "Особистий EcoFlow Богдана не є обладнанням кабінки. Для кабінки запланована покупка окремої станції після першого прототипу. 31 999 грн — попередня ціна, не фактична витрата.",
+      "verify": "NEEDS CALCULATION: пусковий струм DNP DS-RX1HS + Brother HL-L5210DN + mini-PC одночасно, реальний час автономної роботи, місце в службовій ніші за геометрією blend.",
+      "owned": false,
+      "buyNowDefault": false
     },
     {
       "id": "PWR-002",
@@ -789,20 +822,20 @@ window.PROJECT_DATA = {
       "subsystem": "11",
       "name": "Контролер автоматики",
       "manufacturer": "TODO: VERIFY",
-      "model": "ESP32 (точна плата TODO: VERIFY)",
-      "status": "CANDIDATE",
-      "confidence": "D",
-      "priceUah": null,
+      "model": "Arduino Nano V3 ATmega328P",
+      "status": "SELECTED",
+      "confidence": "C",
+      "priceUah": 179,
       "budgetUah": null,
-      "quantity": null,
-      "url": null,
-      "store": "TODO: VERIFY",
+      "quantity": 1,
+      "url": "https://arduino.ua/prod166-arduino-nano-v3-0-avr-atmega328p-z-rozpayanimi-konektorami",
+      "store": "Arduino.ua",
       "verifiedAt": null,
-      "specifications": "Запропоновані функції: STEP/DIR/ENABLE, кінцевики, статус, світло, датчики, вентилятори. Піни та рівні не визначені.",
-      "compatibility": "TODO: VERIFY",
+      "specifications": "5 В від USB ПК; команди USB serial; STEP/DIR через буфер сигналів до DM556; один механічний HOME COM/NC.",
+      "compatibility": "Схема P2: D2 STEP / D3 DIR через ULN2003; D4 HOME / D5 верхня межа через дві опторозв’язки NPN NO. docs/camera-module/PIN-WIRING.md. Фактичний X2 прозвонити; прошивка й апаратні випробування відсутні.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Позиція для виконання вимог користувача; точний підбір не виконано.",
-      "verify": "Точна плата, інтерфейс Windows, драйвер і електричні рівні, watchdog, boot/reset стани, апаратний E-stop незалежно від прошивки."
+      "reason": "Поточний вибір для вертикального модуля; закупівля окремо від CNCPROM.",
+      "verify": "Перевірити входи DM556, буфер, контакти HOME та прошивку на стенді."
     },
     {
       "id": "CTL-002",
@@ -1046,6 +1079,29 @@ window.PROJECT_DATA = {
           "archived": false
         }
       ]
+    },
+    {
+      "id": "PC-002",
+      "subsystem": "06",
+      "name": "USB-хаб із зовнішнім живленням",
+      "manufacturer": "TP-Link",
+      "model": "UH700",
+      "status": "SELECTED",
+      "confidence": "B",
+      "priceUah": 1499,
+      "budgetUah": [
+        1499,
+        1499
+      ],
+      "quantity": 1,
+      "url": "https://tp-link.com.ua/khab-usb-tp-link-uh700-usb-a-7xusb3.0/",
+      "store": "tp-link.com.ua",
+      "verifiedAt": "2026-09-20",
+      "specifications": "7 USB 3.0 Type-A; мережевий адаптер і USB-кабель 1 м у комплекті за сторінкою продавця.",
+      "compatibility": "Підключення периферії потребує стендової перевірки; живлення хаба не живить принтери чи двигун.",
+      "alternatives": "Не обрано",
+      "reason": "Користувач доручив підібрати хаб і додати до кошторису. Не куплено.",
+      "verify": "Підтвердити ревізію, комплектний БЖ, відновлення після знеструмлення; протестувати одночасне підключення пристроїв."
     }
   ],
   "questions": [
@@ -1470,10 +1526,10 @@ window.PROJECT_DATA = {
       },
       {
         "id": "PRI-001",
-        "title": "DNP DS-RX1HS",
+        "title": "Citizen CY-02",
         "file": "docs/obsidian/06_PRINTING/Printer.md",
         "category": "hardware",
-        "description": "Фотопринтер DNP DS-RX1HS"
+        "description": "Куплений фотопринтер Citizen CY-02; посадка в геометрії ще потребує перевірки."
       },
       {
         "id": "PRI-002",
@@ -1519,7 +1575,7 @@ window.PROJECT_DATA = {
       },
       {
         "id": "CTL-001",
-        "title": "ESP32",
+        "title": "Arduino Nano",
         "file": "docs/obsidian/09_POWER/ESP32.md",
         "category": "hardware",
         "description": "Контролер автоматики"
@@ -1760,6 +1816,33 @@ window.PROJECT_DATA = {
         "description": "Авторська модель 17.09.2026: 72 об’єкти, зведені аркуші ДСП та каркаса, завдання майстру.",
         "status": "CANDIDATE",
         "confidence": "C"
+      },
+      {
+        "id": "ARDUINO-KB",
+        "title": "Arduino Knowledge Library",
+        "file": "docs/obsidian/09_POWER/Arduino Knowledge Library.md",
+        "category": "electrical",
+        "document": "docs/knowledge/arduino/README.md",
+        "description": "Довідник AlexGyver з власними нотатками і первинними джерелами для перевірки пінів.",
+        "status": "VERIFIED",
+        "confidence": "C"
+      },
+      {
+        "id": "LIFT-PIN-WIRING",
+        "title": "Camera Lift Pin Wiring P1",
+        "file": "docs/obsidian/13_WIRING/Camera Lift Pin Wiring P1.md",
+        "category": "electrical",
+        "document": "docs/camera-module/PIN-WIRING.md",
+        "description": "Проєкт роз’ємної схеми Nano/ULN/DM556 і механічного HOME. Не випробувано.",
+        "status": "CANDIDATE",
+        "confidence": "C"
+      },
+      {
+        "id": "PC-002",
+        "title": "USB-хаб TP-Link UH700",
+        "file": "docs/obsidian/08_COMPUTER/USB Hub.md",
+        "category": "hardware",
+        "description": "Запланований USB-хаб TP-Link UH700 за 1499 грн; не придбано."
       }
     ],
     "edges": [
@@ -3362,6 +3445,54 @@ window.PROJECT_DATA = {
         "sourceDocument": "docs/design/REVISION-09.md",
         "confidence": "C",
         "evidence": "Нова модель та уточнення Богдана від 17.09.2026."
+      },
+      {
+        "source": "HOME",
+        "target": "ARDUINO-KB",
+        "relation": "contains",
+        "sourceDocument": "docs/knowledge/arduino/README.md",
+        "confidence": "C",
+        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+      },
+      {
+        "source": "WIRING",
+        "target": "LIFT-PIN-WIRING",
+        "relation": "documented_by",
+        "sourceDocument": "docs/camera-module/PIN-WIRING.md",
+        "confidence": "C",
+        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+      },
+      {
+        "source": "LIFT-PIN-WIRING",
+        "target": "ARDUINO-KB",
+        "relation": "references",
+        "sourceDocument": "docs/camera-module/PIN-WIRING.md",
+        "confidence": "C",
+        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+      },
+      {
+        "source": "LIFT-PIN-WIRING",
+        "target": "CTL-001",
+        "relation": "uses",
+        "sourceDocument": "docs/camera-module/PIN-WIRING.md",
+        "confidence": "C",
+        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+      },
+      {
+        "source": "LIFT-PIN-WIRING",
+        "target": "MOT-005",
+        "relation": "uses",
+        "sourceDocument": "docs/camera-module/PIN-WIRING.md",
+        "confidence": "C",
+        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+      },
+      {
+        "source": "LIFT-PIN-WIRING",
+        "target": "MOT-007",
+        "relation": "uses",
+        "sourceDocument": "docs/camera-module/PIN-WIRING.md",
+        "confidence": "C",
+        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
       }
     ]
   },
@@ -3448,11 +3579,58 @@ window.PROJECT_DATA = {
   },
   "cameraModuleReview": {
     "date": "2026-09-20",
-    "status": "prototype-review",
+    "status": "enquiry-sent-awaiting-response",
     "document": "docs/camera-module/README.md",
     "visualization": "dashboard/camera-module/index.html",
     "hardwareTested": false,
-    "integratedIntoCabin": false
+    "integratedIntoCabin": false,
+    "orderDocument": "docs/camera-module/order.json",
+    "control": "ПК USB → Arduino Nano (живлення USB) → буфер сигналів → DM556 → двигун. Один механічний HOME; протилежна межа програмна. Прошивки немає.",
+    "pending": [
+      "Сумісність семи основних деталей",
+      "Комплект і розміри кріплення",
+      "Модель і монтаж механічного кінцевика",
+      "Підготовка блока живлення та доплата",
+      "Чи опускається каретка без живлення",
+      "Остаточний рахунок і наявність"
+    ],
+    "excludedFromOrder": [
+      "Індуктивні датчики OMRON/HURON",
+      "Кронштейни датчиків М12",
+      "DC/DC і узгодження індуктивних датчиків",
+      "Pico / RP2040",
+      "Аварійна кнопка",
+      "Окремий механізм утримання каретки"
+    ]
   },
-  "changelog": "# Модуль камери 700 мм · 20.09.2026\n\nДодано окрему інтерактивну 3D-модель, симулятор HOME/руху/зупинок, інженерний огляд, схему інтерфейсів, розрахунки та кошик із розмежуванням перевірених цін і резервів. Стару модель кабінки не перебудовано. Апаратні випробування та виробничі отвори не підтверджені.\n\n<!-- REV10 -->\n# Поточна ревізія 10\n\n[Опис актуальних змін](design/REVISION-10.md): сканер у верхньому вирізі, V-Slot, Elo 2470L, повний оцінний кошторис і калькулятор прибутковості. Попередні записи нижче — історія.\n<!-- END-REV10 -->\n\n<!-- REV09 -->\n# Поточна ревізія 09 · 17.09.2026\n\nДив. [актуальний опис](design/REVISION-09.md). Нова модель: scripts/blender/build-author-model-09.py; креслення: scripts/draw-author-panels-09.py; дашборд: scripts/build-dashboard-09.mjs; перевірка: scripts/verify-author-09.mjs. Попередні записи нижче — історія.\n<!-- END-REV09 -->\n\n<!-- REV08 -->\n# Актуалізація 08 · 16.09.2026\n\nСтворено ревізію 08 з прямим переносом мешів Blender, альбомом 16 сторінок А3 та очищеним дашбордом.\n\nПопередні записи нижче — історія.\n<!-- END-REV08 -->\n\n<!-- REV05 -->\n# Оновлення · ревізія 05 · 14.09.2026\n\nРевізія 05: внутрішній каркас модуля 20×20, два принтери, сканер, Cue 2, без водозбірника, без бота 8000 грн. Кожна кнопка 3D-вигляду має власну камеру і набір видимих деталей.\n\nПопередні записи нижче збережені як історія.\n\n<!-- REV04 -->\n# Оновлення · ревізія 04 · 13.09.2026\n\nРевізію 03 відхилено. Перебудовано геометрію, відомість і DXF з одного джерела; прибрано дубльовані щоки. Оновлено кошторис: невідомі ціни не входять у підсумок, готова штора та групування покупок.\n\nПопередні записи нижче збережені як історія.\n\n## Ревізія 03 · 13 вересня 2026\n\nЧинна docs/design/REVISION-03.md. Вбудований блок без підрізу, задні двері, модель з каркасом і кабелями, креслення та попередній кошторис у спільній панелі. RF-S 14–30 PZ SELECTED за користувачем; звичайна R50 відсутня у списку моторизованого зуму EOS Utility. Камеру та інші вибрані позиції не замінено. Кошторис містить резерви, не є остаточною сумою закупівлі.\n\n## Ревізія 02 · виправлення після відгуку\n\nВідхилений концепт 01 збережено в архіві. Нова модель має повноцінну перевірку глибини, цілісні боковини й опору екрана, правильний нахил верхнього розсіювача, дзеркало справа. Панель перероблена на українські картки з документами всередині. MS200V тепер SELECTED за прямим запитом; ціна 3360 грн. Кабель від камери — кандидат, не від комп’ютера.\n\n## 2026-09-13 · Концепт 01\n\nЗа новим запитом користувача розширено ескізну роботу за межі ліфта: фасад 1600/глибина 1000/висота 2200, лавка 2, групове побажання 5. Додано 4 референси, модель OBJ/OpenSCAD,3SVG, DXF, варіанти світла, дослідження Canon/Godox і кандидатів матеріалів. CAM-001:31360 грн за kit із OPT-001, один облік. MS200 кандидат; MS200-V лише альтернатива. Виявлено необхідність адаптера для звичайного Godox trigger наR50; кабельний/оптичний сценарії потребують стенда. Ніщо не APPROVED і не PURCHASED.\n\n# CHANGELOG\n\n## 2026-09-13 · CHG-003 · Graphify та Obsidian\n\n- Що змінено: встановлено Obsidian, New 3D Graph та ізольований Graphify; додано knowledgeGraph до MASTER-SPEC, похідний Vault, master dashboard, Mermaid-схему та команди оновлення.\n- Було: список компонентів і текстові зв’язки без графа.\n- Стало: пов’язані картки й явні спрямовані зв’язки з джерелами та рівнем довіри. MASTER-SPEC залишається головним джерелом. AST-граф коду відокремлений від інженерного графа.\n- Причина: запит користувача «тепер встанови й налаштуй усе».\n- Хто затвердив: користувач дозволив інтеграцію. Нового APPROVED обладнання немає; архітектура фотобудки й вибрані моделі не замінювалися.\n- Статуси: канонічні значення збережено; NEEDS_VERIFICATION у Vault — лише нормалізований status_key/тег. Повної міграції статусів немає.\n\n## 2026-09-12 · CHG-001 · Початкова фіксація\n\n- Що змінено: створено репозиторну структуру, документацію, канонічний реєстр та dashboard.\n- Було: вимоги у повідомленні користувача; файли відсутні.\n- Стало: вимоги перенесені без заміни Canon R50 або TBD45-500.\n- Причина: виконання першого етапу.\n- Хто затвердив: користувач доручив створення структури; технічного APPROVED обладнання немає.\n\n## 2026-09-12 · CHG-002 · Нормалізація статусів\n\n- Що змінено: позначення, які суперечили закритому переліку статусів у запиті.\n- Було: принтер REVIEW, оплата REVIEW, живлення NEEDS CALCULATION; приклад журналу рішень OPEN.\n- Стало: принтер і живлення NEEDS VERIFICATION; Nayax як конкретний кандидат CANDIDATE; незакриті рішення NEEDS VERIFICATION. Потреба розрахунку живлення збережена в примітках.\n- Причина: дотримання явно заданого переліку статусів. Це не зміна апаратної архітектури.\n- Хто затвердив: Codex застосував правило статусів користувача; жодного нового апаратного APPROVED.\n\nНові зміни додавати окремими записами з датою, описом, «Було», «Стало», причиною та тим, хто затвердив. Історію не переписувати.\n"
+  "arduinoKnowledge": {
+    "source": "https://alexgyver.ru/lessons/",
+    "document": "docs/knowledge/arduino/README.md",
+    "reviewedAt": "2026-09-20",
+    "scope": "Тематичний покажчик та конспект релевантних відкритих уроків; не повний офлайн-архів"
+  },
+  "cameraModulePinWiring": {
+    "revision": "P2",
+    "document": "docs/camera-module/PIN-WIRING.md",
+    "purchases": "docs/camera-module/PIN-PURCHASES.md",
+    "visualization": "dashboard/camera-module/visual-wiring.html",
+    "status": "CANDIDATE",
+    "confidence": "C",
+    "hardwareTested": false,
+    "pins": {
+      "step": "D2",
+      "dir": "D3",
+      "home": "D4",
+      "upperLimit": "D5"
+    },
+    "soldering": "Уточнюється після вибору оптоплат і джгутів",
+    "openItems": [
+      "Фактична розкладка й посадка X2 ARC109",
+      "Два NPN NO, XL7015 12 В, фактична розводка двох оптоплат",
+      "F1, силова підготовка та монтажні джгути",
+      "Живлення і sync Canon",
+      "Стендові випробування"
+    ]
+  },
+  "changelog": "# Підключення пінами P1 · 20.09.2026\n\nДодано бібліотеку Arduino/AlexGyver, схему Nano D2/D3/D4 з ULN2003/DM556, проводи й обтиск, розмежування логіки 5 В та силової частини 36 В, уточнений кошик CNCPROM + Arduino.ua. USB-кабель оновлено до 55 грн. Резерв монтажу 500 грн замінено деталізацією без подвійного рахунку. Нові запити продавцям не надсилалися; апаратних випробувань немає.\n\n# Запит CNCPROM надіслано · 20.09.2026\n\nКомплект TBD45-700 / DM556 / Nano, один механічний HOME. Ціни додаткових робіт очікуються; індуктивні датчики виключено. Оновлено конструктив, 3D-компонування й кошториси. Закупівлю та сумісність ще не підтверджено.\n\n# Модуль камери 700 мм · 20.09.2026\n\nДодано окрему інтерактивну 3D-модель, симулятор HOME/руху/зупинок, інженерний огляд, схему інтерфейсів, розрахунки та кошик із розмежуванням перевірених цін і резервів. Стару модель кабінки не перебудовано. Апаратні випробування та виробничі отвори не підтверджені.\n\n<!-- REV10 -->\n# Поточна ревізія 10\n\n[Опис актуальних змін](design/REVISION-10.md): сканер у верхньому вирізі, V-Slot, Elo 2470L, повний оцінний кошторис і калькулятор прибутковості. Попередні записи нижче — історія.\n<!-- END-REV10 -->\n\n<!-- REV09 -->\n# Поточна ревізія 09 · 17.09.2026\n\nДив. [актуальний опис](design/REVISION-09.md). Нова модель: scripts/blender/build-author-model-09.py; креслення: scripts/draw-author-panels-09.py; дашборд: scripts/build-dashboard-09.mjs; перевірка: scripts/verify-author-09.mjs. Попередні записи нижче — історія.\n<!-- END-REV09 -->\n\n<!-- REV08 -->\n# Актуалізація 08 · 16.09.2026\n\nСтворено ревізію 08 з прямим переносом мешів Blender, альбомом 16 сторінок А3 та очищеним дашбордом.\n\nПопередні записи нижче — історія.\n<!-- END-REV08 -->\n\n<!-- REV05 -->\n# Оновлення · ревізія 05 · 14.09.2026\n\nРевізія 05: внутрішній каркас модуля 20×20, два принтери, сканер, Cue 2, без водозбірника, без бота 8000 грн. Кожна кнопка 3D-вигляду має власну камеру і набір видимих деталей.\n\nПопередні записи нижче збережені як історія.\n\n<!-- REV04 -->\n# Оновлення · ревізія 04 · 13.09.2026\n\nРевізію 03 відхилено. Перебудовано геометрію, відомість і DXF з одного джерела; прибрано дубльовані щоки. Оновлено кошторис: невідомі ціни не входять у підсумок, готова штора та групування покупок.\n\nПопередні записи нижче збережені як історія.\n\n## Ревізія 03 · 13 вересня 2026\n\nЧинна docs/design/REVISION-03.md. Вбудований блок без підрізу, задні двері, модель з каркасом і кабелями, креслення та попередній кошторис у спільній панелі. RF-S 14–30 PZ SELECTED за користувачем; звичайна R50 відсутня у списку моторизованого зуму EOS Utility. Камеру та інші вибрані позиції не замінено. Кошторис містить резерви, не є остаточною сумою закупівлі.\n\n## Ревізія 02 · виправлення після відгуку\n\nВідхилений концепт 01 збережено в архіві. Нова модель має повноцінну перевірку глибини, цілісні боковини й опору екрана, правильний нахил верхнього розсіювача, дзеркало справа. Панель перероблена на українські картки з документами всередині. MS200V тепер SELECTED за прямим запитом; ціна 3360 грн. Кабель від камери — кандидат, не від комп’ютера.\n\n## 2026-09-13 · Концепт 01\n\nЗа новим запитом користувача розширено ескізну роботу за межі ліфта: фасад 1600/глибина 1000/висота 2200, лавка 2, групове побажання 5. Додано 4 референси, модель OBJ/OpenSCAD,3SVG, DXF, варіанти світла, дослідження Canon/Godox і кандидатів матеріалів. CAM-001:31360 грн за kit із OPT-001, один облік. MS200 кандидат; MS200-V лише альтернатива. Виявлено необхідність адаптера для звичайного Godox trigger наR50; кабельний/оптичний сценарії потребують стенда. Ніщо не APPROVED і не PURCHASED.\n\n# CHANGELOG\n\n## 2026-09-13 · CHG-003 · Graphify та Obsidian\n\n- Що змінено: встановлено Obsidian, New 3D Graph та ізольований Graphify; додано knowledgeGraph до MASTER-SPEC, похідний Vault, master dashboard, Mermaid-схему та команди оновлення.\n- Було: список компонентів і текстові зв’язки без графа.\n- Стало: пов’язані картки й явні спрямовані зв’язки з джерелами та рівнем довіри. MASTER-SPEC залишається головним джерелом. AST-граф коду відокремлений від інженерного графа.\n- Причина: запит користувача «тепер встанови й налаштуй усе».\n- Хто затвердив: користувач дозволив інтеграцію. Нового APPROVED обладнання немає; архітектура фотобудки й вибрані моделі не замінювалися.\n- Статуси: канонічні значення збережено; NEEDS_VERIFICATION у Vault — лише нормалізований status_key/тег. Повної міграції статусів немає.\n\n## 2026-09-12 · CHG-001 · Початкова фіксація\n\n- Що змінено: створено репозиторну структуру, документацію, канонічний реєстр та dashboard.\n- Було: вимоги у повідомленні користувача; файли відсутні.\n- Стало: вимоги перенесені без заміни Canon R50 або TBD45-500.\n- Причина: виконання першого етапу.\n- Хто затвердив: користувач доручив створення структури; технічного APPROVED обладнання немає.\n\n## 2026-09-12 · CHG-002 · Нормалізація статусів\n\n- Що змінено: позначення, які суперечили закритому переліку статусів у запиті.\n- Було: принтер REVIEW, оплата REVIEW, живлення NEEDS CALCULATION; приклад журналу рішень OPEN.\n- Стало: принтер і живлення NEEDS VERIFICATION; Nayax як конкретний кандидат CANDIDATE; незакриті рішення NEEDS VERIFICATION. Потреба розрахунку живлення збережена в примітках.\n- Причина: дотримання явно заданого переліку статусів. Це не зміна апаратної архітектури.\n- Хто затвердив: Codex застосував правило статусів користувача; жодного нового апаратного APPROVED.\n\nНові зміни додавати окремими записами з датою, описом, «Було», «Стало», причиною та тим, хто затвердив. Історію не переписувати.\n"
 };
