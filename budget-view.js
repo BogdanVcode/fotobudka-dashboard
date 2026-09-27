@@ -6,6 +6,8 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const money=n=>n==null?'Уточнити ціну':Number(n).toLocaleString('uk-UA',{maximumFractionDigits:2})+' грн';
 let state={rowOverrides:{},orderOverrides:{},manualRows:[],hidden:{},buyNow:{}};
 try{state={...state,...JSON.parse(localStorage.getItem(key)||'{}')}}catch{}
+// Ignore untouched drafts from the previous editor; retain all edited entries.
+state.manualRows=state.manualRows.filter(r=>!(r.name==='Нова позиція'&&!r.amount&&!r.note&&!r.orderId&&!state.rowOverrides[r.id]));
 let filter='now',search='';
 const save=()=>{try{localStorage.setItem(key,JSON.stringify(state))}catch{alert('Браузер не дозволив зберегти зміни. Скористайтеся експортом.')}};
 const rows=()=>[...b.rows,...state.manualRows].map(r=>({...r,...state.rowOverrides[r.id]}));
