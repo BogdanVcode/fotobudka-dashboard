@@ -1,8 +1,8 @@
 {
   "date": "2026-09-21",
-  "status": "cncprom-ordered-rest-planned",
+  "status": "p2-purchases-updated-2026-09-25",
   "currency": "UAH",
-  "purchased": false,
+  "purchased": true,
   "hardwareTested": false,
   "wiringRevision": "P2",
   "wiringDocument": "docs/camera-module/PIN-WIRING.md",
@@ -148,8 +148,9 @@
       "price": 179,
       "url": "https://arduino.ua/prod166-arduino-nano-v3-0-avr-atmega328p-z-rozpayanimi-konektorami",
       "supplier": "Arduino.ua",
-      "kind": "reference",
-      "status": "Потрібно придбати для P2; апаратна перевірка ще не виконана."
+      "kind": "ordered",
+      "ordered": true,
+      "status": "Оплачено й отримано у складі Arduino.ua №655452; окрему ціну не розподілено."
     },
     {
       "id": "lift-usb",
@@ -158,8 +159,9 @@
       "price": 55,
       "url": "https://arduino.ua/prod892-usb-2-0-kabel-am-miniusb-0-8m-atcom-s-ferritom",
       "supplier": "Arduino.ua",
-      "kind": "reference",
-      "status": "Потрібно придбати для P2; апаратна перевірка ще не виконана."
+      "kind": "ordered",
+      "ordered": true,
+      "status": "Оплачено й отримано у складі Arduino.ua №655452; окрему ціну не розподілено."
     },
     {
       "id": "lift-buffer",
@@ -218,8 +220,9 @@
       "price": 43,
       "url": "https://arduino.ua/prod220-nabor-peremichek-mama-mama-200mm-40-sht",
       "supplier": "Arduino.ua",
-      "kind": "reference",
-      "status": "Потрібно придбати для P2; апаратна перевірка ще не виконана."
+      "kind": "ordered",
+      "ordered": true,
+      "status": "Оплачено, але ще не отримано: Prom №429701730."
     },
     {
       "id": "lift-xh5",
@@ -268,8 +271,9 @@
       "price": 87,
       "url": "https://arduino.ua/prod3980-nabor-termoysadok-1-14mm-164-sht",
       "supplier": "Arduino.ua",
-      "kind": "reference",
-      "status": "Потрібно придбати для P2; апаратна перевірка ще не виконана."
+      "kind": "ordered",
+      "ordered": true,
+      "status": "Оплачено й отримано: Prom №429061419."
     },
     {
       "id": "p2-electronics-13",
@@ -308,8 +312,9 @@
       "price": 72,
       "url": "https://rozetka.com.ua/ua/mini-kompyuteri-bez-brenda-152518050/p551339865/",
       "supplier": "Radio Construct",
-      "kind": "reference",
-      "status": "Потрібно придбати для P2; апаратна перевірка ще не виконана."
+      "kind": "ordered",
+      "ordered": true,
+      "status": "2-канальний модуль PC817 оплачено й отримано; фактичну вихідну схему ще перевірити."
     },
     {
       "id": "p2-assembly-16",
@@ -318,7 +323,8 @@
       "price": 239,
       "url": "https://arduino.ua/prod1452-nabor-neilonovih-chernih-shestigrannih-stoek-m3-180-sht",
       "supplier": "Arduino.ua",
-      "kind": "reference",
+      "kind": "ordered",
+      "ordered": true,
       "status": "Нейлонові стійки 10 мм для плат з отворами M3. Гвинти та гайки є в наборі; не свердлити плати для збільшення отворів.",
       "buyNowDefault": true
     },
@@ -486,16 +492,16 @@
   ],
   "cncpromOrder": {
     "total": 9587,
-    "status": "ordered",
-    "paid": false,
-    "received": false,
-    "paymentConfirmed": false,
-    "receiptConfirmed": false,
+    "status": "paid-received",
+    "paid": true,
+    "received": true,
+    "paymentConfirmed": true,
+    "receiptConfirmed": true,
     "evidence": [
       "receipts-local/cncprom-20260921-1.png",
       "receipts-local/cncprom-20260921-2.png"
     ],
-    "priceBasis": "Скріншот кошика та повідомлення менеджера. Доставка окремо, сума не надана.",
+    "priceBasis": "Фактичний subtotal товарів 9 587 грн. Доставка 270 грн, оголошена цінність 47,94 грн, контроль оплати 211,74 грн; повна витрата 10 116,68 грн.",
     "accessories": [
       {
         "name": "HURON LJ12A3-4-Z/BX, NPN NO",
@@ -528,8 +534,15 @@
         "url": "https://cncprom.ua/ua/p1441973440-vint-potajnoj-golovkoj.html"
       }
     ],
-    "orderDate": null,
-    "dateNote": "Дата замовлення на скріншотах не видима."
+    "orderId": "428971860",
+    "orderDate": "2026-09-21",
+    "receivedDate": "2026-09-25",
+    "carrier": "Нова Пошта",
+    "ttn": "20451541599740",
+    "shipping": 270,
+    "fees": 259.68,
+    "totalPaid": 10116.68,
+    "dateNote": "Оплачено й отримано; фактичні витрати внесені в централізований реєстр покупок."
   },
   "control": "ПК USB → Arduino Nano (USB 5 В), D2 STEP / D3 DIR → ULN2003 → DM556. D4 нижній HOME і D5 верхня межа: два HURON NPN NO через дві PC817/EL817. XL7015: 36 → 12 В для датчиків. Прошивки та фізичних випробувань немає.",
   "excluded": [
