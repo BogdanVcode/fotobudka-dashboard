@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "status": "ARCHIVED-REFERENCE-ONLY",
+  "status": "p2-purchases-updated-2026-09-25",
   "currency": "UAH",
   "purchased": true,
   "hardwareTested": false,
@@ -320,7 +320,7 @@
       "id": "p2-assembly-16",
       "name": "Набір нейлонових чорних шестигранних стійок М3 180шт",
       "qty": 1,
-      "price": 239,
+      "price": 239.0,
       "url": "https://arduino.ua/prod1452-nabor-neilonovih-chernih-shestigrannih-stoek-m3-180-sht",
       "supplier": "Arduino.ua",
       "kind": "ordered",
@@ -332,7 +332,7 @@
       "id": "p2-assembly-17",
       "name": "Набір латунних стійок М2 з гвинтами 260шт в органайзері",
       "qty": 1,
-      "price": 298,
+      "price": 298.0,
       "url": "https://arduino.ua/prod1482-nabor-latynnih-stoek-m2-s-vintami",
       "supplier": "Arduino.ua",
       "kind": "reference",
@@ -562,7 +562,5 @@
     "Перевірка клем оптоплат і X2",
     "Мережева частина, вентиляція та стенд"
   ],
-  "updatedAt": "2026-09-27",
-  "canonicalBudget": "../budget/current.json",
-  "archiveNote": "Старий список. Усі актуальні покупки — docs/budget/current.json. Інструменти є."
+  "updatedAt": "2026-09-27"
 }

@@ -5,9 +5,10 @@
   "authorObjects": 73,
   "addedObjects": 50,
   "productionReleased": false,
-  "publishedContentAt": "2026-09-27T13:13:23.532Z",
-  "update": "P2 canonical lift wiring; CNCPROM ordered 9587 UAH; P1 archive only",
+  "publishedContentAt": "2026-09-27T13:52:17.227Z",
+  "update": "Unified budget v12, all tools available, CNCPROM received, portable Claude handoff",
   "privateExclusions": [
     "receipts-local"
-  ]
+  ],
+  "projectName": "прототип 1 від чатгпт"
 }

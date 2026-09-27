@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-09-21",
-  "status": "ARCHIVED-REFERENCE-ONLY",
+  "status": "P2-remaining-to-buy",
   "scope": "Електроніка керування ліфтом і дроти; механіка крім кріплення датчиків та куплене фотообладнання не включені",
   "items": [
     {
@@ -173,7 +173,5 @@
     }
   ],
   "wiringRevision": "P2",
-  "orderTotal": 9587,
-  "canonicalBudget": "../budget/current.json",
-  "archiveNote": "Старий список. Усі актуальні покупки — docs/budget/current.json. Інструменти є."
+  "orderTotal": 9587
 }

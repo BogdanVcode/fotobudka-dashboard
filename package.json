@@ -1,0 +1,13 @@
+{
+  "name": "prototype-1-chatgpt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build-budget.mjs",
+    "test": "node scripts/test-budget.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
