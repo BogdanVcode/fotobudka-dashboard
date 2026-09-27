@@ -1,0 +1,294 @@
+{
+  "date": "2026-09-20",
+  "status": "enquiry-sent-awaiting-response",
+  "currency": "UAH",
+  "purchased": false,
+  "hardwareTested": false,
+  "rows": [
+    {
+      "id": "MOT-001",
+      "name": "TBD45-700, хід 700 мм",
+      "qty": 1,
+      "price": 4939,
+      "url": "https://cncprom.ua/ua/p1089226920-linejnyj-modul-tbd45.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-002",
+      "name": "57BYG250C-8",
+      "qty": 1,
+      "price": 943,
+      "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-003",
+      "name": "LJZ8-DS45-57",
+      "qty": 1,
+      "price": 314,
+      "url": "https://cncprom.ua/ua/p1470346846-kronshtejn-shagovogo-dvigatelya.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-004",
+      "name": "Сильфонна муфта 8×12 мм, D25 L30",
+      "qty": 1,
+      "price": 382,
+      "url": "https://cncprom.ua/ua/p914622727-gibkaya-silfonnaya-mufta.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-005",
+      "name": "DM556",
+      "qty": 1,
+      "price": 674,
+      "url": "https://cncprom.ua/ua/p865450706-drajver-dm556-vdc.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-006",
+      "name": "S-250-36, 36 В, 250 Вт",
+      "qty": 1,
+      "price": 1347,
+      "url": "https://cncprom.ua/ua/p556579870-impulsnyj-blok-pitaniya.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-010",
+      "name": "Кабелеукладач 25×38 мм, 1 м, обидва кінцеві кріплення",
+      "qty": 1,
+      "price": 584,
+      "url": "https://cncprom.ua/ua/p1671300145-gibkij-kabel-kanal.html",
+      "kind": "reference",
+      "status": "Ціну й наявність повторно перевірено 20.09.2026; комплектація/сумісність і рахунок ще очікуються",
+      "supplier": "CNCPROM",
+      "checkedAt": "2026-09-20",
+      "availability": "Готово до відправки на сторінці"
+    },
+    {
+      "id": "MOT-007",
+      "name": "Один механічний кінцевик HOME, контакти COM/NC",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "kind": "pending",
+      "status": "Запит надіслано; ціну й комплектацію очікуємо",
+      "supplier": "CNCPROM"
+    },
+    {
+      "id": "lift-fasteners",
+      "name": "Кріплення кінцевика, натискач каретки, болти, гайки, шайби",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "kind": "pending",
+      "status": "Запит надіслано; ціну й комплектацію очікуємо",
+      "supplier": "CNCPROM"
+    },
+    {
+      "id": "lift-ac",
+      "name": "Підготовка БЖ: шнур, вилка, заземлення, фіксація, закриті клеми",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "kind": "pending",
+      "status": "Запит надіслано; ціну й комплектацію очікуємо",
+      "supplier": "CNCPROM"
+    },
+    {
+      "id": "lift-nano",
+      "name": "Arduino Nano V3 з розпаяними роз’ємами",
+      "qty": 1,
+      "price": 179,
+      "url": "https://arduino.ua/prod166-arduino-nano-v3-0-avr-atmega328p-z-rozpayanimi-konektorami",
+      "kind": "reference",
+      "status": "Перевірено 20.09.2026; не придбано. Розводка P1, потрібна стендова перевірка.",
+      "supplier": "Arduino.ua",
+      "checkedAt": "2026-09-20",
+      "availability": "В наявності на сторінці"
+    },
+    {
+      "id": "lift-usb",
+      "name": "USB-A → Mini-USB для Nano, 0,8 м",
+      "qty": 1,
+      "price": 55,
+      "url": "https://arduino.ua/prod892-usb-2-0-kabel-am-miniusb-0-8m-atcom-s-ferritom",
+      "kind": "reference",
+      "status": "Перевірено 20.09.2026; не придбано. Розводка P1, потрібна стендова перевірка.",
+      "supplier": "Arduino.ua",
+      "checkedAt": "2026-09-20",
+      "availability": "В наявності на сторінці"
+    },
+    {
+      "id": "lift-buffer",
+      "name": "Плата ULN2003 для сигналів STEP/DIR",
+      "qty": 1,
+      "price": 34,
+      "url": "https://arduino.ua/prod280-draiver-shagovogo-dvigatelya-uln2003",
+      "kind": "reference",
+      "status": "Перевірено 20.09.2026; не придбано. Розводка P1, потрібна стендова перевірка.",
+      "supplier": "Arduino.ua",
+      "checkedAt": "2026-09-20",
+      "availability": "В наявності на сторінці"
+    },
+    {
+      "id": "lift-camera",
+      "name": "Кріплення Canon у портреті, перехідна пластина",
+      "qty": 1,
+      "price": 700,
+      "url": "",
+      "kind": "estimate",
+      "status": "Плановий резерв; не підібраний готовий комплект",
+      "supplier": "Уточнюється"
+    },
+    {
+      "id": "lift-cables",
+      "name": "Рухомі USB та DC камери, затискачі (sync у загальному кошторисі окремо)",
+      "qty": 1,
+      "price": 900,
+      "url": "",
+      "kind": "estimate",
+      "status": "Плановий резерв; не підібраний готовий комплект",
+      "supplier": "Уточнюється"
+    },
+    {
+      "id": "lift-cover",
+      "name": "Кожух руху й упори",
+      "qty": 1,
+      "price": 600,
+      "url": "",
+      "kind": "estimate",
+      "status": "Плановий резерв; не підібраний готовий комплект",
+      "supplier": "Уточнюється"
+    },
+    {
+      "id": "lift-jumpers",
+      "name": "Dupont F–F 200 мм, 40 шт., AOC108",
+      "qty": 1,
+      "price": 43,
+      "url": "https://arduino.ua/prod220-nabor-peremichek-mama-mama-200mm-40-sht",
+      "supplier": "Arduino.ua",
+      "kind": "reference",
+      "status": "В наявності 20.09.2026; 4 для W02–W05, тільки короткі сигнали"
+    },
+    {
+      "id": "lift-xh5",
+      "name": "XH 5Y з 5 контактами, FCC253 (1 робочий + 1 запасний)",
+      "qty": 2,
+      "price": 5,
+      "url": "https://arduino.ua/prod1319-razem-xh-2-54-5y",
+      "supplier": "Arduino.ua",
+      "kind": "reference",
+      "status": "В наявності 20.09.2026; кандидат до ARC109. Посадку та розкладку перевірити. Це не готовий кабель"
+    },
+    {
+      "id": "lift-signal-harness",
+      "name": "X2: обтиснутий джгут ULN→DM556, 3 контакти та Y-розгалуження 5 В",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "supplier": "Arduino.ua — запит комплектації / послуга майстра",
+      "kind": "pending",
+      "status": "Нова специфікація P1; не запитано/не погоджено. Кабель 0,22 мм², ізоляція, наконечники; прозвонити OUT1/OUT2"
+    },
+    {
+      "id": "lift-home-harness",
+      "name": "X3: джгут HOME 2×0,22 мм², заготовка 1,5 м, гнізда Nano і клеми COM/NC",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "supplier": "CNCPROM — запит підготовки",
+      "kind": "pending",
+      "status": "Нове доповнення P1; продавцю не надіслано. Тип клем залежить від кінцевика; без паяння"
+    },
+    {
+      "id": "lift-power-harness",
+      "name": "X4/X5: силові дроти, обтиск, F1 з DC-тримачем; штатні колодки DM556",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "supplier": "CNCPROM — запит підготовки",
+      "kind": "pending",
+      "status": "Нове доповнення P1; продавцю не надіслано. 2×1 мм² до 0,5 м; моторні заводські дроти або 4×0,75 мм² до 1 м; F1 кандидат 5А ≥60В DC, артикул/номінал уточнити"
+    },
+    {
+      "id": "lift-electronics-case",
+      "name": "Ізольований корпус Nano/ULN, кріплення плат, затискачі джгутів, маркери",
+      "qty": 1,
+      "price": null,
+      "url": "",
+      "supplier": "Arduino.ua — підбір за монтажем",
+      "kind": "pending",
+      "status": "Нова специфікація P1; корпус і кріплення ще не підібрані. Nano не підвішувати на дротах"
+    }
+  ],
+  "excluded": [
+    "Індуктивні датчики OMRON/HURON",
+    "Кронштейни датчиків М12",
+    "DC/DC і узгодження індуктивних датчиків",
+    "Pico / RP2040",
+    "Аварійна кнопка",
+    "Окремий механізм утримання каретки"
+  ],
+  "deferred": [
+    "Кріплення осі до каркаса"
+  ],
+  "pending": [
+    "Сумісність семи основних деталей",
+    "Комплект і розміри кріплення",
+    "Модель і монтаж механічного кінцевика",
+    "Підготовка блока живлення та доплата",
+    "Чи опускається каретка без живлення",
+    "Остаточний рахунок і наявність"
+  ],
+  "control": "ПК USB → Nano D2 STEP / D3 DIR → ULN2003 → DM556; D4 → один NC HOME. Підключення пінами, обтиск і штатні силові клеми. Прошивки немає.",
+  "wiringRevision": "P1",
+  "wiringDocument": "docs/camera-module/PIN-WIRING.md",
+  "supersededRows": [
+    {
+      "id": "lift-wiring",
+      "name": "Монтажні дроти, клеми, наконечники й корпус електроніки",
+      "qty": 1,
+      "price": 500,
+      "url": "",
+      "kind": "estimate",
+      "status": "Плановий резерв; не підібраний готовий комплект",
+      "supplier": "Уточнюється",
+      "supersededBy": "P1: деталізовані сигнальні роз’єми та окремі невідомі ціни джгутів/корпусу; резерв 500 грн більше не сумується"
+    }
+  ],
+  "pinProcurement": {
+    "date": "2026-09-20",
+    "targetSuppliers": [
+      "CNCPROM",
+      "Arduino.ua"
+    ],
+    "scope": "Ліфт та його керування; камера, її спеціалізовані кабелі/живлення і sync не є підтвердженим кошиком цих двох магазинів",
+    "newRequestsSent": false,
+    "fullTotal": null
+  }
+}

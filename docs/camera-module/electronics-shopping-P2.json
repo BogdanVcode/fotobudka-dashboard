@@ -1,43 +1,8 @@
 {
   "checkedAt": "2026-09-21",
-  "status": "proposal-not-ordered",
+  "status": "P2-remaining-to-buy",
   "scope": "Електроніка керування ліфтом і дроти; механіка крім кріплення датчиків та куплене фотообладнання не включені",
   "items": [
-    {
-      "shop": "CNCPROM",
-      "name": "DM556",
-      "qty": 1,
-      "unitPrice": 675,
-      "url": "https://cncprom.ua/ua/p865450706-drajver-dm556-vdc.html"
-    },
-    {
-      "shop": "CNCPROM",
-      "name": "S-250-36, 36 В / 250 Вт",
-      "qty": 1,
-      "unitPrice": 1347,
-      "url": "https://cncprom.ua/ua/p556579870-impulsnyj-blok-pitaniya.html"
-    },
-    {
-      "shop": "CNCPROM",
-      "name": "57BYG250C-8",
-      "qty": 1,
-      "unitPrice": 945,
-      "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html"
-    },
-    {
-      "shop": "CNCPROM",
-      "name": "HURON LJ12A3-4-Z/BX NPN NO",
-      "qty": 2,
-      "unitPrice": 99,
-      "url": "https://cncprom.ua/ua/p6349268-induktivnyj-datchik-huron.html"
-    },
-    {
-      "shop": "CNCPROM",
-      "name": "Кутове кріплення M12",
-      "qty": 2,
-      "unitPrice": 25,
-      "url": "https://cncprom.ua/ua/p950274952-kronshtejn-dlya-krepleniya.html"
-    },
     {
       "shop": "Arduino.ua",
       "name": "Nano V3 ATmega328P з припаяними роз’ємами",
@@ -159,9 +124,9 @@
     }
   ],
   "excludedUnpriced": [
-    "Мережева підготовка S-250-36: мідний шнур з PE, фіксація, закриті клеми, захист",
-    "F1/F2 з тримачами під 36 В DC: підтверджений DC-рейтинг і номінал не підібрано",
-    "Корпус та остаточне кріплення плат після компонування"
+    "Монтаж 230 В, F0, кожух контактів та робота електрика",
+    "Монтажну розкладку корпуса й вентиляцію ще не перевірено; комплект у assembly-shopping.json",
+    "Мішень індуктивних датчиків і кріплення камери уточнюються"
   ],
   "checks": [
     "PC817 вихід VCC/OUT/GND і відсутність зв’язку землі входу/виходу підтвердити перед оплатою",
@@ -169,5 +134,44 @@
     "Кабель USB 1.8 м для стенда; ресурс роботи в ланцюгу не заявлений",
     "Наконечники підбирати під фактичний провід і клему; E1512 для 16AWG — кандидат після перевірки обтиску",
     "Сигнальні жили Dupont не затискати в клеми PCT з мінімумом 0.25 мм²; переходи на 22AWG виконати пайкою з ізоляцією"
-  ]
+  ],
+  "orderedItems": [
+    {
+      "shop": "CNCPROM",
+      "name": "DM556",
+      "qty": 1,
+      "unitPrice": 675,
+      "url": "https://cncprom.ua/ua/p865450706-drajver-dm556-vdc.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "S-250-36, 36 В / 250 Вт",
+      "qty": 1,
+      "unitPrice": 1347,
+      "url": "https://cncprom.ua/ua/p556579870-impulsnyj-blok-pitaniya.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "57BYG250C-8",
+      "qty": 1,
+      "unitPrice": 945,
+      "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "HURON LJ12A3-4-Z/BX NPN NO",
+      "qty": 2,
+      "unitPrice": 99,
+      "url": "https://cncprom.ua/ua/p6349268-induktivnyj-datchik-huron.html"
+    },
+    {
+      "shop": "CNCPROM",
+      "name": "Кутове кріплення M12",
+      "qty": 2,
+      "unitPrice": 25,
+      "url": "https://cncprom.ua/ua/p950274952-kronshtejn-dlya-krepleniya.html"
+    }
+  ],
+  "wiringRevision": "P2",
+  "orderTotal": 9587
 }

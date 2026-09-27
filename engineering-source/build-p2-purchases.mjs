@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const o=JSON.parse(fs.readFileSync('docs/camera-module/order.json','utf8'));
+if(o.wiringRevision!=='P2')throw Error('Only P2 is current');
+const m=n=>n===null?'Ціна уточнюється':n.toLocaleString('uk-UA')+' грн';
+const table=rows=>'| Деталь | Кількість | Сума | Статус |\n|---|---|---|---|\n'+rows.map(r=>`| ${r.url?'['+r.name+']('+r.url+')':r.name} | ${r.qty} | ${m(r.price===null?null:r.qty*r.price)} | ${r.status} |`).join('\n')+'\n';
+const ordered=o.rows.filter(r=>r.ordered),rest=o.rows.filter(r=>!r.ordered);
+let doc='# Закупівля вертикального модуля · P2\n\nP2 — єдина актуальна схема. P1 збережено тільки в архіві, її товари не додаються до кошторису.\n\n'+o.control+'\n\n## Уже замовлено CNCPROM — 9 587 грн\n\nНе замовляти повторно. Оплату, отримання й доставку не підтверджено.\n\n'+table(ordered)+'\nДо комплекту додано:\n\n'+o.cncpromOrder.accessories.map(r=>'- '+r.name+' — '+r.qty+' шт.').join('\n')+'\n\n384 грн — спільна різниця до підсумку менеджера, не індивідуальні ціни датчиків/кріплень.\n\n## Залишилось придбати\n\n';
+for(const shop of [...new Set(rest.map(r=>r.supplier))])doc+='### '+shop+'\n\n'+table(rest.filter(r=>r.supplier===shop))+'\n';
+doc+='## Перед складанням\n\n- Кошторис містить кандидатів на монтаж, не перевірений готовий комплект.\n- PC817/EL817: перевірити ізоляцію й вихід 0–5 В; X2 ULN2003 — прозвонити.\n- Номінали захисту, мережевий монтаж, корпус і вентиляція потребують перевірки.\n- [Інструменти та вибір «Позичу»](../../dashboard/camera-module/assembly-shopping.html). Деталі з цієї сторінки вже включені сюди, не додавати повторно. Інструменти рахуються окремо.\n- [Архів P1](archive/P1-PIN-PURCHASES.md) — не для закупівлі.\n';
+for(const f of ['PIN-PURCHASES.md','CURRENT-ORDER.md','ELECTRONICS-SHOPPING-P2.md'])fs.writeFileSync('docs/camera-module/'+f,doc);
+fs.writeFileSync('docs/camera-module/README.md','# Вертикальний модуль камери · P2\n\n'+o.control+'\n\nCNCPROM: замовлено 9 587 грн. Оплата й отримання не підтверджені.\n\n[Схема](PIN-WIRING.md) · [Актуальні покупки](PIN-PURCHASES.md) · [Інструменти](ASSEMBLY-SHOPPING.md) · [Архів P1](archive/P1-PIN-PURCHASES.md).\n\n3D — умовне компонування двох індуктивних датчиків і мішені; координати їх кріплення не є виробничим кресленням. Прошивки й фізичного тестування немає.\n');

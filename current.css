@@ -24,3 +24,5 @@
 @media(max-width:700px){.budget-kpis,.budget-group-content{grid-template-columns:1fr}.budget-kpi h2{font-size:28px}.budget-group-content{padding:12px;gap:12px}.budget-row{padding:16px}.budget-kpi{padding:20px}}
 
 .budget-required{background:#edf4ff;border-color:#88aee0;color:#163d6d;margin-bottom:20px}.budget-required h3{margin:0}.budget-owned{background:#edf4ff;border-color:#88aee0;color:#163d6d}.budget-deferred{background:#f5f5f5;border-color:#c9cdd2;color:#555f6c}.budget-priority{display:flex;align-items:center;gap:10px;padding:12px 0;font-weight:700;cursor:pointer}.budget-priority input{width:22px;height:22px;accent-color:#235995;flex-shrink:0}
+
+.budget-ordered{background:#edf0ff;border-left:5px solid #6668bb}.budget-ordered .budget-status{background:#e0e2ff;color:#353b84}

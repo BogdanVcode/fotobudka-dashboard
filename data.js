@@ -363,9 +363,9 @@ window.PROJECT_DATA = {
       "name": "Ремінний лінійний модуль",
       "manufacturer": "Times Brilliant",
       "model": "TBD45-700, хід 700 мм",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 4939,
+      "priceUah": 4950,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p1089226920-linejnyj-modul-tbd45.html",
@@ -374,8 +374,8 @@ window.PROJECT_DATA = {
       "specifications": "Хід 700 мм, напрямна 45×45×820 мм; каретка 104×90×26 мм; 72 мм/оберт; вал Ø12; ремінь HTD3M 15 мм. Дані сторінки продавця; вертикальні умови навантаження потребують підтвердження.",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-002",
@@ -383,9 +383,9 @@ window.PROJECT_DATA = {
       "name": "Звичайний кроковий двигун NEMA23",
       "manufacturer": "TODO: VERIFY",
       "model": "57BYG250C-8",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 943,
+      "priceUah": 945,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p1312688446-dvigatel-shagovyj-57byg250c.html",
@@ -394,8 +394,8 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-003",
@@ -403,9 +403,9 @@ window.PROJECT_DATA = {
       "name": "Кронштейн двигуна серії 57 / NEMA23",
       "manufacturer": "TODO: VERIFY",
       "model": "LJZ8-DS45-57",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 314,
+      "priceUah": 315,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p1470346846-kronshtejn-shagovogo-dvigatelya.html",
@@ -414,8 +414,8 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-004",
@@ -423,9 +423,9 @@ window.PROJECT_DATA = {
       "name": "Муфта",
       "manufacturer": "TODO: VERIFY",
       "model": "Сильфонна муфта 8×12 мм, D25 L30",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 382,
+      "priceUah": 383,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p914622727-gibkaya-silfonnaya-mufta.html",
@@ -434,8 +434,8 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-005",
@@ -443,9 +443,9 @@ window.PROJECT_DATA = {
       "name": "Драйвер крокового двигуна",
       "manufacturer": "TODO: VERIFY",
       "model": "DM556",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 674,
+      "priceUah": 675,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p865450706-drajver-dm556-vdc.html",
@@ -454,8 +454,8 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-006",
@@ -463,9 +463,9 @@ window.PROJECT_DATA = {
       "name": "Блок живлення осі",
       "manufacturer": "TODO: VERIFY",
       "model": "S-250-36, 36 В, 250 Вт",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 1347,
+      "priceUah": 1350,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p556579870-impulsnyj-blok-pitaniya.html",
@@ -474,28 +474,28 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-007",
       "subsystem": "05",
-      "name": "Механічний кінцевик HOME",
+      "name": "Два індуктивні датчики HOME / верхньої межі",
       "manufacturer": "TODO: VERIFY",
-      "model": "Один механічний кінцевик HOME, контакти COM/NC",
-      "status": "SELECTED",
+      "model": "HURON LJ12A3-4-Z/BX NPN NO",
+      "status": "ORDERED",
       "confidence": "C",
       "priceUah": null,
       "budgetUah": null,
-      "quantity": 1,
-      "url": null,
+      "quantity": 2,
+      "url": "https://cncprom.ua/ua/p6349268-induktivnyj-datchik-huron.html",
       "store": "CNCPROM",
       "verifiedAt": null,
-      "specifications": "1 шт., сухий контакт COM/NC; GPIO Arduino з підтягуванням до 5 В та GND. Без окремого живлення. Налаштування й кріплення після вибору моделі.",
+      "specifications": "12 В від XL7015; два ізольовані канали PC817/EL817 до D4/D5. Не подавати 12 В на Nano.",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM у складі комплекту 9587 грн; окремої ціни не надано.",
+      "verify": "Оплата, отримання, кріплення, зазори та електричне узгодження."
     },
     {
       "id": "MOT-008",
@@ -543,9 +543,9 @@ window.PROJECT_DATA = {
       "name": "Кабелеукладач",
       "manufacturer": "TODO: VERIFY",
       "model": "Кабелеукладач 25×38 мм, 1 м, обидва кінцеві кріплення",
-      "status": "SELECTED",
+      "status": "ORDERED",
       "confidence": "C",
-      "priceUah": 584,
+      "priceUah": 585,
       "budgetUah": null,
       "quantity": 1,
       "url": "https://cncprom.ua/ua/p1671300145-gibkij-kabel-kanal.html",
@@ -554,8 +554,8 @@ window.PROJECT_DATA = {
       "specifications": "TODO: VERIFY",
       "compatibility": "Очікуємо підтвердження CNCPROM; не випробувано.",
       "alternatives": "Не обрано; заміна SELECTED потребує окремого рішення.",
-      "reason": "Користувач надіслав запит продавцю 20.09.2026. Ще не придбано.",
-      "verify": "Сумісність семи основних деталей; Комплект і розміри кріплення; Модель і монтаж механічного кінцевика; Підготовка блока живлення та доплата; Чи опускається каретка без живлення; Остаточний рахунок і наявність"
+      "reason": "Замовлено CNCPROM. Оплату й отримання не підтверджено.",
+      "verify": "Перевірити після отримання на стенді."
     },
     {
       "id": "MOT-011",
@@ -1829,11 +1829,11 @@ window.PROJECT_DATA = {
       },
       {
         "id": "LIFT-PIN-WIRING",
-        "title": "Camera Lift Pin Wiring P1",
+        "title": "Camera Lift Pin Wiring P2",
         "file": "docs/obsidian/13_WIRING/Camera Lift Pin Wiring P1.md",
         "category": "electrical",
         "document": "docs/camera-module/PIN-WIRING.md",
-        "description": "Проєкт роз’ємної схеми Nano/ULN/DM556 і механічного HOME. Не випробувано.",
+        "description": "P2: два HURON NPN NO через PC817 до D4/D5; XL7015 12 В. CNCPROM замовлено 9587 грн. Не випробувано.",
         "status": "CANDIDATE",
         "confidence": "C"
       },
@@ -3460,7 +3460,7 @@ window.PROJECT_DATA = {
         "relation": "documented_by",
         "sourceDocument": "docs/camera-module/PIN-WIRING.md",
         "confidence": "C",
-        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+        "evidence": "Явно описано в ревізії P2; зв’язок не підтверджує сумісність."
       },
       {
         "source": "LIFT-PIN-WIRING",
@@ -3468,7 +3468,7 @@ window.PROJECT_DATA = {
         "relation": "references",
         "sourceDocument": "docs/camera-module/PIN-WIRING.md",
         "confidence": "C",
-        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+        "evidence": "Явно описано в ревізії P2; зв’язок не підтверджує сумісність."
       },
       {
         "source": "LIFT-PIN-WIRING",
@@ -3476,7 +3476,7 @@ window.PROJECT_DATA = {
         "relation": "uses",
         "sourceDocument": "docs/camera-module/PIN-WIRING.md",
         "confidence": "C",
-        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+        "evidence": "Явно описано в ревізії P2; зв’язок не підтверджує сумісність."
       },
       {
         "source": "LIFT-PIN-WIRING",
@@ -3484,7 +3484,7 @@ window.PROJECT_DATA = {
         "relation": "uses",
         "sourceDocument": "docs/camera-module/PIN-WIRING.md",
         "confidence": "C",
-        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+        "evidence": "Явно описано в ревізії P2; зв’язок не підтверджує сумісність."
       },
       {
         "source": "LIFT-PIN-WIRING",
@@ -3492,7 +3492,7 @@ window.PROJECT_DATA = {
         "relation": "uses",
         "sourceDocument": "docs/camera-module/PIN-WIRING.md",
         "confidence": "C",
-        "evidence": "Явно описано в ревізії P1; зв’язок не підтверджує сумісність."
+        "evidence": "Явно описано в ревізії P2; зв’язок не підтверджує сумісність."
       }
     ]
   },
@@ -3579,29 +3579,28 @@ window.PROJECT_DATA = {
   },
   "cameraModuleReview": {
     "date": "2026-09-20",
-    "status": "enquiry-sent-awaiting-response",
+    "status": "cncprom-ordered-rest-planned",
     "document": "docs/camera-module/README.md",
     "visualization": "dashboard/camera-module/index.html",
     "hardwareTested": false,
     "integratedIntoCabin": false,
     "orderDocument": "docs/camera-module/order.json",
-    "control": "ПК USB → Arduino Nano (живлення USB) → буфер сигналів → DM556 → двигун. Один механічний HOME; протилежна межа програмна. Прошивки немає.",
+    "control": "ПК USB → Arduino Nano (USB 5 В), D2 STEP / D3 DIR → ULN2003 → DM556. D4 нижній HOME і D5 верхня межа: два HURON NPN NO через дві PC817/EL817. XL7015: 36 → 12 В для датчиків. Прошивки та фізичних випробувань немає.",
     "pending": [
-      "Сумісність семи основних деталей",
-      "Комплект і розміри кріплення",
-      "Модель і монтаж механічного кінцевика",
-      "Підготовка блока живлення та доплата",
-      "Чи опускається каретка без живлення",
-      "Остаточний рахунок і наявність"
+      "Оплата й отримання замовлення",
+      "Утримання каретки без живлення",
+      "Перевірка клем оптоплат і X2",
+      "Мережева частина, вентиляція та стенд"
     ],
     "excludedFromOrder": [
-      "Індуктивні датчики OMRON/HURON",
-      "Кронштейни датчиків М12",
-      "DC/DC і узгодження індуктивних датчиків",
+      "Механічний HOME COM/NC і його джгут P1",
       "Pico / RP2040",
+      "DFRobot DFR0912",
+      "Bulgin FX0380/BK",
       "Аварійна кнопка",
       "Окремий механізм утримання каретки"
-    ]
+    ],
+    "cncpromOrderTotal": 9587
   },
   "arduinoKnowledge": {
     "source": "https://alexgyver.ru/lessons/",
