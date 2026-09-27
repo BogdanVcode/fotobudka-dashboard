@@ -12,6 +12,8 @@ document.getElementById('issues').innerHTML=issues.map(([t,s])=>'<article class=
 const b=BUDGET10,editorKey='fotobudka-budget-editor-v1';
 let editor={rowOverrides:{},orderOverrides:{},manualRows:[],hidden:{},buyNow:{}};
 try{const saved=JSON.parse(localStorage.getItem(editorKey)||'{}');if(saved&&typeof saved==='object')editor={...editor,...saved};}catch{}
+// Do not keep an untouched zero-value draft created by an accidental click.
+editor.manualRows=(editor.manualRows||[]).filter(row=>!(row.name==='Нова позиція'&&Number(row.unitPrice||0)===0&&!row.note&&!row.orderId&&!row.seller));
 const saveEditor=()=>localStorage.setItem(editorKey,JSON.stringify(editor));
 const baseOrders=Object.fromEntries(b.purchases.orders.map(order=>[order.id,order]));
 const rowsNow=()=>[...b.rows,...editor.manualRows].map(row=>({...row,...editor.rowOverrides[row.id]})).filter(row=>!editor.hidden[row.id]);
